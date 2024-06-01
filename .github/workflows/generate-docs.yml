@@ -46,17 +46,6 @@ jobs:
         name: Docs
         path: Docs
 
-    - name: DocFxToMarkdown
-      uses: fillefilip8/DocFxToMarkdown@1.4.0
-      with:
-        input-folder: Docs
-        output-folder: wiki
-    - name: Checkout wiki
-      uses: actions/checkout@v2
-      with:
-        repository: https://github.com/MRfantastic3DGamer/nodify/wiki
-        path: wiki
-
     - name: Copy generated docs to wiki
       run: cp -r Docs/* wiki/
 
@@ -65,7 +54,7 @@ jobs:
       with:
         username: MRfantastic3DGamer
         access_token: ${{ secrets.GITHUB_TOKEN }}
-        wiki_folder: "wiki"
+        wiki_folder: Docs
         commit_username: 'MRfantastic3DGamer'
         commit_email: 'dhruvtgs003@gmail.com'
         commit_message: 'action: wiki sync'
