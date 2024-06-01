@@ -1,0 +1,1817 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.PendingConnection
+  commentId: T:Nodify.PendingConnection
+  id: PendingConnection
+  parent: Nodify
+  children:
+  - Nodify.PendingConnection.AllowOnlyConnectors
+  - Nodify.PendingConnection.AllowOnlyConnectorsProperty
+  - Nodify.PendingConnection.CompletedCommand
+  - Nodify.PendingConnection.CompletedCommandProperty
+  - Nodify.PendingConnection.Direction
+  - Nodify.PendingConnection.DirectionProperty
+  - Nodify.PendingConnection.Editor
+  - Nodify.PendingConnection.EnablePreview
+  - Nodify.PendingConnection.EnablePreviewProperty
+  - Nodify.PendingConnection.EnableSnapping
+  - Nodify.PendingConnection.EnableSnappingProperty
+  - Nodify.PendingConnection.GetIsOverElement(System.Windows.UIElement)
+  - Nodify.PendingConnection.IsOverElementProperty
+  - Nodify.PendingConnection.IsVisible
+  - Nodify.PendingConnection.IsVisibleProperty
+  - Nodify.PendingConnection.OnApplyTemplate
+  - Nodify.PendingConnection.OnPendingConnectionCompleted(System.Object,Nodify.PendingConnectionEventArgs)
+  - Nodify.PendingConnection.OnPendingConnectionDrag(System.Object,Nodify.PendingConnectionEventArgs)
+  - Nodify.PendingConnection.OnPendingConnectionStarted(System.Object,Nodify.PendingConnectionEventArgs)
+  - Nodify.PendingConnection.PreviewTarget
+  - Nodify.PendingConnection.PreviewTargetProperty
+  - Nodify.PendingConnection.SetIsOverElement(System.Windows.UIElement,System.Boolean)
+  - Nodify.PendingConnection.Source
+  - Nodify.PendingConnection.SourceAnchor
+  - Nodify.PendingConnection.SourceAnchorProperty
+  - Nodify.PendingConnection.SourceProperty
+  - Nodify.PendingConnection.StartedCommand
+  - Nodify.PendingConnection.StartedCommandProperty
+  - Nodify.PendingConnection.Stroke
+  - Nodify.PendingConnection.StrokeDashArray
+  - Nodify.PendingConnection.StrokeDashArrayProperty
+  - Nodify.PendingConnection.StrokeProperty
+  - Nodify.PendingConnection.StrokeThickness
+  - Nodify.PendingConnection.StrokeThicknessProperty
+  - Nodify.PendingConnection.Target
+  - Nodify.PendingConnection.TargetAnchor
+  - Nodify.PendingConnection.TargetAnchorProperty
+  - Nodify.PendingConnection.TargetProperty
+  langs:
+  - csharp
+  - vb
+  name: PendingConnection
+  nameWithType: PendingConnection
+  fullName: Nodify.PendingConnection
+  type: Class
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PendingConnection
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 11
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents a pending connection usually started by a <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> which invokes the <xref href="Nodify.PendingConnection.CompletedCommand" data-throw-if-not-resolved="false"></xref> when completed.
+  example: []
+  syntax:
+    content: 'public class PendingConnection : ContentControl'
+    content.vb: Public Class PendingConnection Inherits ContentControl
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Visual
+  - System.Windows.UIElement
+  - System.Windows.FrameworkElement
+  - System.Windows.Controls.Control
+  - System.Windows.Controls.ContentControl
+- uid: Nodify.PendingConnection.SourceAnchorProperty
+  commentId: F:Nodify.PendingConnection.SourceAnchorProperty
+  id: SourceAnchorProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: SourceAnchorProperty
+  nameWithType: PendingConnection.SourceAnchorProperty
+  fullName: Nodify.PendingConnection.SourceAnchorProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: SourceAnchorProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty SourceAnchorProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly SourceAnchorProperty As DependencyProperty
+- uid: Nodify.PendingConnection.TargetAnchorProperty
+  commentId: F:Nodify.PendingConnection.TargetAnchorProperty
+  id: TargetAnchorProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: TargetAnchorProperty
+  nameWithType: PendingConnection.TargetAnchorProperty
+  fullName: Nodify.PendingConnection.TargetAnchorProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: TargetAnchorProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 16
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty TargetAnchorProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly TargetAnchorProperty As DependencyProperty
+- uid: Nodify.PendingConnection.SourceProperty
+  commentId: F:Nodify.PendingConnection.SourceProperty
+  id: SourceProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: SourceProperty
+  nameWithType: PendingConnection.SourceProperty
+  fullName: Nodify.PendingConnection.SourceProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: SourceProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty SourceProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly SourceProperty As DependencyProperty
+- uid: Nodify.PendingConnection.TargetProperty
+  commentId: F:Nodify.PendingConnection.TargetProperty
+  id: TargetProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: TargetProperty
+  nameWithType: PendingConnection.TargetProperty
+  fullName: Nodify.PendingConnection.TargetProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: TargetProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 18
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty TargetProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly TargetProperty As DependencyProperty
+- uid: Nodify.PendingConnection.PreviewTargetProperty
+  commentId: F:Nodify.PendingConnection.PreviewTargetProperty
+  id: PreviewTargetProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: PreviewTargetProperty
+  nameWithType: PendingConnection.PreviewTargetProperty
+  fullName: Nodify.PendingConnection.PreviewTargetProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PreviewTargetProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 19
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty PreviewTargetProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly PreviewTargetProperty As DependencyProperty
+- uid: Nodify.PendingConnection.EnablePreviewProperty
+  commentId: F:Nodify.PendingConnection.EnablePreviewProperty
+  id: EnablePreviewProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: EnablePreviewProperty
+  nameWithType: PendingConnection.EnablePreviewProperty
+  fullName: Nodify.PendingConnection.EnablePreviewProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EnablePreviewProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty EnablePreviewProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly EnablePreviewProperty As DependencyProperty
+- uid: Nodify.PendingConnection.StrokeThicknessProperty
+  commentId: F:Nodify.PendingConnection.StrokeThicknessProperty
+  id: StrokeThicknessProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StrokeThicknessProperty
+  nameWithType: PendingConnection.StrokeThicknessProperty
+  fullName: Nodify.PendingConnection.StrokeThicknessProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StrokeThicknessProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 21
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty StrokeThicknessProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly StrokeThicknessProperty As DependencyProperty
+- uid: Nodify.PendingConnection.StrokeDashArrayProperty
+  commentId: F:Nodify.PendingConnection.StrokeDashArrayProperty
+  id: StrokeDashArrayProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StrokeDashArrayProperty
+  nameWithType: PendingConnection.StrokeDashArrayProperty
+  fullName: Nodify.PendingConnection.StrokeDashArrayProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StrokeDashArrayProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty StrokeDashArrayProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly StrokeDashArrayProperty As DependencyProperty
+- uid: Nodify.PendingConnection.StrokeProperty
+  commentId: F:Nodify.PendingConnection.StrokeProperty
+  id: StrokeProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StrokeProperty
+  nameWithType: PendingConnection.StrokeProperty
+  fullName: Nodify.PendingConnection.StrokeProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StrokeProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 23
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty StrokeProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly StrokeProperty As DependencyProperty
+- uid: Nodify.PendingConnection.AllowOnlyConnectorsProperty
+  commentId: F:Nodify.PendingConnection.AllowOnlyConnectorsProperty
+  id: AllowOnlyConnectorsProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: AllowOnlyConnectorsProperty
+  nameWithType: PendingConnection.AllowOnlyConnectorsProperty
+  fullName: Nodify.PendingConnection.AllowOnlyConnectorsProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: AllowOnlyConnectorsProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 24
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty AllowOnlyConnectorsProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly AllowOnlyConnectorsProperty As DependencyProperty
+- uid: Nodify.PendingConnection.EnableSnappingProperty
+  commentId: F:Nodify.PendingConnection.EnableSnappingProperty
+  id: EnableSnappingProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: EnableSnappingProperty
+  nameWithType: PendingConnection.EnableSnappingProperty
+  fullName: Nodify.PendingConnection.EnableSnappingProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EnableSnappingProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 25
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty EnableSnappingProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly EnableSnappingProperty As DependencyProperty
+- uid: Nodify.PendingConnection.DirectionProperty
+  commentId: F:Nodify.PendingConnection.DirectionProperty
+  id: DirectionProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: DirectionProperty
+  nameWithType: PendingConnection.DirectionProperty
+  fullName: Nodify.PendingConnection.DirectionProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: DirectionProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 26
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty DirectionProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly DirectionProperty As DependencyProperty
+- uid: Nodify.PendingConnection.IsVisibleProperty
+  commentId: F:Nodify.PendingConnection.IsVisibleProperty
+  id: IsVisibleProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: IsVisibleProperty
+  nameWithType: PendingConnection.IsVisibleProperty
+  fullName: Nodify.PendingConnection.IsVisibleProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: IsVisibleProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 27
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty IsVisibleProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly IsVisibleProperty As DependencyProperty
+- uid: Nodify.PendingConnection.SourceAnchor
+  commentId: P:Nodify.PendingConnection.SourceAnchor
+  id: SourceAnchor
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: SourceAnchor
+  nameWithType: PendingConnection.SourceAnchor
+  fullName: Nodify.PendingConnection.SourceAnchor
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: SourceAnchor
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 38
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the starting point for the connection.
+  example: []
+  syntax:
+    content: public Point SourceAnchor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Point
+    content.vb: Public Property SourceAnchor As Point
+  overload: Nodify.PendingConnection.SourceAnchor*
+- uid: Nodify.PendingConnection.TargetAnchor
+  commentId: P:Nodify.PendingConnection.TargetAnchor
+  id: TargetAnchor
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: TargetAnchor
+  nameWithType: PendingConnection.TargetAnchor
+  fullName: Nodify.PendingConnection.TargetAnchor
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: TargetAnchor
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the end point for the connection.
+  example: []
+  syntax:
+    content: public Point TargetAnchor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Point
+    content.vb: Public Property TargetAnchor As Point
+  overload: Nodify.PendingConnection.TargetAnchor*
+- uid: Nodify.PendingConnection.Source
+  commentId: P:Nodify.PendingConnection.Source
+  id: Source
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: PendingConnection.Source
+  fullName: Nodify.PendingConnection.Source
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Source
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 56
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> that started this pending connection.
+  example: []
+  syntax:
+    content: public object? Source { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Source As Object
+  overload: Nodify.PendingConnection.Source*
+- uid: Nodify.PendingConnection.Target
+  commentId: P:Nodify.PendingConnection.Target
+  id: Target
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: PendingConnection.Target
+  fullName: Nodify.PendingConnection.Target
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Target
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 66
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    Gets or sets the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> (or potentially an <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> if <xref href="Nodify.PendingConnection.AllowOnlyConnectors" data-throw-if-not-resolved="false"></xref> is false) that the <xref href="Nodify.PendingConnection.Source" data-throw-if-not-resolved="false"></xref> can connect to.
+
+    Only set when the connection is completed (see <xref href="Nodify.PendingConnection.CompletedCommand" data-throw-if-not-resolved="false"></xref>).
+  example: []
+  syntax:
+    content: public object? Target { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Target As Object
+  overload: Nodify.PendingConnection.Target*
+- uid: Nodify.PendingConnection.EnablePreview
+  commentId: P:Nodify.PendingConnection.EnablePreview
+  id: EnablePreview
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: EnablePreview
+  nameWithType: PendingConnection.EnablePreview
+  fullName: Nodify.PendingConnection.EnablePreview
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EnablePreview
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 75
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: <xref href="Nodify.PendingConnection.PreviewTarget" data-throw-if-not-resolved="false"></xref> will be updated with a potential <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> if this is true.
+  example: []
+  syntax:
+    content: public bool EnablePreview { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnablePreview As Boolean
+  overload: Nodify.PendingConnection.EnablePreview*
+- uid: Nodify.PendingConnection.PreviewTarget
+  commentId: P:Nodify.PendingConnection.PreviewTarget
+  id: PreviewTarget
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: PreviewTarget
+  nameWithType: PendingConnection.PreviewTarget
+  fullName: Nodify.PendingConnection.PreviewTarget
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PreviewTarget
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 84
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> or the <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref> (if <xref href="Nodify.PendingConnection.AllowOnlyConnectors" data-throw-if-not-resolved="false"></xref> is false) that we're previewing.
+  example: []
+  syntax:
+    content: public object? PreviewTarget { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PreviewTarget As Object
+  overload: Nodify.PendingConnection.PreviewTarget*
+- uid: Nodify.PendingConnection.EnableSnapping
+  commentId: P:Nodify.PendingConnection.EnableSnapping
+  id: EnableSnapping
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: EnableSnapping
+  nameWithType: PendingConnection.EnableSnapping
+  fullName: Nodify.PendingConnection.EnableSnapping
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EnableSnapping
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 93
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Enables snapping the <xref href="Nodify.PendingConnection.TargetAnchor" data-throw-if-not-resolved="false"></xref> to a possible <xref href="Nodify.PendingConnection.Target" data-throw-if-not-resolved="false"></xref> connector.
+  example: []
+  syntax:
+    content: public bool EnableSnapping { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableSnapping As Boolean
+  overload: Nodify.PendingConnection.EnableSnapping*
+- uid: Nodify.PendingConnection.AllowOnlyConnectors
+  commentId: P:Nodify.PendingConnection.AllowOnlyConnectors
+  id: AllowOnlyConnectors
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: AllowOnlyConnectors
+  nameWithType: PendingConnection.AllowOnlyConnectors
+  fullName: Nodify.PendingConnection.AllowOnlyConnectors
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: AllowOnlyConnectors
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 102
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: If true will preview and connect only to <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s, otherwise will also enable <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref>s.
+  example: []
+  syntax:
+    content: public bool AllowOnlyConnectors { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowOnlyConnectors As Boolean
+  overload: Nodify.PendingConnection.AllowOnlyConnectors*
+- uid: Nodify.PendingConnection.StrokeThickness
+  commentId: P:Nodify.PendingConnection.StrokeThickness
+  id: StrokeThickness
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StrokeThickness
+  nameWithType: PendingConnection.StrokeThickness
+  fullName: Nodify.PendingConnection.StrokeThickness
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StrokeThickness
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 111
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or set the connection thickness.
+  example: []
+  syntax:
+    content: public double StrokeThickness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property StrokeThickness As Double
+  overload: Nodify.PendingConnection.StrokeThickness*
+- uid: Nodify.PendingConnection.StrokeDashArray
+  commentId: P:Nodify.PendingConnection.StrokeDashArray
+  id: StrokeDashArray
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StrokeDashArray
+  nameWithType: PendingConnection.StrokeDashArray
+  fullName: Nodify.PendingConnection.StrokeDashArray
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StrokeDashArray
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 120
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the pattern of dashes and gaps that is used to outline the connection.
+  example: []
+  syntax:
+    content: public DoubleCollection StrokeDashArray { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.DoubleCollection
+    content.vb: Public Property StrokeDashArray As DoubleCollection
+  overload: Nodify.PendingConnection.StrokeDashArray*
+- uid: Nodify.PendingConnection.Stroke
+  commentId: P:Nodify.PendingConnection.Stroke
+  id: Stroke
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: Stroke
+  nameWithType: PendingConnection.Stroke
+  fullName: Nodify.PendingConnection.Stroke
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Stroke
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 129
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the stroke color of the connection.
+  example: []
+  syntax:
+    content: public Brush Stroke { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property Stroke As Brush
+  overload: Nodify.PendingConnection.Stroke*
+- uid: Nodify.PendingConnection.IsVisible
+  commentId: P:Nodify.PendingConnection.IsVisible
+  id: IsVisible
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: PendingConnection.IsVisible
+  fullName: Nodify.PendingConnection.IsVisible
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: IsVisible
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 138
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the visibility of the connection.
+  example: []
+  syntax:
+    content: public bool IsVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVisible As Boolean
+  overload: Nodify.PendingConnection.IsVisible*
+- uid: Nodify.PendingConnection.Direction
+  commentId: P:Nodify.PendingConnection.Direction
+  id: Direction
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: PendingConnection.Direction
+  fullName: Nodify.PendingConnection.Direction
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Direction
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 147
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the direction of this connection.
+  example: []
+  syntax:
+    content: public ConnectionDirection Direction { get; set; }
+    parameters: []
+    return:
+      type: Nodify.ConnectionDirection
+    content.vb: Public Property Direction As ConnectionDirection
+  overload: Nodify.PendingConnection.Direction*
+- uid: Nodify.PendingConnection.IsOverElementProperty
+  commentId: F:Nodify.PendingConnection.IsOverElementProperty
+  id: IsOverElementProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: IsOverElementProperty
+  nameWithType: PendingConnection.IsOverElementProperty
+  fullName: Nodify.PendingConnection.IsOverElementProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: IsOverElementProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 161
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Will be set for <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s and <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref>s when the pending connection is over the element if <xref href="Nodify.PendingConnection.EnablePreview" data-throw-if-not-resolved="false"></xref> or <xref href="Nodify.PendingConnection.EnableSnapping" data-throw-if-not-resolved="false"></xref> is true.
+  example: []
+  syntax:
+    content: public static readonly DependencyProperty IsOverElementProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly IsOverElementProperty As DependencyProperty
+- uid: Nodify.PendingConnection.GetIsOverElement(System.Windows.UIElement)
+  commentId: M:Nodify.PendingConnection.GetIsOverElement(System.Windows.UIElement)
+  id: GetIsOverElement(System.Windows.UIElement)
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: GetIsOverElement(UIElement)
+  nameWithType: PendingConnection.GetIsOverElement(UIElement)
+  fullName: Nodify.PendingConnection.GetIsOverElement(System.Windows.UIElement)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GetIsOverElement
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 169
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static bool GetIsOverElement(UIElement elem)
+    parameters:
+    - id: elem
+      type: System.Windows.UIElement
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetIsOverElement(elem As UIElement) As Boolean
+  overload: Nodify.PendingConnection.GetIsOverElement*
+- uid: Nodify.PendingConnection.SetIsOverElement(System.Windows.UIElement,System.Boolean)
+  commentId: M:Nodify.PendingConnection.SetIsOverElement(System.Windows.UIElement,System.Boolean)
+  id: SetIsOverElement(System.Windows.UIElement,System.Boolean)
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: SetIsOverElement(UIElement, bool)
+  nameWithType: PendingConnection.SetIsOverElement(UIElement, bool)
+  fullName: Nodify.PendingConnection.SetIsOverElement(System.Windows.UIElement, bool)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: SetIsOverElement
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 172
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static void SetIsOverElement(UIElement elem, bool value)
+    parameters:
+    - id: elem
+      type: System.Windows.UIElement
+    - id: value
+      type: System.Boolean
+    content.vb: Public Shared Sub SetIsOverElement(elem As UIElement, value As Boolean)
+  overload: Nodify.PendingConnection.SetIsOverElement*
+  nameWithType.vb: PendingConnection.SetIsOverElement(UIElement, Boolean)
+  fullName.vb: Nodify.PendingConnection.SetIsOverElement(System.Windows.UIElement, Boolean)
+  name.vb: SetIsOverElement(UIElement, Boolean)
+- uid: Nodify.PendingConnection.StartedCommandProperty
+  commentId: F:Nodify.PendingConnection.StartedCommandProperty
+  id: StartedCommandProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StartedCommandProperty
+  nameWithType: PendingConnection.StartedCommandProperty
+  fullName: Nodify.PendingConnection.StartedCommandProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StartedCommandProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 189
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty StartedCommandProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly StartedCommandProperty As DependencyProperty
+- uid: Nodify.PendingConnection.CompletedCommandProperty
+  commentId: F:Nodify.PendingConnection.CompletedCommandProperty
+  id: CompletedCommandProperty
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: CompletedCommandProperty
+  nameWithType: PendingConnection.CompletedCommandProperty
+  fullName: Nodify.PendingConnection.CompletedCommandProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CompletedCommandProperty
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 190
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty CompletedCommandProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly CompletedCommandProperty As DependencyProperty
+- uid: Nodify.PendingConnection.StartedCommand
+  commentId: P:Nodify.PendingConnection.StartedCommand
+  id: StartedCommand
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: StartedCommand
+  nameWithType: PendingConnection.StartedCommand
+  fullName: Nodify.PendingConnection.StartedCommand
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StartedCommand
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 197
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    Gets or sets the command to invoke when the pending connection is started.
+
+    Will not be invoked if <xref href="Nodify.NodifyEditor.ConnectionStartedCommand" data-throw-if-not-resolved="false"></xref> is used.
+
+    <xref href="Nodify.PendingConnection.Source" data-throw-if-not-resolved="false"></xref> will be set to the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> that started this connection and will also be the command's parameter.
+  example: []
+  syntax:
+    content: public ICommand? StartedCommand { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public Property StartedCommand As ICommand
+  overload: Nodify.PendingConnection.StartedCommand*
+- uid: Nodify.PendingConnection.CompletedCommand
+  commentId: P:Nodify.PendingConnection.CompletedCommand
+  id: CompletedCommand
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: CompletedCommand
+  nameWithType: PendingConnection.CompletedCommand
+  fullName: Nodify.PendingConnection.CompletedCommand
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CompletedCommand
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 208
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    Gets or sets the command to invoke when the pending connection is completed.
+
+    Will not be invoked if <xref href="Nodify.NodifyEditor.ConnectionCompletedCommand" data-throw-if-not-resolved="false"></xref> is used.
+
+    <xref href="Nodify.PendingConnection.Target" data-throw-if-not-resolved="false"></xref> will be set to the desired <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>'s <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> and will also be the command's parameter.
+  example: []
+  syntax:
+    content: public ICommand? CompletedCommand { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public Property CompletedCommand As ICommand
+  overload: Nodify.PendingConnection.CompletedCommand*
+- uid: Nodify.PendingConnection.Editor
+  commentId: P:Nodify.PendingConnection.Editor
+  id: Editor
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: PendingConnection.Editor
+  fullName: Nodify.PendingConnection.Editor
+  type: Property
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Editor
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 221
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="Nodify.NodifyEditor" data-throw-if-not-resolved="false"></xref> that owns this <xref href="Nodify.PendingConnection" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected NodifyEditor? Editor { get; }
+    parameters: []
+    return:
+      type: Nodify.NodifyEditor
+    content.vb: Protected Property Editor As NodifyEditor
+  overload: Nodify.PendingConnection.Editor*
+- uid: Nodify.PendingConnection.OnApplyTemplate
+  commentId: M:Nodify.PendingConnection.OnApplyTemplate
+  id: OnApplyTemplate
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: OnApplyTemplate()
+  nameWithType: PendingConnection.OnApplyTemplate()
+  fullName: Nodify.PendingConnection.OnApplyTemplate()
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnApplyTemplate
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 233
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, is invoked whenever application code or internal processes call <xref href="System.Windows.FrameworkElement.ApplyTemplate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void OnApplyTemplate()
+    content.vb: Public Overrides Sub OnApplyTemplate()
+  overridden: System.Windows.FrameworkElement.OnApplyTemplate
+  overload: Nodify.PendingConnection.OnApplyTemplate*
+- uid: Nodify.PendingConnection.OnPendingConnectionStarted(System.Object,Nodify.PendingConnectionEventArgs)
+  commentId: M:Nodify.PendingConnection.OnPendingConnectionStarted(System.Object,Nodify.PendingConnectionEventArgs)
+  id: OnPendingConnectionStarted(System.Object,Nodify.PendingConnectionEventArgs)
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: OnPendingConnectionStarted(object, PendingConnectionEventArgs)
+  nameWithType: PendingConnection.OnPendingConnectionStarted(object, PendingConnectionEventArgs)
+  fullName: Nodify.PendingConnection.OnPendingConnectionStarted(object, Nodify.PendingConnectionEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnPendingConnectionStarted
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 250
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected virtual void OnPendingConnectionStarted(object sender, PendingConnectionEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Nodify.PendingConnectionEventArgs
+    content.vb: Protected Overridable Sub OnPendingConnectionStarted(sender As Object, e As PendingConnectionEventArgs)
+  overload: Nodify.PendingConnection.OnPendingConnectionStarted*
+  nameWithType.vb: PendingConnection.OnPendingConnectionStarted(Object, PendingConnectionEventArgs)
+  fullName.vb: Nodify.PendingConnection.OnPendingConnectionStarted(Object, Nodify.PendingConnectionEventArgs)
+  name.vb: OnPendingConnectionStarted(Object, PendingConnectionEventArgs)
+- uid: Nodify.PendingConnection.OnPendingConnectionDrag(System.Object,Nodify.PendingConnectionEventArgs)
+  commentId: M:Nodify.PendingConnection.OnPendingConnectionDrag(System.Object,Nodify.PendingConnectionEventArgs)
+  id: OnPendingConnectionDrag(System.Object,Nodify.PendingConnectionEventArgs)
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: OnPendingConnectionDrag(object, PendingConnectionEventArgs)
+  nameWithType: PendingConnection.OnPendingConnectionDrag(object, PendingConnectionEventArgs)
+  fullName: Nodify.PendingConnection.OnPendingConnectionDrag(object, Nodify.PendingConnectionEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnPendingConnectionDrag
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 275
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected virtual void OnPendingConnectionDrag(object sender, PendingConnectionEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Nodify.PendingConnectionEventArgs
+    content.vb: Protected Overridable Sub OnPendingConnectionDrag(sender As Object, e As PendingConnectionEventArgs)
+  overload: Nodify.PendingConnection.OnPendingConnectionDrag*
+  nameWithType.vb: PendingConnection.OnPendingConnectionDrag(Object, PendingConnectionEventArgs)
+  fullName.vb: Nodify.PendingConnection.OnPendingConnectionDrag(Object, Nodify.PendingConnectionEventArgs)
+  name.vb: OnPendingConnectionDrag(Object, PendingConnectionEventArgs)
+- uid: Nodify.PendingConnection.OnPendingConnectionCompleted(System.Object,Nodify.PendingConnectionEventArgs)
+  commentId: M:Nodify.PendingConnection.OnPendingConnectionCompleted(System.Object,Nodify.PendingConnectionEventArgs)
+  id: OnPendingConnectionCompleted(System.Object,Nodify.PendingConnectionEventArgs)
+  parent: Nodify.PendingConnection
+  langs:
+  - csharp
+  - vb
+  name: OnPendingConnectionCompleted(object, PendingConnectionEventArgs)
+  nameWithType: PendingConnection.OnPendingConnectionCompleted(object, PendingConnectionEventArgs)
+  fullName: Nodify.PendingConnection.OnPendingConnectionCompleted(object, Nodify.PendingConnectionEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/PendingConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnPendingConnectionCompleted
+    path: Nodify/Connections/PendingConnection.cs
+    startLine: 320
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected virtual void OnPendingConnectionCompleted(object sender, PendingConnectionEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Nodify.PendingConnectionEventArgs
+    content.vb: Protected Overridable Sub OnPendingConnectionCompleted(sender As Object, e As PendingConnectionEventArgs)
+  overload: Nodify.PendingConnection.OnPendingConnectionCompleted*
+  nameWithType.vb: PendingConnection.OnPendingConnectionCompleted(Object, PendingConnectionEventArgs)
+  fullName.vb: Nodify.PendingConnection.OnPendingConnectionCompleted(Object, Nodify.PendingConnectionEventArgs)
+  name.vb: OnPendingConnectionCompleted(Object, PendingConnectionEventArgs)
+references:
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify.PendingConnection.CompletedCommand
+  commentId: P:Nodify.PendingConnection.CompletedCommand
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_CompletedCommand
+  name: CompletedCommand
+  nameWithType: PendingConnection.CompletedCommand
+  fullName: Nodify.PendingConnection.CompletedCommand
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows.Controls.Control
+  commentId: T:System.Windows.Controls.Control
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.control
+  name: Control
+  nameWithType: Control
+  fullName: System.Windows.Controls.Control
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol
+  name: ContentControl
+  nameWithType: ContentControl
+  fullName: System.Windows.Controls.ContentControl
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: Nodify.PendingConnection.SourceAnchor*
+  commentId: Overload:Nodify.PendingConnection.SourceAnchor
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_SourceAnchor
+  name: SourceAnchor
+  nameWithType: PendingConnection.SourceAnchor
+  fullName: Nodify.PendingConnection.SourceAnchor
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: Nodify.PendingConnection.TargetAnchor*
+  commentId: Overload:Nodify.PendingConnection.TargetAnchor
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_TargetAnchor
+  name: TargetAnchor
+  nameWithType: PendingConnection.TargetAnchor
+  fullName: Nodify.PendingConnection.TargetAnchor
+- uid: System.Windows.FrameworkElement.DataContext
+  commentId: P:System.Windows.FrameworkElement.DataContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontext
+  name: DataContext
+  nameWithType: FrameworkElement.DataContext
+  fullName: System.Windows.FrameworkElement.DataContext
+- uid: Nodify.PendingConnection.Source*
+  commentId: Overload:Nodify.PendingConnection.Source
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Source
+  name: Source
+  nameWithType: PendingConnection.Source
+  fullName: Nodify.PendingConnection.Source
+- uid: Nodify.ItemContainer
+  commentId: T:Nodify.ItemContainer
+  parent: Nodify
+  href: Nodify.ItemContainer.html
+  name: ItemContainer
+  nameWithType: ItemContainer
+  fullName: Nodify.ItemContainer
+- uid: Nodify.PendingConnection.AllowOnlyConnectors
+  commentId: P:Nodify.PendingConnection.AllowOnlyConnectors
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_AllowOnlyConnectors
+  name: AllowOnlyConnectors
+  nameWithType: PendingConnection.AllowOnlyConnectors
+  fullName: Nodify.PendingConnection.AllowOnlyConnectors
+- uid: Nodify.PendingConnection.Source
+  commentId: P:Nodify.PendingConnection.Source
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Source
+  name: Source
+  nameWithType: PendingConnection.Source
+  fullName: Nodify.PendingConnection.Source
+- uid: Nodify.PendingConnection.Target*
+  commentId: Overload:Nodify.PendingConnection.Target
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Target
+  name: Target
+  nameWithType: PendingConnection.Target
+  fullName: Nodify.PendingConnection.Target
+- uid: Nodify.PendingConnection.PreviewTarget
+  commentId: P:Nodify.PendingConnection.PreviewTarget
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_PreviewTarget
+  name: PreviewTarget
+  nameWithType: PendingConnection.PreviewTarget
+  fullName: Nodify.PendingConnection.PreviewTarget
+- uid: Nodify.PendingConnection.EnablePreview*
+  commentId: Overload:Nodify.PendingConnection.EnablePreview
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_EnablePreview
+  name: EnablePreview
+  nameWithType: PendingConnection.EnablePreview
+  fullName: Nodify.PendingConnection.EnablePreview
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Nodify.PendingConnection.PreviewTarget*
+  commentId: Overload:Nodify.PendingConnection.PreviewTarget
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_PreviewTarget
+  name: PreviewTarget
+  nameWithType: PendingConnection.PreviewTarget
+  fullName: Nodify.PendingConnection.PreviewTarget
+- uid: Nodify.PendingConnection.TargetAnchor
+  commentId: P:Nodify.PendingConnection.TargetAnchor
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_TargetAnchor
+  name: TargetAnchor
+  nameWithType: PendingConnection.TargetAnchor
+  fullName: Nodify.PendingConnection.TargetAnchor
+- uid: Nodify.PendingConnection.Target
+  commentId: P:Nodify.PendingConnection.Target
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Target
+  name: Target
+  nameWithType: PendingConnection.Target
+  fullName: Nodify.PendingConnection.Target
+- uid: Nodify.PendingConnection.EnableSnapping*
+  commentId: Overload:Nodify.PendingConnection.EnableSnapping
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_EnableSnapping
+  name: EnableSnapping
+  nameWithType: PendingConnection.EnableSnapping
+  fullName: Nodify.PendingConnection.EnableSnapping
+- uid: Nodify.PendingConnection.AllowOnlyConnectors*
+  commentId: Overload:Nodify.PendingConnection.AllowOnlyConnectors
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_AllowOnlyConnectors
+  name: AllowOnlyConnectors
+  nameWithType: PendingConnection.AllowOnlyConnectors
+  fullName: Nodify.PendingConnection.AllowOnlyConnectors
+- uid: Nodify.PendingConnection.StrokeThickness*
+  commentId: Overload:Nodify.PendingConnection.StrokeThickness
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_StrokeThickness
+  name: StrokeThickness
+  nameWithType: PendingConnection.StrokeThickness
+  fullName: Nodify.PendingConnection.StrokeThickness
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Nodify.PendingConnection.StrokeDashArray*
+  commentId: Overload:Nodify.PendingConnection.StrokeDashArray
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_StrokeDashArray
+  name: StrokeDashArray
+  nameWithType: PendingConnection.StrokeDashArray
+  fullName: Nodify.PendingConnection.StrokeDashArray
+- uid: System.Windows.Media.DoubleCollection
+  commentId: T:System.Windows.Media.DoubleCollection
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.doublecollection
+  name: DoubleCollection
+  nameWithType: DoubleCollection
+  fullName: System.Windows.Media.DoubleCollection
+- uid: Nodify.PendingConnection.Stroke*
+  commentId: Overload:Nodify.PendingConnection.Stroke
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Stroke
+  name: Stroke
+  nameWithType: PendingConnection.Stroke
+  fullName: Nodify.PendingConnection.Stroke
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: Nodify.PendingConnection.IsVisible*
+  commentId: Overload:Nodify.PendingConnection.IsVisible
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_IsVisible
+  name: IsVisible
+  nameWithType: PendingConnection.IsVisible
+  fullName: Nodify.PendingConnection.IsVisible
+- uid: Nodify.PendingConnection.Direction*
+  commentId: Overload:Nodify.PendingConnection.Direction
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Direction
+  name: Direction
+  nameWithType: PendingConnection.Direction
+  fullName: Nodify.PendingConnection.Direction
+- uid: Nodify.ConnectionDirection
+  commentId: T:Nodify.ConnectionDirection
+  parent: Nodify
+  href: Nodify.ConnectionDirection.html
+  name: ConnectionDirection
+  nameWithType: ConnectionDirection
+  fullName: Nodify.ConnectionDirection
+- uid: Nodify.PendingConnection.EnablePreview
+  commentId: P:Nodify.PendingConnection.EnablePreview
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_EnablePreview
+  name: EnablePreview
+  nameWithType: PendingConnection.EnablePreview
+  fullName: Nodify.PendingConnection.EnablePreview
+- uid: Nodify.PendingConnection.EnableSnapping
+  commentId: P:Nodify.PendingConnection.EnableSnapping
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_EnableSnapping
+  name: EnableSnapping
+  nameWithType: PendingConnection.EnableSnapping
+  fullName: Nodify.PendingConnection.EnableSnapping
+- uid: Nodify.PendingConnection.GetIsOverElement*
+  commentId: Overload:Nodify.PendingConnection.GetIsOverElement
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_GetIsOverElement_System_Windows_UIElement_
+  name: GetIsOverElement
+  nameWithType: PendingConnection.GetIsOverElement
+  fullName: Nodify.PendingConnection.GetIsOverElement
+- uid: Nodify.PendingConnection.SetIsOverElement*
+  commentId: Overload:Nodify.PendingConnection.SetIsOverElement
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_SetIsOverElement_System_Windows_UIElement_System_Boolean_
+  name: SetIsOverElement
+  nameWithType: PendingConnection.SetIsOverElement
+  fullName: Nodify.PendingConnection.SetIsOverElement
+- uid: Nodify.NodifyEditor.ConnectionStartedCommand
+  commentId: P:Nodify.NodifyEditor.ConnectionStartedCommand
+  href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_ConnectionStartedCommand
+  name: ConnectionStartedCommand
+  nameWithType: NodifyEditor.ConnectionStartedCommand
+  fullName: Nodify.NodifyEditor.ConnectionStartedCommand
+- uid: Nodify.PendingConnection.StartedCommand*
+  commentId: Overload:Nodify.PendingConnection.StartedCommand
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_StartedCommand
+  name: StartedCommand
+  nameWithType: PendingConnection.StartedCommand
+  fullName: Nodify.PendingConnection.StartedCommand
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.icommand
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: Nodify.NodifyEditor.ConnectionCompletedCommand
+  commentId: P:Nodify.NodifyEditor.ConnectionCompletedCommand
+  href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_ConnectionCompletedCommand
+  name: ConnectionCompletedCommand
+  nameWithType: NodifyEditor.ConnectionCompletedCommand
+  fullName: Nodify.NodifyEditor.ConnectionCompletedCommand
+- uid: Nodify.PendingConnection.CompletedCommand*
+  commentId: Overload:Nodify.PendingConnection.CompletedCommand
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_CompletedCommand
+  name: CompletedCommand
+  nameWithType: PendingConnection.CompletedCommand
+  fullName: Nodify.PendingConnection.CompletedCommand
+- uid: Nodify.NodifyEditor
+  commentId: T:Nodify.NodifyEditor
+  parent: Nodify
+  href: Nodify.NodifyEditor.html
+  name: NodifyEditor
+  nameWithType: NodifyEditor
+  fullName: Nodify.NodifyEditor
+- uid: Nodify.PendingConnection
+  commentId: T:Nodify.PendingConnection
+  href: Nodify.PendingConnection.html
+  name: PendingConnection
+  nameWithType: PendingConnection
+  fullName: Nodify.PendingConnection
+- uid: Nodify.PendingConnection.Editor*
+  commentId: Overload:Nodify.PendingConnection.Editor
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_Editor
+  name: Editor
+  nameWithType: PendingConnection.Editor
+  fullName: Nodify.PendingConnection.Editor
+- uid: System.Windows.FrameworkElement.ApplyTemplate
+  commentId: M:System.Windows.FrameworkElement.ApplyTemplate
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  name: ApplyTemplate()
+  nameWithType: FrameworkElement.ApplyTemplate()
+  fullName: System.Windows.FrameworkElement.ApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+- uid: System.Windows.FrameworkElement.OnApplyTemplate
+  commentId: M:System.Windows.FrameworkElement.OnApplyTemplate
+  parent: System.Windows.FrameworkElement
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  name: OnApplyTemplate()
+  nameWithType: FrameworkElement.OnApplyTemplate()
+  fullName: System.Windows.FrameworkElement.OnApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.FrameworkElement.OnApplyTemplate
+    name: OnApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.FrameworkElement.OnApplyTemplate
+    name: OnApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  - name: (
+  - name: )
+- uid: Nodify.PendingConnection.OnApplyTemplate*
+  commentId: Overload:Nodify.PendingConnection.OnApplyTemplate
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_OnApplyTemplate
+  name: OnApplyTemplate
+  nameWithType: PendingConnection.OnApplyTemplate
+  fullName: Nodify.PendingConnection.OnApplyTemplate
+- uid: Nodify.PendingConnection.OnPendingConnectionStarted*
+  commentId: Overload:Nodify.PendingConnection.OnPendingConnectionStarted
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_OnPendingConnectionStarted_System_Object_Nodify_PendingConnectionEventArgs_
+  name: OnPendingConnectionStarted
+  nameWithType: PendingConnection.OnPendingConnectionStarted
+  fullName: Nodify.PendingConnection.OnPendingConnectionStarted
+- uid: Nodify.PendingConnectionEventArgs
+  commentId: T:Nodify.PendingConnectionEventArgs
+  parent: Nodify
+  href: Nodify.PendingConnectionEventArgs.html
+  name: PendingConnectionEventArgs
+  nameWithType: PendingConnectionEventArgs
+  fullName: Nodify.PendingConnectionEventArgs
+- uid: Nodify.PendingConnection.OnPendingConnectionDrag*
+  commentId: Overload:Nodify.PendingConnection.OnPendingConnectionDrag
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_OnPendingConnectionDrag_System_Object_Nodify_PendingConnectionEventArgs_
+  name: OnPendingConnectionDrag
+  nameWithType: PendingConnection.OnPendingConnectionDrag
+  fullName: Nodify.PendingConnection.OnPendingConnectionDrag
+- uid: Nodify.PendingConnection.OnPendingConnectionCompleted*
+  commentId: Overload:Nodify.PendingConnection.OnPendingConnectionCompleted
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_OnPendingConnectionCompleted_System_Object_Nodify_PendingConnectionEventArgs_
+  name: OnPendingConnectionCompleted
+  nameWithType: PendingConnection.OnPendingConnectionCompleted
+  fullName: Nodify.PendingConnection.OnPendingConnectionCompleted

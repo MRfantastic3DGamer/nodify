@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NodeOutput | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NodeOutput | Nodify-Docs ">
+      
+      <meta name="description" content="Represents the default control for the .">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_NodeOutput.md&amp;value=---%0Auid%3A%20Nodify.NodeOutput%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Nodify-Docs">
+            Nodify-Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nodify.NodeOutput">
+
+
+
+  <h1 id="Nodify_NodeOutput" data-uid="Nodify.NodeOutput" class="text-break">
+Class NodeOutput  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nodify.html">Nodify</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nodify.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the default control for the <a class="xref" href="Nodify.Node.html#Nodify_Node_OutputConnectorTemplate">OutputConnectorTemplate</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NodeOutput : Connector</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual">Visual</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control">Control</a></div>
+      <div><a class="xref" href="Nodify.Connector.html">Connector</a></div>
+      <div><span class="xref">NodeOutput</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_ElementConnector">Connector.ElementConnector</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionStartedEvent">Connector.PendingConnectionStartedEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionCompletedEvent">Connector.PendingConnectionCompletedEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionDragEvent">Connector.PendingConnectionDragEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_DisconnectEvent">Connector.DisconnectEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionStarted">Connector.PendingConnectionStarted</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionCompleted">Connector.PendingConnectionCompleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_PendingConnectionDrag">Connector.PendingConnectionDrag</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Disconnect">Connector.Disconnect</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_AnchorProperty">Connector.AnchorProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_IsConnectedProperty">Connector.IsConnectedProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_DisconnectCommandProperty">Connector.DisconnectCommandProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_IsPendingConnectionProperty">Connector.IsPendingConnectionProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Connector.Anchor</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_IsConnected">Connector.IsConnected</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_IsPendingConnection">Connector.IsPendingConnection</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_DisconnectCommand">Connector.DisconnectCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Thumb">Connector.Thumb</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Container">Connector.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Editor">Connector.Editor</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OptimizeSafeZone">Connector.OptimizeSafeZone</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OptimizeMinimumSelectedItems">Connector.OptimizeMinimumSelectedItems</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_EnableOptimizations">Connector.EnableOptimizations</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_AllowPendingConnectionCancellation">Connector.AllowPendingConnectionCancellation</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_EnableStickyConnections">Connector.EnableStickyConnections</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnApplyTemplate">Connector.OnApplyTemplate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnRenderSizeChanged_System_Windows_SizeChangedInfo_">Connector.OnRenderSizeChanged(SizeChangedInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_UpdateAnchorOptimized_System_Windows_Point_">Connector.UpdateAnchorOptimized(Point)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_UpdateAnchor_System_Windows_Point_">Connector.UpdateAnchor(Point)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_UpdateAnchor">Connector.UpdateAnchor()</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_">Connector.OnLostMouseCapture(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_">Connector.OnMouseDown(MouseButtonEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_">Connector.OnMouseUp(MouseButtonEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnKeyUp_System_Windows_Input_KeyEventArgs_">Connector.OnKeyUp(KeyEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnMouseMove_System_Windows_Input_MouseEventArgs_">Connector.OnMouseMove(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnConnectorDrag_System_Windows_Vector_">Connector.OnConnectorDrag(Vector)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnConnectorDragStarted">Connector.OnConnectorDragStarted()</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnConnectorDragCompleted_System_Boolean_">Connector.OnConnectorDragCompleted(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OnDisconnect">Connector.OnDisconnect()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Nodify_NodeOutput_ConnectorTemplateProperty" data-uid="Nodify.NodeOutput.ConnectorTemplateProperty">
+  ConnectorTemplateProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ConnectorTemplateProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_NodeOutput_HeaderProperty" data-uid="Nodify.NodeOutput.HeaderProperty">
+  HeaderProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty HeaderProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_NodeOutput_HeaderTemplateProperty" data-uid="Nodify.NodeOutput.HeaderTemplateProperty">
+  HeaderTemplateProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty HeaderTemplateProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_NodeOutput_OrientationProperty" data-uid="Nodify.NodeOutput.OrientationProperty">
+  OrientationProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty OrientationProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Nodify_NodeOutput_ConnectorTemplate_" data-uid="Nodify.NodeOutput.ConnectorTemplate*"></a>
+
+  <h3 id="Nodify_NodeOutput_ConnectorTemplate" data-uid="Nodify.NodeOutput.ConnectorTemplate">
+  ConnectorTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the template used to display the connecting point of this <a class="xref" href="Nodify.Connector.html">Connector</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ControlTemplate ConnectorTemplate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.controltemplate">ControlTemplate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_NodeOutput_Header_" data-uid="Nodify.NodeOutput.Header*"></a>
+
+  <h3 id="Nodify_NodeOutput_Header" data-uid="Nodify.NodeOutput.Header">
+  Header
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets of sets the data used for the control's header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Header { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_NodeOutput_HeaderTemplate_" data-uid="Nodify.NodeOutput.HeaderTemplate*"></a>
+
+  <h3 id="Nodify_NodeOutput_HeaderTemplate" data-uid="Nodify.NodeOutput.HeaderTemplate">
+  HeaderTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the template used to display the content of the control's header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTemplate HeaderTemplate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.datatemplate">DataTemplate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_NodeOutput_Orientation_" data-uid="Nodify.NodeOutput.Orientation*"></a>
+
+  <h3 id="Nodify_NodeOutput_Orientation" data-uid="Nodify.NodeOutput.Orientation">
+  Orientation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value that indicates the dimension by which child elements are stacked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orientation Orientation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a> of child content.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/NodeOutput.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

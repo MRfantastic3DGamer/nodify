@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ResizeEventArgs
+  commentId: T:Nodify.ResizeEventArgs
+  id: ResizeEventArgs
+  parent: Nodify
+  children:
+  - Nodify.ResizeEventArgs.#ctor(System.Windows.Size,System.Windows.Size)
+  - Nodify.ResizeEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  - Nodify.ResizeEventArgs.NewSize
+  - Nodify.ResizeEventArgs.PreviousSize
+  langs:
+  - csharp
+  - vb
+  name: ResizeEventArgs
+  nameWithType: ResizeEventArgs
+  fullName: Nodify.ResizeEventArgs
+  type: Class
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeEventArgs
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Provides data for resize related routed events.
+  example: []
+  syntax:
+    content: 'public class ResizeEventArgs : RoutedEventArgs'
+    content.vb: Public Class ResizeEventArgs Inherits RoutedEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - System.Windows.RoutedEventArgs
+- uid: Nodify.ResizeEventArgs.#ctor(System.Windows.Size,System.Windows.Size)
+  commentId: M:Nodify.ResizeEventArgs.#ctor(System.Windows.Size,System.Windows.Size)
+  id: '#ctor(System.Windows.Size,System.Windows.Size)'
+  parent: Nodify.ResizeEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ResizeEventArgs(Size, Size)
+  nameWithType: ResizeEventArgs.ResizeEventArgs(Size, Size)
+  fullName: Nodify.ResizeEventArgs.ResizeEventArgs(System.Windows.Size, System.Windows.Size)
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Initializes a new instance of the <xref href="Nodify.ResizeEventArgs" data-throw-if-not-resolved="false"></xref> class with the previous and the new <xref href="System.Windows.Size" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ResizeEventArgs(Size previousSize, Size newSize)
+    parameters:
+    - id: previousSize
+      type: System.Windows.Size
+      description: The previous size associated with this event.
+    - id: newSize
+      type: System.Windows.Size
+      description: The new size associated with this event.
+    content.vb: Public Sub New(previousSize As Size, newSize As Size)
+  overload: Nodify.ResizeEventArgs.#ctor*
+  nameWithType.vb: ResizeEventArgs.New(Size, Size)
+  fullName.vb: Nodify.ResizeEventArgs.New(System.Windows.Size, System.Windows.Size)
+  name.vb: New(Size, Size)
+- uid: Nodify.ResizeEventArgs.PreviousSize
+  commentId: P:Nodify.ResizeEventArgs.PreviousSize
+  id: PreviousSize
+  parent: Nodify.ResizeEventArgs
+  langs:
+  - csharp
+  - vb
+  name: PreviousSize
+  nameWithType: ResizeEventArgs.PreviousSize
+  fullName: Nodify.ResizeEventArgs.PreviousSize
+  type: Property
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PreviousSize
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 31
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the previous size of the object.
+  example: []
+  syntax:
+    content: public Size PreviousSize { get; }
+    parameters: []
+    return:
+      type: System.Windows.Size
+    content.vb: Public ReadOnly Property PreviousSize As Size
+  overload: Nodify.ResizeEventArgs.PreviousSize*
+- uid: Nodify.ResizeEventArgs.NewSize
+  commentId: P:Nodify.ResizeEventArgs.NewSize
+  id: NewSize
+  parent: Nodify.ResizeEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NewSize
+  nameWithType: ResizeEventArgs.NewSize
+  fullName: Nodify.ResizeEventArgs.NewSize
+  type: Property
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: NewSize
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 37
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the new size of the object.
+  example: []
+  syntax:
+    content: public Size NewSize { get; }
+    parameters: []
+    return:
+      type: System.Windows.Size
+    content.vb: Public ReadOnly Property NewSize As Size
+  overload: Nodify.ResizeEventArgs.NewSize*
+- uid: Nodify.ResizeEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  commentId: M:Nodify.ResizeEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  id: InvokeEventHandler(System.Delegate,System.Object)
+  parent: Nodify.ResizeEventArgs
+  langs:
+  - csharp
+  - vb
+  name: InvokeEventHandler(Delegate, object)
+  nameWithType: ResizeEventArgs.InvokeEventHandler(Delegate, object)
+  fullName: Nodify.ResizeEventArgs.InvokeEventHandler(System.Delegate, object)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InvokeEventHandler
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 39
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, provides a way to invoke event handlers in a type-specific way, which can increase efficiency over the base implementation.
+  example: []
+  syntax:
+    content: protected override void InvokeEventHandler(Delegate genericHandler, object genericTarget)
+    parameters:
+    - id: genericHandler
+      type: System.Delegate
+      description: The generic handler / delegate implementation to be invoked.
+    - id: genericTarget
+      type: System.Object
+      description: The target on which the provided handler should be invoked.
+    content.vb: Protected Overrides Sub InvokeEventHandler(genericHandler As [Delegate], genericTarget As Object)
+  overridden: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  overload: Nodify.ResizeEventArgs.InvokeEventHandler*
+  nameWithType.vb: ResizeEventArgs.InvokeEventHandler(Delegate, Object)
+  fullName.vb: Nodify.ResizeEventArgs.InvokeEventHandler(System.Delegate, Object)
+  name.vb: InvokeEventHandler(Delegate, Object)
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Windows.RoutedEventArgs
+  commentId: T:System.Windows.RoutedEventArgs
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs
+  name: RoutedEventArgs
+  nameWithType: RoutedEventArgs
+  fullName: System.Windows.RoutedEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: Nodify.ResizeEventArgs
+  commentId: T:Nodify.ResizeEventArgs
+  parent: Nodify
+  href: Nodify.ResizeEventArgs.html
+  name: ResizeEventArgs
+  nameWithType: ResizeEventArgs
+  fullName: Nodify.ResizeEventArgs
+- uid: System.Windows.Size
+  commentId: T:System.Windows.Size
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.size
+  name: Size
+  nameWithType: Size
+  fullName: System.Windows.Size
+- uid: Nodify.ResizeEventArgs.#ctor*
+  commentId: Overload:Nodify.ResizeEventArgs.#ctor
+  href: Nodify.ResizeEventArgs.html#Nodify_ResizeEventArgs__ctor_System_Windows_Size_System_Windows_Size_
+  name: ResizeEventArgs
+  nameWithType: ResizeEventArgs.ResizeEventArgs
+  fullName: Nodify.ResizeEventArgs.ResizeEventArgs
+  nameWithType.vb: ResizeEventArgs.New
+  fullName.vb: Nodify.ResizeEventArgs.New
+  name.vb: New
+- uid: Nodify.ResizeEventArgs.PreviousSize*
+  commentId: Overload:Nodify.ResizeEventArgs.PreviousSize
+  href: Nodify.ResizeEventArgs.html#Nodify_ResizeEventArgs_PreviousSize
+  name: PreviousSize
+  nameWithType: ResizeEventArgs.PreviousSize
+  fullName: Nodify.ResizeEventArgs.PreviousSize
+- uid: Nodify.ResizeEventArgs.NewSize*
+  commentId: Overload:Nodify.ResizeEventArgs.NewSize
+  href: Nodify.ResizeEventArgs.html#Nodify_ResizeEventArgs_NewSize
+  name: NewSize
+  nameWithType: ResizeEventArgs.NewSize
+  fullName: Nodify.ResizeEventArgs.NewSize
+- uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  commentId: M:System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  parent: System.Windows.RoutedEventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  name: InvokeEventHandler(Delegate, object)
+  nameWithType: RoutedEventArgs.InvokeEventHandler(Delegate, object)
+  fullName: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate, object)
+  nameWithType.vb: RoutedEventArgs.InvokeEventHandler(Delegate, Object)
+  fullName.vb: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate, Object)
+  name.vb: InvokeEventHandler(Delegate, Object)
+  spec.csharp:
+  - uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+    name: InvokeEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  - name: (
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+    name: InvokeEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  - name: (
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Nodify.ResizeEventArgs.InvokeEventHandler*
+  commentId: Overload:Nodify.ResizeEventArgs.InvokeEventHandler
+  href: Nodify.ResizeEventArgs.html#Nodify_ResizeEventArgs_InvokeEventHandler_System_Delegate_System_Object_
+  name: InvokeEventHandler
+  nameWithType: ResizeEventArgs.InvokeEventHandler
+  fullName: Nodify.ResizeEventArgs.InvokeEventHandler
+- uid: System.Delegate
+  commentId: T:System.Delegate
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.delegate
+  name: Delegate
+  nameWithType: Delegate
+  fullName: System.Delegate

@@ -1,0 +1,1392 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Connector | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Connector | Nodify-Docs ">
+      
+      <meta name="description" content="Represents a connector control that can start and complete a . Has a  that the  is calculated from for the . Center of this control is used if missing.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Connector.md&amp;value=---%0Auid%3A%20Nodify.Connector%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Nodify-Docs">
+            Nodify-Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nodify.Connector">
+
+
+
+  <h1 id="Nodify_Connector" data-uid="Nodify.Connector" class="text-break">
+Class Connector  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nodify.html">Nodify</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nodify.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a connector control that can start and complete a <a class="xref" href="Nodify.PendingConnection.html">PendingConnection</a>.
+Has a <a class="xref" href="Nodify.Connector.html#Nodify_Connector_ElementConnector">ElementConnector</a> that the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a> is calculated from for the <a class="xref" href="Nodify.PendingConnection.html">PendingConnection</a>. Center of this control is used if missing.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TemplatePart(Name = &quot;PART_Connector&quot;, Type = typeof(FrameworkElement))]
+public class Connector : Control</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual">Visual</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control">Control</a></div>
+      <div><span class="xref">Connector</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Nodify.NodeInput.html">NodeInput</a></div>
+      <div><a class="xref" href="Nodify.NodeOutput.html">NodeOutput</a></div>
+      <div><a class="xref" href="Nodify.StateNode.html">StateNode</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Nodify_Connector_AnchorProperty" data-uid="Nodify.Connector.AnchorProperty">
+  AnchorProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty AnchorProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_DisconnectCommandProperty" data-uid="Nodify.Connector.DisconnectCommandProperty">
+  DisconnectCommandProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty DisconnectCommandProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_DisconnectEvent" data-uid="Nodify.Connector.DisconnectEvent">
+  DisconnectEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent DisconnectEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_ElementConnector" data-uid="Nodify.Connector.ElementConnector">
+  ElementConnector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string ElementConnector = &quot;PART_Connector&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_EnableOptimizations" data-uid="Nodify.Connector.EnableOptimizations">
+  EnableOptimizations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if <a class="xref" href="Nodify.Connector.html">Connector</a>s should enable optimizations based on <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OptimizeSafeZone">OptimizeSafeZone</a> and <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OptimizeMinimumSelectedItems">OptimizeMinimumSelectedItems</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EnableOptimizations</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_IsConnectedProperty" data-uid="Nodify.Connector.IsConnectedProperty">
+  IsConnectedProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty IsConnectedProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_IsPendingConnectionProperty" data-uid="Nodify.Connector.IsPendingConnectionProperty">
+  IsPendingConnectionProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty IsPendingConnectionProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_OptimizeMinimumSelectedItems" data-uid="Nodify.Connector.OptimizeMinimumSelectedItems">
+  OptimizeMinimumSelectedItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the minimum selected items needed to trigger optimizations when outside of the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_OptimizeSafeZone">OptimizeSafeZone</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint OptimizeMinimumSelectedItems</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_OptimizeSafeZone" data-uid="Nodify.Connector.OptimizeSafeZone">
+  OptimizeSafeZone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the safe zone outside the editor's viewport that will not trigger optimizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double OptimizeSafeZone</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionCompletedEvent" data-uid="Nodify.Connector.PendingConnectionCompletedEvent">
+  PendingConnectionCompletedEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent PendingConnectionCompletedEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionDragEvent" data-uid="Nodify.Connector.PendingConnectionDragEvent">
+  PendingConnectionDragEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent PendingConnectionDragEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionStartedEvent" data-uid="Nodify.Connector.PendingConnectionStartedEvent">
+  PendingConnectionStartedEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent PendingConnectionStartedEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Nodify_Connector_AllowPendingConnectionCancellation_" data-uid="Nodify.Connector.AllowPendingConnectionCancellation*"></a>
+
+  <h3 id="Nodify_Connector_AllowPendingConnectionCancellation" data-uid="Nodify.Connector.AllowPendingConnectionCancellation">
+  AllowPendingConnectionCancellation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether cancelling a pending connection is allowed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AllowPendingConnectionCancellation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_Anchor_" data-uid="Nodify.Connector.Anchor*"></a>
+
+  <h3 id="Nodify_Connector_Anchor" data-uid="Nodify.Connector.Anchor">
+  Anchor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the location where <a class="xref" href="Nodify.Connection.html">Connection</a>s can be attached to.
+Bind with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.bindingmode#system-windows-data-bindingmode-onewaytosource">OneWayToSource</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point Anchor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_Container_" data-uid="Nodify.Connector.Container*"></a>
+
+  <h3 id="Nodify_Connector_Container" data-uid="Nodify.Connector.Container">
+  Container
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Nodify.ItemContainer.html">ItemContainer</a> that contains this <a class="xref" href="Nodify.Connector.html">Connector</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ItemContainer? Container { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ItemContainer.html">ItemContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_DisconnectCommand_" data-uid="Nodify.Connector.DisconnectCommand*"></a>
+
+  <h3 id="Nodify_Connector_DisconnectCommand" data-uid="Nodify.Connector.DisconnectCommand">
+  DisconnectCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked if the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Disconnect">Disconnect</a> event is not handled.
+Parameter is the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontext">DataContext</a> of this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand? DisconnectCommand { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_Editor_" data-uid="Nodify.Connector.Editor*"></a>
+
+  <h3 id="Nodify_Connector_Editor" data-uid="Nodify.Connector.Editor">
+  Editor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Nodify.NodifyEditor.html">NodifyEditor</a> that owns this <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Container">Container</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NodifyEditor? Editor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.NodifyEditor.html">NodifyEditor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_EnableStickyConnections_" data-uid="Nodify.Connector.EnableStickyConnections*"></a>
+
+  <h3 id="Nodify_Connector_EnableStickyConnections" data-uid="Nodify.Connector.EnableStickyConnections">
+  EnableStickyConnections
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether the connection should be completed in two steps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EnableStickyConnections { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_IsConnected_" data-uid="Nodify.Connector.IsConnected*"></a>
+
+  <h3 id="Nodify_Connector_IsConnected" data-uid="Nodify.Connector.IsConnected">
+  IsConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>If this is set to false, the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Disconnect">Disconnect</a> event will not be invoked and the connector will stop updating its <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a> when moved, resized etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_IsPendingConnection_" data-uid="Nodify.Connector.IsPendingConnection*"></a>
+
+  <h3 id="Nodify_Connector_IsPendingConnection" data-uid="Nodify.Connector.IsPendingConnection">
+  IsPendingConnection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value that indicates whether a <a class="xref" href="Nodify.PendingConnection.html">PendingConnection</a> is in progress for this <a class="xref" href="Nodify.Connector.html">Connector</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPendingConnection { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_Thumb_" data-uid="Nodify.Connector.Thumb*"></a>
+
+  <h3 id="Nodify_Connector_Thumb" data-uid="Nodify.Connector.Thumb">
+  Thumb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a> used to calculate the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected FrameworkElement? Thumb { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Nodify_Connector_OnApplyTemplate_" data-uid="Nodify.Connector.OnApplyTemplate*"></a>
+
+  <h3 id="Nodify_Connector_OnApplyTemplate" data-uid="Nodify.Connector.OnApplyTemplate">
+  OnApplyTemplate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>When overridden in a derived class, is invoked whenever application code or internal processes call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate">ApplyTemplate()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnApplyTemplate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnConnectorDrag_" data-uid="Nodify.Connector.OnConnectorDrag*"></a>
+
+  <h3 id="Nodify_Connector_OnConnectorDrag_System_Windows_Vector_" data-uid="Nodify.Connector.OnConnectorDrag(System.Windows.Vector)">
+  OnConnectorDrag(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConnectorDrag(Vector offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnConnectorDragCompleted_" data-uid="Nodify.Connector.OnConnectorDragCompleted*"></a>
+
+  <h3 id="Nodify_Connector_OnConnectorDragCompleted_System_Boolean_" data-uid="Nodify.Connector.OnConnectorDragCompleted(System.Boolean)">
+  OnConnectorDragCompleted(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConnectorDragCompleted(bool cancel = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnConnectorDragStarted_" data-uid="Nodify.Connector.OnConnectorDragStarted*"></a>
+
+  <h3 id="Nodify_Connector_OnConnectorDragStarted" data-uid="Nodify.Connector.OnConnectorDragStarted">
+  OnConnectorDragStarted()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConnectorDragStarted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnDisconnect_" data-uid="Nodify.Connector.OnDisconnect*"></a>
+
+  <h3 id="Nodify_Connector_OnDisconnect" data-uid="Nodify.Connector.OnDisconnect">
+  OnDisconnect()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisconnect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnKeyUp_" data-uid="Nodify.Connector.OnKeyUp*"></a>
+
+  <h3 id="Nodify_Connector_OnKeyUp_System_Windows_Input_KeyEventArgs_" data-uid="Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)">
+  OnKeyUp(KeyEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Keyboard.KeyUp</span> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnKeyUp(KeyEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs">KeyEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs">KeyEventArgs</a> that contains the event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnLostMouseCapture_" data-uid="Nodify.Connector.OnLostMouseCapture*"></a>
+
+  <h3 id="Nodify_Connector_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_" data-uid="Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)">
+  OnLostMouseCapture(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.LostMouseCapture</span> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnLostMouseCapture(MouseEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs">MouseEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs">MouseEventArgs</a> that contains event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnMouseDown_" data-uid="Nodify.Connector.OnMouseDown*"></a>
+
+  <h3 id="Nodify_Connector_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_" data-uid="Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+  OnMouseDown(MouseButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.MouseDown</span> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseDown(MouseButtonEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a> that contains the event data. This event data reports details about the mouse button that was pressed and the handled state.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnMouseMove_" data-uid="Nodify.Connector.OnMouseMove*"></a>
+
+  <h3 id="Nodify_Connector_OnMouseMove_System_Windows_Input_MouseEventArgs_" data-uid="Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)">
+  OnMouseMove(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.MouseMove</span> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseMove(MouseEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs">MouseEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs">MouseEventArgs</a> that contains the event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnMouseUp_" data-uid="Nodify.Connector.OnMouseUp*"></a>
+
+  <h3 id="Nodify_Connector_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_" data-uid="Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+  OnMouseUp(MouseButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.MouseUp</span> routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseUp(MouseButtonEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a> that contains the event data. The event data reports that the mouse button was released.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_OnRenderSizeChanged_" data-uid="Nodify.Connector.OnRenderSizeChanged*"></a>
+
+  <h3 id="Nodify_Connector_OnRenderSizeChanged_System_Windows_SizeChangedInfo_" data-uid="Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)">
+  OnRenderSizeChanged(SizeChangedInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sizechanged">SizeChanged</a> event, using the specified information as part of the eventual event data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sizeInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.sizechangedinfo">SizeChangedInfo</a></dt>
+    <dd><p>Details of the old and new size involved in the change.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_UpdateAnchor_" data-uid="Nodify.Connector.UpdateAnchor*"></a>
+
+  <h3 id="Nodify_Connector_UpdateAnchor" data-uid="Nodify.Connector.UpdateAnchor">
+  UpdateAnchor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a> based on <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Container">Container</a>'s location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateAnchor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_UpdateAnchor_" data-uid="Nodify.Connector.UpdateAnchor*"></a>
+
+  <h3 id="Nodify_Connector_UpdateAnchor_System_Windows_Point_" data-uid="Nodify.Connector.UpdateAnchor(System.Windows.Point)">
+  UpdateAnchor(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a> relative to a location. (usually <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Container">Container</a>'s location)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateAnchor(Point location)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd><p>The relative location</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_Connector_UpdateAnchorOptimized_" data-uid="Nodify.Connector.UpdateAnchorOptimized*"></a>
+
+  <h3 id="Nodify_Connector_UpdateAnchorOptimized_System_Windows_Point_" data-uid="Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)">
+  UpdateAnchorOptimized(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the <a class="xref" href="Nodify.Connector.html#Nodify_Connector_Anchor">Anchor</a> and applies optimizations if needed based on <a class="xref" href="Nodify.Connector.html#Nodify_Connector_EnableOptimizations">EnableOptimizations</a> flag</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateAnchorOptimized(Point location)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Nodify_Connector_Disconnect" data-uid="Nodify.Connector.Disconnect">
+  Disconnect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Triggered by the EditorGestures.Connector.Disconnect gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ConnectorEventHandler Disconnect</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectorEventHandler.html">ConnectorEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionCompleted" data-uid="Nodify.Connector.PendingConnectionCompleted">
+  PendingConnectionCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Triggered by the EditorGestures.Connector.Connect gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PendingConnectionEventHandler PendingConnectionCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.PendingConnectionEventHandler.html">PendingConnectionEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionDrag" data-uid="Nodify.Connector.PendingConnectionDrag">
+  PendingConnectionDrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the mouse is changing position and the <a class="xref" href="Nodify.Connector.html">Connector</a> has mouse capture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PendingConnectionEventHandler PendingConnectionDrag</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.PendingConnectionEventHandler.html">PendingConnectionEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_Connector_PendingConnectionStarted" data-uid="Nodify.Connector.PendingConnectionStarted">
+  PendingConnectionStarted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Triggered by the EditorGestures.Connector.Connect gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PendingConnectionEventHandler PendingConnectionStarted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.PendingConnectionEventHandler.html">PendingConnectionEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/Connector.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

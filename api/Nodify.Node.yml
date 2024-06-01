@@ -1,0 +1,1078 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.Node
+  commentId: T:Nodify.Node
+  id: Node
+  parent: Nodify
+  children:
+  - Nodify.Node.ContentBrush
+  - Nodify.Node.ContentBrushProperty
+  - Nodify.Node.Footer
+  - Nodify.Node.FooterBrush
+  - Nodify.Node.FooterBrushProperty
+  - Nodify.Node.FooterProperty
+  - Nodify.Node.FooterTemplate
+  - Nodify.Node.FooterTemplateProperty
+  - Nodify.Node.HasFooter
+  - Nodify.Node.HasFooterProperty
+  - Nodify.Node.HasFooterPropertyKey
+  - Nodify.Node.HeaderBrush
+  - Nodify.Node.HeaderBrushProperty
+  - Nodify.Node.Input
+  - Nodify.Node.InputConnectorTemplate
+  - Nodify.Node.InputConnectorTemplateProperty
+  - Nodify.Node.InputProperty
+  - Nodify.Node.Output
+  - Nodify.Node.OutputConnectorTemplate
+  - Nodify.Node.OutputConnectorTemplateProperty
+  - Nodify.Node.OutputProperty
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: Node
+  fullName: Nodify.Node
+  type: Class
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Node
+    path: Nodify/Nodes/Node.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents a control that has a list of <xref href="Nodify.Node.Input" data-throw-if-not-resolved="false"></xref><xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s and a list of <xref href="Nodify.Node.Output" data-throw-if-not-resolved="false"></xref><xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s.
+  example: []
+  syntax:
+    content: 'public class Node : HeaderedContentControl'
+    content.vb: Public Class Node Inherits HeaderedContentControl
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Visual
+  - System.Windows.UIElement
+  - System.Windows.FrameworkElement
+  - System.Windows.Controls.Control
+  - System.Windows.Controls.ContentControl
+  - System.Windows.Controls.HeaderedContentControl
+- uid: Nodify.Node.ContentBrushProperty
+  commentId: F:Nodify.Node.ContentBrushProperty
+  id: ContentBrushProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: ContentBrushProperty
+  nameWithType: Node.ContentBrushProperty
+  fullName: Nodify.Node.ContentBrushProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentBrushProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 14
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ContentBrushProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ContentBrushProperty As DependencyProperty
+- uid: Nodify.Node.HeaderBrushProperty
+  commentId: F:Nodify.Node.HeaderBrushProperty
+  id: HeaderBrushProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: HeaderBrushProperty
+  nameWithType: Node.HeaderBrushProperty
+  fullName: Nodify.Node.HeaderBrushProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HeaderBrushProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty HeaderBrushProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly HeaderBrushProperty As DependencyProperty
+- uid: Nodify.Node.FooterBrushProperty
+  commentId: F:Nodify.Node.FooterBrushProperty
+  id: FooterBrushProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: FooterBrushProperty
+  nameWithType: Node.FooterBrushProperty
+  fullName: Nodify.Node.FooterBrushProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: FooterBrushProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 16
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty FooterBrushProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly FooterBrushProperty As DependencyProperty
+- uid: Nodify.Node.FooterProperty
+  commentId: F:Nodify.Node.FooterProperty
+  id: FooterProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: FooterProperty
+  nameWithType: Node.FooterProperty
+  fullName: Nodify.Node.FooterProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: FooterProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty FooterProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly FooterProperty As DependencyProperty
+- uid: Nodify.Node.FooterTemplateProperty
+  commentId: F:Nodify.Node.FooterTemplateProperty
+  id: FooterTemplateProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: FooterTemplateProperty
+  nameWithType: Node.FooterTemplateProperty
+  fullName: Nodify.Node.FooterTemplateProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: FooterTemplateProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 18
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty FooterTemplateProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly FooterTemplateProperty As DependencyProperty
+- uid: Nodify.Node.InputConnectorTemplateProperty
+  commentId: F:Nodify.Node.InputConnectorTemplateProperty
+  id: InputConnectorTemplateProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: InputConnectorTemplateProperty
+  nameWithType: Node.InputConnectorTemplateProperty
+  fullName: Nodify.Node.InputConnectorTemplateProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InputConnectorTemplateProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 19
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty InputConnectorTemplateProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly InputConnectorTemplateProperty As DependencyProperty
+- uid: Nodify.Node.HasFooterPropertyKey
+  commentId: F:Nodify.Node.HasFooterPropertyKey
+  id: HasFooterPropertyKey
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: HasFooterPropertyKey
+  nameWithType: Node.HasFooterPropertyKey
+  fullName: Nodify.Node.HasFooterPropertyKey
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HasFooterPropertyKey
+    path: Nodify/Nodes/Node.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected static readonly DependencyPropertyKey HasFooterPropertyKey
+    return:
+      type: System.Windows.DependencyPropertyKey
+    content.vb: Protected Shared ReadOnly HasFooterPropertyKey As DependencyPropertyKey
+- uid: Nodify.Node.HasFooterProperty
+  commentId: F:Nodify.Node.HasFooterProperty
+  id: HasFooterProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: HasFooterProperty
+  nameWithType: Node.HasFooterProperty
+  fullName: Nodify.Node.HasFooterProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HasFooterProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 21
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty HasFooterProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly HasFooterProperty As DependencyProperty
+- uid: Nodify.Node.OutputConnectorTemplateProperty
+  commentId: F:Nodify.Node.OutputConnectorTemplateProperty
+  id: OutputConnectorTemplateProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: OutputConnectorTemplateProperty
+  nameWithType: Node.OutputConnectorTemplateProperty
+  fullName: Nodify.Node.OutputConnectorTemplateProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OutputConnectorTemplateProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty OutputConnectorTemplateProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly OutputConnectorTemplateProperty As DependencyProperty
+- uid: Nodify.Node.InputProperty
+  commentId: F:Nodify.Node.InputProperty
+  id: InputProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: InputProperty
+  nameWithType: Node.InputProperty
+  fullName: Nodify.Node.InputProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InputProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 23
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty InputProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly InputProperty As DependencyProperty
+- uid: Nodify.Node.OutputProperty
+  commentId: F:Nodify.Node.OutputProperty
+  id: OutputProperty
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: OutputProperty
+  nameWithType: Node.OutputProperty
+  fullName: Nodify.Node.OutputProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OutputProperty
+    path: Nodify/Nodes/Node.cs
+    startLine: 24
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty OutputProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly OutputProperty As DependencyProperty
+- uid: Nodify.Node.ContentBrush
+  commentId: P:Nodify.Node.ContentBrush
+  id: ContentBrush
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: ContentBrush
+  nameWithType: Node.ContentBrush
+  fullName: Nodify.Node.ContentBrush
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentBrush
+    path: Nodify/Nodes/Node.cs
+    startLine: 29
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the brush used for the background of the <xref href="System.Windows.Controls.ContentControl.Content" data-throw-if-not-resolved="false"></xref> of this <xref href="Nodify.Node" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Brush ContentBrush { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property ContentBrush As Brush
+  overload: Nodify.Node.ContentBrush*
+- uid: Nodify.Node.HeaderBrush
+  commentId: P:Nodify.Node.HeaderBrush
+  id: HeaderBrush
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: HeaderBrush
+  nameWithType: Node.HeaderBrush
+  fullName: Nodify.Node.HeaderBrush
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HeaderBrush
+    path: Nodify/Nodes/Node.cs
+    startLine: 38
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the brush used for the background of the <xref href="System.Windows.Controls.HeaderedContentControl.Header" data-throw-if-not-resolved="false"></xref> of this <xref href="Nodify.Node" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Brush HeaderBrush { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property HeaderBrush As Brush
+  overload: Nodify.Node.HeaderBrush*
+- uid: Nodify.Node.FooterBrush
+  commentId: P:Nodify.Node.FooterBrush
+  id: FooterBrush
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: FooterBrush
+  nameWithType: Node.FooterBrush
+  fullName: Nodify.Node.FooterBrush
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: FooterBrush
+    path: Nodify/Nodes/Node.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the brush used for the background of the <xref href="Nodify.Node.Footer" data-throw-if-not-resolved="false"></xref> of this <xref href="Nodify.Node" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Brush FooterBrush { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property FooterBrush As Brush
+  overload: Nodify.Node.FooterBrush*
+- uid: Nodify.Node.Footer
+  commentId: P:Nodify.Node.Footer
+  id: Footer
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: Footer
+  nameWithType: Node.Footer
+  fullName: Nodify.Node.Footer
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Footer
+    path: Nodify/Nodes/Node.cs
+    startLine: 56
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the data for the footer of this control.
+  example: []
+  syntax:
+    content: public object Footer { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Footer As Object
+  overload: Nodify.Node.Footer*
+- uid: Nodify.Node.FooterTemplate
+  commentId: P:Nodify.Node.FooterTemplate
+  id: FooterTemplate
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: FooterTemplate
+  nameWithType: Node.FooterTemplate
+  fullName: Nodify.Node.FooterTemplate
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: FooterTemplate
+    path: Nodify/Nodes/Node.cs
+    startLine: 65
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the template used to display the content of the control's footer.
+  example: []
+  syntax:
+    content: public DataTemplate FooterTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.DataTemplate
+    content.vb: Public Property FooterTemplate As DataTemplate
+  overload: Nodify.Node.FooterTemplate*
+- uid: Nodify.Node.InputConnectorTemplate
+  commentId: P:Nodify.Node.InputConnectorTemplate
+  id: InputConnectorTemplate
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: InputConnectorTemplate
+  nameWithType: Node.InputConnectorTemplate
+  fullName: Nodify.Node.InputConnectorTemplate
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InputConnectorTemplate
+    path: Nodify/Nodes/Node.cs
+    startLine: 74
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the template used to display the content of the control's <xref href="Nodify.Node.Input" data-throw-if-not-resolved="false"></xref> connectors.
+  example: []
+  syntax:
+    content: public DataTemplate InputConnectorTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.DataTemplate
+    content.vb: Public Property InputConnectorTemplate As DataTemplate
+  overload: Nodify.Node.InputConnectorTemplate*
+- uid: Nodify.Node.OutputConnectorTemplate
+  commentId: P:Nodify.Node.OutputConnectorTemplate
+  id: OutputConnectorTemplate
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: OutputConnectorTemplate
+  nameWithType: Node.OutputConnectorTemplate
+  fullName: Nodify.Node.OutputConnectorTemplate
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OutputConnectorTemplate
+    path: Nodify/Nodes/Node.cs
+    startLine: 83
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the template used to display the content of the control's <xref href="Nodify.Node.Output" data-throw-if-not-resolved="false"></xref> connectors.
+  example: []
+  syntax:
+    content: public DataTemplate OutputConnectorTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.DataTemplate
+    content.vb: Public Property OutputConnectorTemplate As DataTemplate
+  overload: Nodify.Node.OutputConnectorTemplate*
+- uid: Nodify.Node.Input
+  commentId: P:Nodify.Node.Input
+  id: Input
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: Node.Input
+  fullName: Nodify.Node.Input
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Input
+    path: Nodify/Nodes/Node.cs
+    startLine: 92
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the data for the input <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s of this control.
+  example: []
+  syntax:
+    content: public IEnumerable Input { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: Public Property Input As IEnumerable
+  overload: Nodify.Node.Input*
+- uid: Nodify.Node.Output
+  commentId: P:Nodify.Node.Output
+  id: Output
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: Node.Output
+  fullName: Nodify.Node.Output
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Output
+    path: Nodify/Nodes/Node.cs
+    startLine: 101
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the data for the output <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>s of this control.
+  example: []
+  syntax:
+    content: public IEnumerable Output { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: Public Property Output As IEnumerable
+  overload: Nodify.Node.Output*
+- uid: Nodify.Node.HasFooter
+  commentId: P:Nodify.Node.HasFooter
+  id: HasFooter
+  parent: Nodify.Node
+  langs:
+  - csharp
+  - vb
+  name: HasFooter
+  nameWithType: Node.HasFooter
+  fullName: Nodify.Node.HasFooter
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/Node.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HasFooter
+    path: Nodify/Nodes/Node.cs
+    startLine: 110
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets a value that indicates whether the <xref href="Nodify.Node.Footer" data-throw-if-not-resolved="false"></xref> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  example: []
+  syntax:
+    content: public bool HasFooter { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasFooter As Boolean
+  overload: Nodify.Node.HasFooter*
+references:
+- uid: Nodify.Node.Input
+  commentId: P:Nodify.Node.Input
+  href: Nodify.Node.html#Nodify_Node_Input
+  name: Input
+  nameWithType: Node.Input
+  fullName: Nodify.Node.Input
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify.Node.Output
+  commentId: P:Nodify.Node.Output
+  href: Nodify.Node.html#Nodify_Node_Output
+  name: Output
+  nameWithType: Node.Output
+  fullName: Nodify.Node.Output
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows.Controls.Control
+  commentId: T:System.Windows.Controls.Control
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.control
+  name: Control
+  nameWithType: Control
+  fullName: System.Windows.Controls.Control
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol
+  name: ContentControl
+  nameWithType: ContentControl
+  fullName: System.Windows.Controls.ContentControl
+- uid: System.Windows.Controls.HeaderedContentControl
+  commentId: T:System.Windows.Controls.HeaderedContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol
+  name: HeaderedContentControl
+  nameWithType: HeaderedContentControl
+  fullName: System.Windows.Controls.HeaderedContentControl
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: System.Windows.DependencyPropertyKey
+  commentId: T:System.Windows.DependencyPropertyKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey
+  name: DependencyPropertyKey
+  nameWithType: DependencyPropertyKey
+  fullName: System.Windows.DependencyPropertyKey
+- uid: System.Windows.Controls.ContentControl.Content
+  commentId: P:System.Windows.Controls.ContentControl.Content
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content
+  name: Content
+  nameWithType: ContentControl.Content
+  fullName: System.Windows.Controls.ContentControl.Content
+- uid: Nodify.Node
+  commentId: T:Nodify.Node
+  href: Nodify.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Nodify.Node
+- uid: Nodify.Node.ContentBrush*
+  commentId: Overload:Nodify.Node.ContentBrush
+  href: Nodify.Node.html#Nodify_Node_ContentBrush
+  name: ContentBrush
+  nameWithType: Node.ContentBrush
+  fullName: Nodify.Node.ContentBrush
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Windows.Controls.HeaderedContentControl.Header
+  commentId: P:System.Windows.Controls.HeaderedContentControl.Header
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol.header
+  name: Header
+  nameWithType: HeaderedContentControl.Header
+  fullName: System.Windows.Controls.HeaderedContentControl.Header
+- uid: Nodify.Node.HeaderBrush*
+  commentId: Overload:Nodify.Node.HeaderBrush
+  href: Nodify.Node.html#Nodify_Node_HeaderBrush
+  name: HeaderBrush
+  nameWithType: Node.HeaderBrush
+  fullName: Nodify.Node.HeaderBrush
+- uid: Nodify.Node.Footer
+  commentId: P:Nodify.Node.Footer
+  href: Nodify.Node.html#Nodify_Node_Footer
+  name: Footer
+  nameWithType: Node.Footer
+  fullName: Nodify.Node.Footer
+- uid: Nodify.Node.FooterBrush*
+  commentId: Overload:Nodify.Node.FooterBrush
+  href: Nodify.Node.html#Nodify_Node_FooterBrush
+  name: FooterBrush
+  nameWithType: Node.FooterBrush
+  fullName: Nodify.Node.FooterBrush
+- uid: Nodify.Node.Footer*
+  commentId: Overload:Nodify.Node.Footer
+  href: Nodify.Node.html#Nodify_Node_Footer
+  name: Footer
+  nameWithType: Node.Footer
+  fullName: Nodify.Node.Footer
+- uid: Nodify.Node.FooterTemplate*
+  commentId: Overload:Nodify.Node.FooterTemplate
+  href: Nodify.Node.html#Nodify_Node_FooterTemplate
+  name: FooterTemplate
+  nameWithType: Node.FooterTemplate
+  fullName: Nodify.Node.FooterTemplate
+- uid: System.Windows.DataTemplate
+  commentId: T:System.Windows.DataTemplate
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.datatemplate
+  name: DataTemplate
+  nameWithType: DataTemplate
+  fullName: System.Windows.DataTemplate
+- uid: Nodify.Node.InputConnectorTemplate*
+  commentId: Overload:Nodify.Node.InputConnectorTemplate
+  href: Nodify.Node.html#Nodify_Node_InputConnectorTemplate
+  name: InputConnectorTemplate
+  nameWithType: Node.InputConnectorTemplate
+  fullName: Nodify.Node.InputConnectorTemplate
+- uid: Nodify.Node.OutputConnectorTemplate*
+  commentId: Overload:Nodify.Node.OutputConnectorTemplate
+  href: Nodify.Node.html#Nodify_Node_OutputConnectorTemplate
+  name: OutputConnectorTemplate
+  nameWithType: Node.OutputConnectorTemplate
+  fullName: Nodify.Node.OutputConnectorTemplate
+- uid: Nodify.Node.Input*
+  commentId: Overload:Nodify.Node.Input
+  href: Nodify.Node.html#Nodify_Node_Input
+  name: Input
+  nameWithType: Node.Input
+  fullName: Nodify.Node.Input
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Nodify.Node.Output*
+  commentId: Overload:Nodify.Node.Output
+  href: Nodify.Node.html#Nodify_Node_Output
+  name: Output
+  nameWithType: Node.Output
+  fullName: Nodify.Node.Output
+- uid: Nodify.Node.HasFooter*
+  commentId: Overload:Nodify.Node.HasFooter
+  href: Nodify.Node.html#Nodify_Node_HasFooter
+  name: HasFooter
+  nameWithType: Node.HasFooter
+  fullName: Nodify.Node.HasFooter
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

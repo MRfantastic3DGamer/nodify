@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ContainerDraggingState
+  commentId: T:Nodify.ContainerDraggingState
+  id: ContainerDraggingState
+  parent: Nodify
+  children:
+  - Nodify.ContainerDraggingState.#ctor(Nodify.ItemContainer)
+  - Nodify.ContainerDraggingState.Canceled
+  - Nodify.ContainerDraggingState.Enter(Nodify.ContainerState)
+  - Nodify.ContainerDraggingState.Exit
+  - Nodify.ContainerDraggingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  - Nodify.ContainerDraggingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  - Nodify.ContainerDraggingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ContainerDraggingState
+  nameWithType: ContainerDraggingState
+  fullName: Nodify.ContainerDraggingState
+  type: Class
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContainerDraggingState
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 7
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Dragging state of the container.
+  example: []
+  syntax:
+    content: 'public class ContainerDraggingState : ContainerState'
+    content.vb: Public Class ContainerDraggingState Inherits ContainerState
+  inheritance:
+  - System.Object
+  - Nodify.ContainerState
+  inheritedMembers:
+  - Nodify.ContainerState.Container
+  - Nodify.ContainerState.Editor
+  - Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  - Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  - Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+  - Nodify.ContainerState.PushState(Nodify.ContainerState)
+  - Nodify.ContainerState.PopState
+- uid: Nodify.ContainerDraggingState.Canceled
+  commentId: P:Nodify.ContainerDraggingState.Canceled
+  id: Canceled
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: ContainerDraggingState.Canceled
+  fullName: Nodify.ContainerDraggingState.Canceled
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Canceled
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 12
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public bool Canceled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Canceled As Boolean
+  overload: Nodify.ContainerDraggingState.Canceled*
+- uid: Nodify.ContainerDraggingState.#ctor(Nodify.ItemContainer)
+  commentId: M:Nodify.ContainerDraggingState.#ctor(Nodify.ItemContainer)
+  id: '#ctor(Nodify.ItemContainer)'
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: ContainerDraggingState(ItemContainer)
+  nameWithType: ContainerDraggingState.ContainerDraggingState(ItemContainer)
+  fullName: Nodify.ContainerDraggingState.ContainerDraggingState(Nodify.ItemContainer)
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 16
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Constructs an instance of the <xref href="Nodify.ContainerDraggingState" data-throw-if-not-resolved="false"></xref> state.
+  example: []
+  syntax:
+    content: public ContainerDraggingState(ItemContainer container)
+    parameters:
+    - id: container
+      type: Nodify.ItemContainer
+      description: The owner of the state.
+    content.vb: Public Sub New(container As ItemContainer)
+  overload: Nodify.ContainerDraggingState.#ctor*
+  nameWithType.vb: ContainerDraggingState.New(ItemContainer)
+  fullName.vb: Nodify.ContainerDraggingState.New(Nodify.ItemContainer)
+  name.vb: New(ItemContainer)
+- uid: Nodify.ContainerDraggingState.Enter(Nodify.ContainerState)
+  commentId: M:Nodify.ContainerDraggingState.Enter(Nodify.ContainerState)
+  id: Enter(Nodify.ContainerState)
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: Enter(ContainerState?)
+  nameWithType: ContainerDraggingState.Enter(ContainerState?)
+  fullName: Nodify.ContainerDraggingState.Enter(Nodify.ContainerState?)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Enter
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 21
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Called when <xref href="Nodify.ItemContainer.PushState(Nodify.ContainerState)" data-throw-if-not-resolved="false"></xref> or <xref href="Nodify.ItemContainer.PopState" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Enter(ContainerState? from)
+    parameters:
+    - id: from
+      type: Nodify.ContainerState
+      description: The state we enter from (is null for root state).
+    content.vb: Public Overrides Sub Enter(from As ContainerState)
+  overridden: Nodify.ContainerState.Enter(Nodify.ContainerState)
+  overload: Nodify.ContainerDraggingState.Enter*
+  nameWithType.vb: ContainerDraggingState.Enter(ContainerState)
+  fullName.vb: Nodify.ContainerDraggingState.Enter(Nodify.ContainerState)
+  name.vb: Enter(ContainerState)
+- uid: Nodify.ContainerDraggingState.Exit
+  commentId: M:Nodify.ContainerDraggingState.Exit
+  id: Exit
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: Exit()
+  nameWithType: ContainerDraggingState.Exit()
+  fullName: Nodify.ContainerDraggingState.Exit()
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Exit
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 36
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Called when <xref href="Nodify.ItemContainer.PopState" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Exit()
+    content.vb: Public Overrides Sub [Exit]()
+  overridden: Nodify.ContainerState.Exit
+  overload: Nodify.ContainerDraggingState.Exit*
+- uid: Nodify.ContainerDraggingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.ContainerDraggingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  id: HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: HandleMouseMove(MouseEventArgs)
+  nameWithType: ContainerDraggingState.HandleMouseMove(MouseEventArgs)
+  fullName: Nodify.ContainerDraggingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleMouseMove
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseMove" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleMouseMove(MouseEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseEventArgs
+      description: The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Public Overrides Sub HandleMouseMove(e As MouseEventArgs)
+  overridden: Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  overload: Nodify.ContainerDraggingState.HandleMouseMove*
+- uid: Nodify.ContainerDraggingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.ContainerDraggingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  id: HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: HandleMouseUp(MouseButtonEventArgs)
+  nameWithType: ContainerDraggingState.HandleMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.ContainerDraggingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleMouseUp
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 60
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseDown" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleMouseUp(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+      description: The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. This event data reports details about the mouse button that was pressed and the handled state.
+    content.vb: Public Overrides Sub HandleMouseUp(e As MouseButtonEventArgs)
+  overridden: Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  overload: Nodify.ContainerDraggingState.HandleMouseUp*
+- uid: Nodify.ContainerDraggingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.ContainerDraggingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  id: HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.ContainerDraggingState
+  langs:
+  - csharp
+  - vb
+  name: HandleKeyUp(KeyEventArgs)
+  nameWithType: ContainerDraggingState.HandleKeyUp(KeyEventArgs)
+  fullName: Nodify.ContainerDraggingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/ContainerDraggingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleKeyUp
+    path: Nodify/EditorStates/ContainerDraggingState.cs
+    startLine: 86
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Keyboard.KeyUp" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleKeyUp(KeyEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.KeyEventArgs
+      description: The <xref href="System.Windows.Input.KeyEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Public Overrides Sub HandleKeyUp(e As KeyEventArgs)
+  overridden: Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  overload: Nodify.ContainerDraggingState.HandleKeyUp*
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Nodify.ContainerState
+  commentId: T:Nodify.ContainerState
+  parent: Nodify
+  href: Nodify.ContainerState.html
+  name: ContainerState
+  nameWithType: ContainerState
+  fullName: Nodify.ContainerState
+- uid: Nodify.ContainerState.Container
+  commentId: P:Nodify.ContainerState.Container
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_Container
+  name: Container
+  nameWithType: ContainerState.Container
+  fullName: Nodify.ContainerState.Container
+- uid: Nodify.ContainerState.Editor
+  commentId: P:Nodify.ContainerState.Editor
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_Editor
+  name: Editor
+  nameWithType: ContainerState.Editor
+  fullName: Nodify.ContainerState.Editor
+- uid: Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseDown(MouseButtonEventArgs)
+  nameWithType: ContainerState.HandleMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseDown
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseDown
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  commentId: M:Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  name: HandleMouseWheel(MouseWheelEventArgs)
+  nameWithType: ContainerState.HandleMouseWheel(MouseWheelEventArgs)
+  fullName: Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+    name: HandleMouseWheel
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseWheelEventArgs
+    name: MouseWheelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousewheeleventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+    name: HandleMouseWheel
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseWheelEventArgs
+    name: MouseWheelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousewheeleventargs
+  - name: )
+- uid: Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyDown(KeyEventArgs)
+  nameWithType: ContainerState.HandleKeyDown(KeyEventArgs)
+  fullName: Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyDown
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyDown
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+- uid: Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+  commentId: M:Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_ReEnter_Nodify_ContainerState_
+  name: ReEnter(ContainerState)
+  nameWithType: ContainerState.ReEnter(ContainerState)
+  fullName: Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+  spec.csharp:
+  - uid: Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+    name: ReEnter
+    href: Nodify.ContainerState.html#Nodify_ContainerState_ReEnter_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.ReEnter(Nodify.ContainerState)
+    name: ReEnter
+    href: Nodify.ContainerState.html#Nodify_ContainerState_ReEnter_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+- uid: Nodify.ContainerState.PushState(Nodify.ContainerState)
+  commentId: M:Nodify.ContainerState.PushState(Nodify.ContainerState)
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_PushState_Nodify_ContainerState_
+  name: PushState(ContainerState)
+  nameWithType: ContainerState.PushState(ContainerState)
+  fullName: Nodify.ContainerState.PushState(Nodify.ContainerState)
+  spec.csharp:
+  - uid: Nodify.ContainerState.PushState(Nodify.ContainerState)
+    name: PushState
+    href: Nodify.ContainerState.html#Nodify_ContainerState_PushState_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.PushState(Nodify.ContainerState)
+    name: PushState
+    href: Nodify.ContainerState.html#Nodify_ContainerState_PushState_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+- uid: Nodify.ContainerState.PopState
+  commentId: M:Nodify.ContainerState.PopState
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_PopState
+  name: PopState()
+  nameWithType: ContainerState.PopState()
+  fullName: Nodify.ContainerState.PopState()
+  spec.csharp:
+  - uid: Nodify.ContainerState.PopState
+    name: PopState
+    href: Nodify.ContainerState.html#Nodify_ContainerState_PopState
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.PopState
+    name: PopState
+    href: Nodify.ContainerState.html#Nodify_ContainerState_PopState
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nodify.ContainerDraggingState.Canceled*
+  commentId: Overload:Nodify.ContainerDraggingState.Canceled
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_Canceled
+  name: Canceled
+  nameWithType: ContainerDraggingState.Canceled
+  fullName: Nodify.ContainerDraggingState.Canceled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Nodify.ContainerDraggingState
+  commentId: T:Nodify.ContainerDraggingState
+  href: Nodify.ContainerDraggingState.html
+  name: ContainerDraggingState
+  nameWithType: ContainerDraggingState
+  fullName: Nodify.ContainerDraggingState
+- uid: Nodify.ContainerDraggingState.#ctor*
+  commentId: Overload:Nodify.ContainerDraggingState.#ctor
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState__ctor_Nodify_ItemContainer_
+  name: ContainerDraggingState
+  nameWithType: ContainerDraggingState.ContainerDraggingState
+  fullName: Nodify.ContainerDraggingState.ContainerDraggingState
+  nameWithType.vb: ContainerDraggingState.New
+  fullName.vb: Nodify.ContainerDraggingState.New
+  name.vb: New
+- uid: Nodify.ItemContainer
+  commentId: T:Nodify.ItemContainer
+  parent: Nodify
+  href: Nodify.ItemContainer.html
+  name: ItemContainer
+  nameWithType: ItemContainer
+  fullName: Nodify.ItemContainer
+- uid: Nodify.ItemContainer.PushState(Nodify.ContainerState)
+  commentId: M:Nodify.ItemContainer.PushState(Nodify.ContainerState)
+  href: Nodify.ItemContainer.html#Nodify_ItemContainer_PushState_Nodify_ContainerState_
+  name: PushState(ContainerState)
+  nameWithType: ItemContainer.PushState(ContainerState)
+  fullName: Nodify.ItemContainer.PushState(Nodify.ContainerState)
+  spec.csharp:
+  - uid: Nodify.ItemContainer.PushState(Nodify.ContainerState)
+    name: PushState
+    href: Nodify.ItemContainer.html#Nodify_ItemContainer_PushState_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.ItemContainer.PushState(Nodify.ContainerState)
+    name: PushState
+    href: Nodify.ItemContainer.html#Nodify_ItemContainer_PushState_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+- uid: Nodify.ItemContainer.PopState
+  commentId: M:Nodify.ItemContainer.PopState
+  href: Nodify.ItemContainer.html#Nodify_ItemContainer_PopState
+  name: PopState()
+  nameWithType: ItemContainer.PopState()
+  fullName: Nodify.ItemContainer.PopState()
+  spec.csharp:
+  - uid: Nodify.ItemContainer.PopState
+    name: PopState
+    href: Nodify.ItemContainer.html#Nodify_ItemContainer_PopState
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.ItemContainer.PopState
+    name: PopState
+    href: Nodify.ItemContainer.html#Nodify_ItemContainer_PopState
+  - name: (
+  - name: )
+- uid: Nodify.ContainerState.Enter(Nodify.ContainerState)
+  commentId: M:Nodify.ContainerState.Enter(Nodify.ContainerState)
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_Enter_Nodify_ContainerState_
+  name: Enter(ContainerState)
+  nameWithType: ContainerState.Enter(ContainerState)
+  fullName: Nodify.ContainerState.Enter(Nodify.ContainerState)
+  spec.csharp:
+  - uid: Nodify.ContainerState.Enter(Nodify.ContainerState)
+    name: Enter
+    href: Nodify.ContainerState.html#Nodify_ContainerState_Enter_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.Enter(Nodify.ContainerState)
+    name: Enter
+    href: Nodify.ContainerState.html#Nodify_ContainerState_Enter_Nodify_ContainerState_
+  - name: (
+  - uid: Nodify.ContainerState
+    name: ContainerState
+    href: Nodify.ContainerState.html
+  - name: )
+- uid: Nodify.ContainerDraggingState.Enter*
+  commentId: Overload:Nodify.ContainerDraggingState.Enter
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_Enter_Nodify_ContainerState_
+  name: Enter
+  nameWithType: ContainerDraggingState.Enter
+  fullName: Nodify.ContainerDraggingState.Enter
+- uid: Nodify.ContainerState.Exit
+  commentId: M:Nodify.ContainerState.Exit
+  parent: Nodify.ContainerState
+  href: Nodify.ContainerState.html#Nodify_ContainerState_Exit
+  name: Exit()
+  nameWithType: ContainerState.Exit()
+  fullName: Nodify.ContainerState.Exit()
+  spec.csharp:
+  - uid: Nodify.ContainerState.Exit
+    name: Exit
+    href: Nodify.ContainerState.html#Nodify_ContainerState_Exit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.Exit
+    name: Exit
+    href: Nodify.ContainerState.html#Nodify_ContainerState_Exit
+  - name: (
+  - name: )
+- uid: Nodify.ContainerDraggingState.Exit*
+  commentId: Overload:Nodify.ContainerDraggingState.Exit
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_Exit
+  name: Exit
+  nameWithType: ContainerDraggingState.Exit
+  fullName: Nodify.ContainerDraggingState.Exit
+- uid: System.Windows.Input.Mouse.MouseMove
+  commentId: E:System.Windows.Input.Mouse.MouseMove
+  isExternal: true
+- uid: System.Windows.Input.MouseEventArgs
+  commentId: T:System.Windows.Input.MouseEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs
+  fullName: System.Windows.Input.MouseEventArgs
+- uid: Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  name: HandleMouseMove(MouseEventArgs)
+  nameWithType: ContainerState.HandleMouseMove(MouseEventArgs)
+  fullName: Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+    name: HandleMouseMove
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+    name: HandleMouseMove
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: Nodify.ContainerDraggingState.HandleMouseMove*
+  commentId: Overload:Nodify.ContainerDraggingState.HandleMouseMove
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  name: HandleMouseMove
+  nameWithType: ContainerDraggingState.HandleMouseMove
+  fullName: Nodify.ContainerDraggingState.HandleMouseMove
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: System.Windows.Input.Mouse.MouseDown
+  commentId: E:System.Windows.Input.Mouse.MouseDown
+  isExternal: true
+- uid: System.Windows.Input.MouseButtonEventArgs
+  commentId: T:System.Windows.Input.MouseButtonEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  name: MouseButtonEventArgs
+  nameWithType: MouseButtonEventArgs
+  fullName: System.Windows.Input.MouseButtonEventArgs
+- uid: Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseUp(MouseButtonEventArgs)
+  nameWithType: ContainerState.HandleMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseUp
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseUp
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.ContainerDraggingState.HandleMouseUp*
+  commentId: Overload:Nodify.ContainerDraggingState.HandleMouseUp
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseUp
+  nameWithType: ContainerDraggingState.HandleMouseUp
+  fullName: Nodify.ContainerDraggingState.HandleMouseUp
+- uid: System.Windows.Input.Keyboard.KeyUp
+  commentId: E:System.Windows.Input.Keyboard.KeyUp
+  isExternal: true
+- uid: System.Windows.Input.KeyEventArgs
+  commentId: T:System.Windows.Input.KeyEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  name: KeyEventArgs
+  nameWithType: KeyEventArgs
+  fullName: System.Windows.Input.KeyEventArgs
+- uid: Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.ContainerState
+  isExternal: true
+  href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyUp(KeyEventArgs)
+  nameWithType: ContainerState.HandleKeyUp(KeyEventArgs)
+  fullName: Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  spec.csharp:
+  - uid: Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyUp
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.ContainerState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyUp
+    href: Nodify.ContainerState.html#Nodify_ContainerState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+- uid: Nodify.ContainerDraggingState.HandleKeyUp*
+  commentId: Overload:Nodify.ContainerDraggingState.HandleKeyUp
+  href: Nodify.ContainerDraggingState.html#Nodify_ContainerDraggingState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyUp
+  nameWithType: ContainerDraggingState.HandleKeyUp
+  fullName: Nodify.ContainerDraggingState.HandleKeyUp

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ConnectionOffsetMode
+  commentId: T:Nodify.ConnectionOffsetMode
+  id: ConnectionOffsetMode
+  parent: Nodify
+  children:
+  - Nodify.ConnectionOffsetMode.Circle
+  - Nodify.ConnectionOffsetMode.Edge
+  - Nodify.ConnectionOffsetMode.None
+  - Nodify.ConnectionOffsetMode.Rectangle
+  - Nodify.ConnectionOffsetMode.Static
+  langs:
+  - csharp
+  - vb
+  name: ConnectionOffsetMode
+  nameWithType: ConnectionOffsetMode
+  fullName: Nodify.ConnectionOffsetMode
+  type: Enum
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ConnectionOffsetMode
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Specifies the offset type that can be applied to a <xref href="Nodify.BaseConnection" data-throw-if-not-resolved="false"></xref> using the <xref href="Nodify.BaseConnection.SourceOffset" data-throw-if-not-resolved="false"></xref> and the <xref href="Nodify.BaseConnection.TargetOffset" data-throw-if-not-resolved="false"></xref> values.
+  example: []
+  syntax:
+    content: public enum ConnectionOffsetMode
+    content.vb: Public Enum ConnectionOffsetMode
+- uid: Nodify.ConnectionOffsetMode.None
+  commentId: F:Nodify.ConnectionOffsetMode.None
+  id: None
+  parent: Nodify.ConnectionOffsetMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ConnectionOffsetMode.None
+  fullName: Nodify.ConnectionOffsetMode.None
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: None
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: No offset applied.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Nodify.ConnectionOffsetMode
+- uid: Nodify.ConnectionOffsetMode.Circle
+  commentId: F:Nodify.ConnectionOffsetMode.Circle
+  id: Circle
+  parent: Nodify.ConnectionOffsetMode
+  langs:
+  - csharp
+  - vb
+  name: Circle
+  nameWithType: ConnectionOffsetMode.Circle
+  fullName: Nodify.ConnectionOffsetMode.Circle
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Circle
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 25
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The offset is applied in a circle around the point.
+  example: []
+  syntax:
+    content: Circle = 1
+    return:
+      type: Nodify.ConnectionOffsetMode
+- uid: Nodify.ConnectionOffsetMode.Rectangle
+  commentId: F:Nodify.ConnectionOffsetMode.Rectangle
+  id: Rectangle
+  parent: Nodify.ConnectionOffsetMode
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: ConnectionOffsetMode.Rectangle
+  fullName: Nodify.ConnectionOffsetMode.Rectangle
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Rectangle
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 30
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The offset is applied in a rectangle shape around the point.
+  example: []
+  syntax:
+    content: Rectangle = 2
+    return:
+      type: Nodify.ConnectionOffsetMode
+- uid: Nodify.ConnectionOffsetMode.Edge
+  commentId: F:Nodify.ConnectionOffsetMode.Edge
+  id: Edge
+  parent: Nodify.ConnectionOffsetMode
+  langs:
+  - csharp
+  - vb
+  name: Edge
+  nameWithType: ConnectionOffsetMode.Edge
+  fullName: Nodify.ConnectionOffsetMode.Edge
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Edge
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 35
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The offset is applied in a rectangle shape around the point, perpendicular to the edges.
+  example: []
+  syntax:
+    content: Edge = 3
+    return:
+      type: Nodify.ConnectionOffsetMode
+- uid: Nodify.ConnectionOffsetMode.Static
+  commentId: F:Nodify.ConnectionOffsetMode.Static
+  id: Static
+  parent: Nodify.ConnectionOffsetMode
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: ConnectionOffsetMode.Static
+  fullName: Nodify.ConnectionOffsetMode.Static
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Static
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 40
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The offset is applied as a fixed margin.
+  example: []
+  syntax:
+    content: Static = 4
+    return:
+      type: Nodify.ConnectionOffsetMode
+references:
+- uid: Nodify.BaseConnection
+  commentId: T:Nodify.BaseConnection
+  parent: Nodify
+  href: Nodify.BaseConnection.html
+  name: BaseConnection
+  nameWithType: BaseConnection
+  fullName: Nodify.BaseConnection
+- uid: Nodify.BaseConnection.SourceOffset
+  commentId: P:Nodify.BaseConnection.SourceOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffset
+  name: SourceOffset
+  nameWithType: BaseConnection.SourceOffset
+  fullName: Nodify.BaseConnection.SourceOffset
+- uid: Nodify.BaseConnection.TargetOffset
+  commentId: P:Nodify.BaseConnection.TargetOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOffset
+  name: TargetOffset
+  nameWithType: BaseConnection.TargetOffset
+  fullName: Nodify.BaseConnection.TargetOffset
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: Nodify.ConnectionOffsetMode
+  commentId: T:Nodify.ConnectionOffsetMode
+  parent: Nodify
+  href: Nodify.ConnectionOffsetMode.html
+  name: ConnectionOffsetMode
+  nameWithType: ConnectionOffsetMode
+  fullName: Nodify.ConnectionOffsetMode

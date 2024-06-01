@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ConnectorEventHandler
+  commentId: T:Nodify.ConnectorEventHandler
+  id: ConnectorEventHandler
+  parent: Nodify
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ConnectorEventHandler
+  nameWithType: ConnectorEventHandler
+  fullName: Nodify.ConnectorEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ConnectorEventHandler
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents the method that will handle <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> related routed events.
+  example: []
+  syntax:
+    content: public delegate void ConnectorEventHandler(object sender, ConnectorEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: The object where the event handler is attached.
+    - id: e
+      type: Nodify.ConnectorEventArgs
+      description: The event data.
+    content.vb: Public Delegate Sub ConnectorEventHandler(sender As Object, e As ConnectorEventArgs)
+references:
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Nodify.ConnectorEventArgs
+  commentId: T:Nodify.ConnectorEventArgs
+  parent: Nodify
+  href: Nodify.ConnectorEventArgs.html
+  name: ConnectorEventArgs
+  nameWithType: ConnectorEventArgs
+  fullName: Nodify.ConnectorEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

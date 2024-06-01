@@ -1,0 +1,2368 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BaseConnection | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BaseConnection | Nodify-Docs ">
+      
+      <meta name="description" content="Represents the base class for shapes that are drawn from a  point to a  point.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_BaseConnection.md&amp;value=---%0Auid%3A%20Nodify.BaseConnection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Nodify-Docs">
+            Nodify-Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nodify.BaseConnection">
+
+
+
+  <h1 id="Nodify_BaseConnection" data-uid="Nodify.BaseConnection" class="text-break">
+Class BaseConnection  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nodify.html">Nodify</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nodify.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the base class for shapes that are drawn from a <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Source">Source</a> point to a <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Target">Target</a> point.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseConnection : Shape</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual">Visual</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape">Shape</a></div>
+      <div><span class="xref">BaseConnection</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Nodify.Connection.html">Connection</a></div>
+      <div><a class="xref" href="Nodify.LineConnection.html">LineConnection</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Nodify_BaseConnection_ArrowEndsProperty" data-uid="Nodify.BaseConnection.ArrowEndsProperty">
+  ArrowEndsProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ArrowEndsProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_ArrowShapeProperty" data-uid="Nodify.BaseConnection.ArrowShapeProperty">
+  ArrowShapeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ArrowShapeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_ArrowSizeProperty" data-uid="Nodify.BaseConnection.ArrowSizeProperty">
+  ArrowSizeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ArrowSizeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_DirectionProperty" data-uid="Nodify.BaseConnection.DirectionProperty">
+  DirectionProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty DirectionProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_DirectionalArrowsCountProperty" data-uid="Nodify.BaseConnection.DirectionalArrowsCountProperty">
+  DirectionalArrowsCountProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty DirectionalArrowsCountProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_DirectionalArrowsOffsetProperty" data-uid="Nodify.BaseConnection.DirectionalArrowsOffsetProperty">
+  DirectionalArrowsOffsetProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty DirectionalArrowsOffsetProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_DisconnectCommandProperty" data-uid="Nodify.BaseConnection.DisconnectCommandProperty">
+  DisconnectCommandProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty DisconnectCommandProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_DisconnectEvent" data-uid="Nodify.BaseConnection.DisconnectEvent">
+  DisconnectEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent DisconnectEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_FontFamilyProperty" data-uid="Nodify.BaseConnection.FontFamilyProperty">
+  FontFamilyProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FontFamilyProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_FontSizeProperty" data-uid="Nodify.BaseConnection.FontSizeProperty">
+  FontSizeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FontSizeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_FontStretchProperty" data-uid="Nodify.BaseConnection.FontStretchProperty">
+  FontStretchProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FontStretchProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_FontStyleProperty" data-uid="Nodify.BaseConnection.FontStyleProperty">
+  FontStyleProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FontStyleProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_FontWeightProperty" data-uid="Nodify.BaseConnection.FontWeightProperty">
+  FontWeightProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FontWeightProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_ForegroundProperty" data-uid="Nodify.BaseConnection.ForegroundProperty">
+  ForegroundProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ForegroundProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SourceOffsetModeProperty" data-uid="Nodify.BaseConnection.SourceOffsetModeProperty">
+  SourceOffsetModeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SourceOffsetModeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SourceOffsetProperty" data-uid="Nodify.BaseConnection.SourceOffsetProperty">
+  SourceOffsetProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SourceOffsetProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SourceOrientationProperty" data-uid="Nodify.BaseConnection.SourceOrientationProperty">
+  SourceOrientationProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SourceOrientationProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SourceProperty" data-uid="Nodify.BaseConnection.SourceProperty">
+  SourceProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SourceProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SpacingProperty" data-uid="Nodify.BaseConnection.SpacingProperty">
+  SpacingProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SpacingProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SplitCommandProperty" data-uid="Nodify.BaseConnection.SplitCommandProperty">
+  SplitCommandProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty SplitCommandProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_SplitEvent" data-uid="Nodify.BaseConnection.SplitEvent">
+  SplitEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly RoutedEvent SplitEvent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedevent">RoutedEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_TargetOffsetModeProperty" data-uid="Nodify.BaseConnection.TargetOffsetModeProperty">
+  TargetOffsetModeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty TargetOffsetModeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_TargetOffsetProperty" data-uid="Nodify.BaseConnection.TargetOffsetProperty">
+  TargetOffsetProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty TargetOffsetProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_TargetOrientationProperty" data-uid="Nodify.BaseConnection.TargetOrientationProperty">
+  TargetOrientationProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty TargetOrientationProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_TargetProperty" data-uid="Nodify.BaseConnection.TargetProperty">
+  TargetProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty TargetProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_TextProperty" data-uid="Nodify.BaseConnection.TextProperty">
+  TextProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty TextProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_ZeroVector" data-uid="Nodify.BaseConnection.ZeroVector">
+  ZeroVector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a vector that has its coordinates set to 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly Vector ZeroVector</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Nodify_BaseConnection_ArrowEnds_" data-uid="Nodify.BaseConnection.ArrowEnds*"></a>
+
+  <h3 id="Nodify_BaseConnection_ArrowEnds" data-uid="Nodify.BaseConnection.ArrowEnds">
+  ArrowEnds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the arrowhead ends.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArrowHeadEnds ArrowEnds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ArrowHeadEnds.html">ArrowHeadEnds</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_ArrowShape_" data-uid="Nodify.BaseConnection.ArrowShape*"></a>
+
+  <h3 id="Nodify_BaseConnection_ArrowShape" data-uid="Nodify.BaseConnection.ArrowShape">
+  ArrowShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the arrowhead ends.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArrowHeadShape ArrowShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ArrowHeadShape.html">ArrowHeadShape</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_ArrowSize_" data-uid="Nodify.BaseConnection.ArrowSize*"></a>
+
+  <h3 id="Nodify_BaseConnection_ArrowSize" data-uid="Nodify.BaseConnection.ArrowSize">
+  ArrowSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the size of the arrow head.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size ArrowSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.size">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DefiningGeometry_" data-uid="Nodify.BaseConnection.DefiningGeometry*"></a>
+
+  <h3 id="Nodify_BaseConnection_DefiningGeometry" data-uid="Nodify.BaseConnection.DefiningGeometry">
+  DefiningGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value that represents the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.geometry">Geometry</a> of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape">Shape</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Geometry DefiningGeometry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.geometry">Geometry</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.geometry">Geometry</a> of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape">Shape</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Direction_" data-uid="Nodify.BaseConnection.Direction*"></a>
+
+  <h3 id="Nodify_BaseConnection_Direction" data-uid="Nodify.BaseConnection.Direction">
+  Direction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the direction in which this connection is flowing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionDirection Direction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectionDirection.html">ConnectionDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DirectionalArrowsCount_" data-uid="Nodify.BaseConnection.DirectionalArrowsCount*"></a>
+
+  <h3 id="Nodify_BaseConnection_DirectionalArrowsCount" data-uid="Nodify.BaseConnection.DirectionalArrowsCount">
+  DirectionalArrowsCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the number of arrows to be drawn on the line in the direction of the connection (see <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Direction">Direction</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint DirectionalArrowsCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DirectionalArrowsOffset_" data-uid="Nodify.BaseConnection.DirectionalArrowsOffset*"></a>
+
+  <h3 id="Nodify_BaseConnection_DirectionalArrowsOffset" data-uid="Nodify.BaseConnection.DirectionalArrowsOffset">
+  DirectionalArrowsOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the offset of the arrows drawn by the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionalArrowsCount">DirectionalArrowsCount</a> (value is clamped between 0 and 1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DirectionalArrowsOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DisconnectCommand_" data-uid="Nodify.BaseConnection.DisconnectCommand*"></a>
+
+  <h3 id="Nodify_BaseConnection_DisconnectCommand" data-uid="Nodify.BaseConnection.DisconnectCommand">
+  DisconnectCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes this connection. Triggered by EditorGestures.Connection.Disconnect gesture.
+Parameter is the location where the disconnect ocurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand? DisconnectCommand { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_FontFamily_" data-uid="Nodify.BaseConnection.FontFamily*"></a>
+
+  <h3 id="Nodify_BaseConnection_FontFamily" data-uid="Nodify.BaseConnection.FontFamily">
+  FontFamily
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the preferred top-level font family for the content of the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontFamily FontFamily { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.fontfamily">FontFamily</a></dt>
+    <dd><p>The preferred font family or a primary preferred font family with one or more fallback font families. The default is the font determined by the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.systemfonts.messagefontfamily">MessageFontFamily</a> value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_FontSize_" data-uid="Nodify.BaseConnection.FontSize*"></a>
+
+  <h3 id="Nodify_BaseConnection_FontSize" data-uid="Nodify.BaseConnection.FontSize">
+  FontSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the font size for the content of the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TypeConverter(typeof(FontSizeConverter))]
+public double FontSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The desired font size to use in device independent pixels, greater than 0.001 and less than or equal to 35791. The default depends on current system settings and depends on the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.systemfonts.messagefontsize">MessageFontSize</a> value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.textelement.fontsize">FontSize</a> is set to a value greater than 35791 or less than or equal to 0.001.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Nodify_BaseConnection_FontStretch_" data-uid="Nodify.BaseConnection.FontStretch*"></a>
+
+  <h3 id="Nodify_BaseConnection_FontStretch" data-uid="Nodify.BaseConnection.FontStretch">
+  FontStretch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the font-stretching characteristics for the content of the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontStretch FontStretch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.fontstretch">FontStretch</a></dt>
+    <dd><p>The desired font-stretching characteristics to use. The default is <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.fontstretches.normal">Normal</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_FontStyle_" data-uid="Nodify.BaseConnection.FontStyle*"></a>
+
+  <h3 id="Nodify_BaseConnection_FontStyle" data-uid="Nodify.BaseConnection.FontStyle">
+  FontStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L328"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the font style for the content of the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontStyle FontStyle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.fontstyle">FontStyle</a></dt>
+    <dd><p>The desired font style. The default is determined by the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.systemfonts.messagefontstyle">MessageFontStyle</a> value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_FontWeight_" data-uid="Nodify.BaseConnection.FontWeight*"></a>
+
+  <h3 id="Nodify_BaseConnection_FontWeight" data-uid="Nodify.BaseConnection.FontWeight">
+  FontWeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the top-level font weight for the content of the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontWeight FontWeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.fontweight">FontWeight</a></dt>
+    <dd><p>The desired font weight. The default value is determined by the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.systemfonts.messagefontweight">MessageFontWeight</a> value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Foreground_" data-uid="Nodify.BaseConnection.Foreground*"></a>
+
+  <h3 id="Nodify_BaseConnection_Foreground" data-uid="Nodify.BaseConnection.Foreground">
+  Foreground
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The brush used to render the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Text">Text</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush? Foreground { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Source_" data-uid="Nodify.BaseConnection.Source*"></a>
+
+  <h3 id="Nodify_BaseConnection_Source" data-uid="Nodify.BaseConnection.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the start point of this connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point Source { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_SourceOffset_" data-uid="Nodify.BaseConnection.SourceOffset*"></a>
+
+  <h3 id="Nodify_BaseConnection_SourceOffset" data-uid="Nodify.BaseConnection.SourceOffset">
+  SourceOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the offset from the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Source">Source</a> point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size SourceOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.size">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_SourceOffsetMode_" data-uid="Nodify.BaseConnection.SourceOffsetMode*"></a>
+
+  <h3 id="Nodify_BaseConnection_SourceOffsetMode" data-uid="Nodify.BaseConnection.SourceOffsetMode">
+  SourceOffsetMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="Nodify.ConnectionOffsetMode.html">ConnectionOffsetMode</a> to apply to the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Source">Source</a> when drawing the connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionOffsetMode SourceOffsetMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectionOffsetMode.html">ConnectionOffsetMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_SourceOrientation_" data-uid="Nodify.BaseConnection.SourceOrientation*"></a>
+
+  <h3 id="Nodify_BaseConnection_SourceOrientation" data-uid="Nodify.BaseConnection.SourceOrientation">
+  SourceOrientation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the orientation in which this connection is flowing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orientation SourceOrientation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Spacing_" data-uid="Nodify.BaseConnection.Spacing*"></a>
+
+  <h3 id="Nodify_BaseConnection_Spacing" data-uid="Nodify.BaseConnection.Spacing">
+  Spacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The distance between the start point and the where the angle breaks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Spacing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_SplitCommand_" data-uid="Nodify.BaseConnection.SplitCommand*"></a>
+
+  <h3 id="Nodify_BaseConnection_SplitCommand" data-uid="Nodify.BaseConnection.SplitCommand">
+  SplitCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Splits the connection. Triggered by EditorGestures.Connection.Split gesture.
+Parameter is the location where the splitting ocurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand? SplitCommand { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Target_" data-uid="Nodify.BaseConnection.Target*"></a>
+
+  <h3 id="Nodify_BaseConnection_Target" data-uid="Nodify.BaseConnection.Target">
+  Target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the end point of this connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point Target { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_TargetOffset_" data-uid="Nodify.BaseConnection.TargetOffset*"></a>
+
+  <h3 id="Nodify_BaseConnection_TargetOffset" data-uid="Nodify.BaseConnection.TargetOffset">
+  TargetOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the offset from the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Target">Target</a> point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size TargetOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.size">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_TargetOffsetMode_" data-uid="Nodify.BaseConnection.TargetOffsetMode*"></a>
+
+  <h3 id="Nodify_BaseConnection_TargetOffsetMode" data-uid="Nodify.BaseConnection.TargetOffsetMode">
+  TargetOffsetMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="Nodify.ConnectionOffsetMode.html">ConnectionOffsetMode</a> to apply to the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Target">Target</a> when drawing the connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionOffsetMode TargetOffsetMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectionOffsetMode.html">ConnectionOffsetMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_TargetOrientation_" data-uid="Nodify.BaseConnection.TargetOrientation*"></a>
+
+  <h3 id="Nodify_BaseConnection_TargetOrientation" data-uid="Nodify.BaseConnection.TargetOrientation">
+  TargetOrientation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the orientation in which this connection is flowing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orientation TargetOrientation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_Text_" data-uid="Nodify.BaseConnection.Text*"></a>
+
+  <h3 id="Nodify_BaseConnection_Text" data-uid="Nodify.BaseConnection.Text">
+  Text
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the text contents of the <a class="xref" href="Nodify.BaseConnection.html">BaseConnection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Text { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Nodify_BaseConnection_DrawArrowGeometry_" data-uid="Nodify.BaseConnection.DrawArrowGeometry*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawArrowGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_Nodify_ArrowHeadShape_System_Windows_Controls_Orientation_" data-uid="Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)">
+  DrawArrowGeometry(StreamGeometryContext, Point, Point, ConnectionDirection, ArrowHeadShape, Orientation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawArrowGeometry(StreamGeometryContext context, Point source, Point target, ConnectionDirection arrowDirection = ConnectionDirection.Forward, ArrowHeadShape shape = ArrowHeadShape.Arrowhead, Orientation orientation = Orientation.Horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>arrowDirection</code> <a class="xref" href="Nodify.ConnectionDirection.html">ConnectionDirection</a></dt>
+    <dd></dd>
+    <dt><code>shape</code> <a class="xref" href="Nodify.ArrowHeadShape.html">ArrowHeadShape</a></dt>
+    <dd></dd>
+    <dt><code>orientation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawDefaultArrowhead_" data-uid="Nodify.BaseConnection.DrawDefaultArrowhead*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawDefaultArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_" data-uid="Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)">
+  DrawDefaultArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L459"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawDefaultArrowhead(StreamGeometryContext context, Point source, Point target, ConnectionDirection arrowDirection = ConnectionDirection.Forward, Orientation orientation = Orientation.Horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>arrowDirection</code> <a class="xref" href="Nodify.ConnectionDirection.html">ConnectionDirection</a></dt>
+    <dd></dd>
+    <dt><code>orientation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawDirectionalArrowheadGeometry_" data-uid="Nodify.BaseConnection.DrawDirectionalArrowheadGeometry*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawDirectionalArrowheadGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Vector_System_Windows_Point_" data-uid="Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)">
+  DrawDirectionalArrowheadGeometry(StreamGeometryContext, Vector, Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawDirectionalArrowheadGeometry(StreamGeometryContext context, Vector direction, Point location)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a></dt>
+    <dd></dd>
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawDirectionalArrowsGeometry_" data-uid="Nodify.BaseConnection.DrawDirectionalArrowsGeometry*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawDirectionalArrowsGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_" data-uid="Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)">
+  DrawDirectionalArrowsGeometry(StreamGeometryContext, Point, Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawDirectionalArrowsGeometry(StreamGeometryContext context, Point source, Point target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawEllipseArrowhead_" data-uid="Nodify.BaseConnection.DrawEllipseArrowhead*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawEllipseArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_" data-uid="Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)">
+  DrawEllipseArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawEllipseArrowhead(StreamGeometryContext context, Point source, Point target, ConnectionDirection arrowDirection = ConnectionDirection.Forward, Orientation orientation = Orientation.Horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>arrowDirection</code> <a class="xref" href="Nodify.ConnectionDirection.html">ConnectionDirection</a></dt>
+    <dd></dd>
+    <dt><code>orientation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawLineGeometry_" data-uid="Nodify.BaseConnection.DrawLineGeometry*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawLineGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_" data-uid="Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)">
+  DrawLineGeometry(StreamGeometryContext, Point, Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract ((Point ArrowStartSource, Point ArrowStartTarget), (Point ArrowEndSource, Point ArrowEndTarget)) DrawLineGeometry(StreamGeometryContext context, Point source, Point target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>((<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstartsource">ArrowStartSource</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstarttarget">ArrowStartTarget</a>), (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendsource">ArrowEndSource</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendtarget">ArrowEndTarget</a>))</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_DrawRectangleArrowhead_" data-uid="Nodify.BaseConnection.DrawRectangleArrowhead*"></a>
+
+  <h3 id="Nodify_BaseConnection_DrawRectangleArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_" data-uid="Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)">
+  DrawRectangleArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void DrawRectangleArrowhead(StreamGeometryContext context, Point source, Point target, ConnectionDirection arrowDirection = ConnectionDirection.Forward, Orientation orientation = Orientation.Horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext">StreamGeometryContext</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>arrowDirection</code> <a class="xref" href="Nodify.ConnectionDirection.html">ConnectionDirection</a></dt>
+    <dd></dd>
+    <dt><code>orientation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation">Orientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_GetOffset_" data-uid="Nodify.BaseConnection.GetOffset*"></a>
+
+  <h3 id="Nodify_BaseConnection_GetOffset" data-uid="Nodify.BaseConnection.GetOffset">
+  GetOffset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the resulting offset after applying the <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffsetMode">SourceOffsetMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual (Vector SourceOffset, Vector TargetOffset) GetOffset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.vector,system.windows.vector-.sourceoffset">SourceOffset</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.vector,system.windows.vector-.targetoffset">TargetOffset</a>)</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_GetTextPosition_" data-uid="Nodify.BaseConnection.GetTextPosition*"></a>
+
+  <h3 id="Nodify_BaseConnection_GetTextPosition_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_" data-uid="Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)">
+  GetTextPosition(FormattedText, Point, Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L642"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Point GetTextPosition(FormattedText text, Point source, Point target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.formattedtext">FormattedText</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_OnMouseDown_" data-uid="Nodify.BaseConnection.OnMouseDown*"></a>
+
+  <h3 id="Nodify_BaseConnection_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_" data-uid="Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+  OnMouseDown(MouseButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.MouseDown</span> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseDown(MouseButtonEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a> that contains the event data. This event data reports details about the mouse button that was pressed and the handled state.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_OnMouseUp_" data-uid="Nodify.BaseConnection.OnMouseUp*"></a>
+
+  <h3 id="Nodify_BaseConnection_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_" data-uid="Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+  OnMouseUp(MouseButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when an unhandled <span class="xref">System.Windows.Input.Mouse.MouseUp</span> routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseUp(MouseButtonEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a> that contains the event data. The event data reports that the mouse button was released.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_OnRender_" data-uid="Nodify.BaseConnection.OnRender*"></a>
+
+  <h3 id="Nodify_BaseConnection_OnRender_System_Windows_Media_DrawingContext_" data-uid="Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)">
+  OnRender(DrawingContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L729"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Provides a means to change the default appearance of a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape">Shape</a> element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRender(DrawingContext drawingContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>drawingContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext">DrawingContext</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext">DrawingContext</a> object that is drawn during the rendering pass of this <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape">Shape</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_StartAnimation_" data-uid="Nodify.BaseConnection.StartAnimation*"></a>
+
+  <h3 id="Nodify_BaseConnection_StartAnimation_System_Double_" data-uid="Nodify.BaseConnection.StartAnimation(System.Double)">
+  StartAnimation(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L656"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Starts animating the directional arrows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartAnimation(double duration = 1.5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The duration for moving an arrowhead from <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Source">Source</a> to <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_Target">Target</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nodify_BaseConnection_StopAnimation_" data-uid="Nodify.BaseConnection.StopAnimation*"></a>
+
+  <h3 id="Nodify_BaseConnection_StopAnimation" data-uid="Nodify.BaseConnection.StopAnimation">
+  StopAnimation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L665"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stops the animation started by <a class="xref" href="Nodify.BaseConnection.html#Nodify_BaseConnection_StartAnimation_System_Double_">StartAnimation(double)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopAnimation()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Nodify_BaseConnection_Disconnect" data-uid="Nodify.BaseConnection.Disconnect">
+  Disconnect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Triggered by the EditorGestures.Connection.Disconnect gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ConnectionEventHandler Disconnect</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectionEventHandler.html">ConnectionEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Nodify_BaseConnection_Split" data-uid="Nodify.BaseConnection.Split">
+  Split
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Triggered by the EditorGestures.Connection.Split gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ConnectionEventHandler Split</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nodify.ConnectionEventHandler.html">ConnectionEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Connections/BaseConnection.cs/#L110" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

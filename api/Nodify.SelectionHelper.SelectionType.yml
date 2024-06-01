@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.SelectionHelper.SelectionType
+  commentId: T:Nodify.SelectionHelper.SelectionType
+  id: SelectionHelper.SelectionType
+  parent: Nodify
+  children:
+  - Nodify.SelectionHelper.SelectionType.Append
+  - Nodify.SelectionHelper.SelectionType.Invert
+  - Nodify.SelectionHelper.SelectionType.Remove
+  - Nodify.SelectionHelper.SelectionType.Replace
+  langs:
+  - csharp
+  - vb
+  name: SelectionHelper.SelectionType
+  nameWithType: SelectionHelper.SelectionType
+  fullName: Nodify.SelectionHelper.SelectionType
+  type: Enum
+  source:
+    remote:
+      path: Nodify/Helpers/SelectionHelper.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: SelectionType
+    path: Nodify/Helpers/SelectionHelper.cs
+    startLine: 24
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Available selection logic.
+  example: []
+  syntax:
+    content: public enum SelectionHelper.SelectionType
+    content.vb: Public Enum SelectionHelper.SelectionType
+- uid: Nodify.SelectionHelper.SelectionType.Replace
+  commentId: F:Nodify.SelectionHelper.SelectionType.Replace
+  id: Replace
+  parent: Nodify.SelectionHelper.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Replace
+  nameWithType: SelectionHelper.SelectionType.Replace
+  fullName: Nodify.SelectionHelper.SelectionType.Replace
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/SelectionHelper.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Replace
+    path: Nodify/Helpers/SelectionHelper.cs
+    startLine: 27
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Replaces the old selection.
+  example: []
+  syntax:
+    content: Replace = 0
+    return:
+      type: Nodify.SelectionHelper.SelectionType
+- uid: Nodify.SelectionHelper.SelectionType.Remove
+  commentId: F:Nodify.SelectionHelper.SelectionType.Remove
+  id: Remove
+  parent: Nodify.SelectionHelper.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Remove
+  nameWithType: SelectionHelper.SelectionType.Remove
+  fullName: Nodify.SelectionHelper.SelectionType.Remove
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/SelectionHelper.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Remove
+    path: Nodify/Helpers/SelectionHelper.cs
+    startLine: 29
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Removes items from existing selection.
+  example: []
+  syntax:
+    content: Remove = 1
+    return:
+      type: Nodify.SelectionHelper.SelectionType
+- uid: Nodify.SelectionHelper.SelectionType.Append
+  commentId: F:Nodify.SelectionHelper.SelectionType.Append
+  id: Append
+  parent: Nodify.SelectionHelper.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Append
+  nameWithType: SelectionHelper.SelectionType.Append
+  fullName: Nodify.SelectionHelper.SelectionType.Append
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/SelectionHelper.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Append
+    path: Nodify/Helpers/SelectionHelper.cs
+    startLine: 31
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Adds items to the current selection.
+  example: []
+  syntax:
+    content: Append = 2
+    return:
+      type: Nodify.SelectionHelper.SelectionType
+- uid: Nodify.SelectionHelper.SelectionType.Invert
+  commentId: F:Nodify.SelectionHelper.SelectionType.Invert
+  id: Invert
+  parent: Nodify.SelectionHelper.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Invert
+  nameWithType: SelectionHelper.SelectionType.Invert
+  fullName: Nodify.SelectionHelper.SelectionType.Invert
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/SelectionHelper.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Invert
+    path: Nodify/Helpers/SelectionHelper.cs
+    startLine: 33
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Inverts the selection.
+  example: []
+  syntax:
+    content: Invert = 3
+    return:
+      type: Nodify.SelectionHelper.SelectionType
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: Nodify.SelectionHelper.SelectionType
+  commentId: T:Nodify.SelectionHelper.SelectionType
+  parent: Nodify
+  href: Nodify.SelectionHelper.html
+  name: SelectionHelper.SelectionType
+  nameWithType: SelectionHelper.SelectionType
+  fullName: Nodify.SelectionHelper.SelectionType
+  spec.csharp:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html
+  spec.vb:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html

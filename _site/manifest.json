@@ -1,0 +1,655 @@
+{
+  "source_base_path": "D:/Development/Github forks/nodify",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CODE_OF_CONDUCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "CODE_OF_CONDUCT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "PULL_REQUEST_TEMPLATE.md",
+      "output": {
+        ".html": {
+          "relative_path": "PULL_REQUEST_TEMPLATE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.AllGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.AllGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.AnyGesture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.AnyGesture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ArrowHeadEnds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ArrowHeadEnds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ArrowHeadShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ArrowHeadShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.BaseConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.BaseConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.BoxValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.BoxValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.CircuitConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.CircuitConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.Connection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectionDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectionDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectionEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectionOffsetMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectionOffsetMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ConnectorEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ConnectorEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ContainerDefaultState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ContainerDefaultState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ContainerDraggingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ContainerDraggingState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ContainerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ContainerState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.DecoratorContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.DecoratorContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorCommands.Alignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorCommands.Alignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorCommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorDefaultState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorDefaultState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.ConnectionGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.ConnectionGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.ConnectorGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.ConnectorGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.GroupingNodeGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.GroupingNodeGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.ItemContainerGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.ItemContainerGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.NodifyEditorGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.NodifyEditorGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.SelectionGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.SelectionGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorGestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorPanningState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorPanningState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorSelectingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorSelectingState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.EditorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.EditorState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.GroupingMovementMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.GroupingMovementMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.GroupingNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.GroupingNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.INodifyCanvasItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.INodifyCanvasItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.InputGestureRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.InputGestureRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ItemContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.KnotNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.KnotNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.LineConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.LineConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.MultiGesture.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.MultiGesture.Match.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.MultiGesture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.MultiGesture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.NodeInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.NodeInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.NodeOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.NodeOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.NodifyCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.NodifyCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.NodifyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.NodifyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.PendingConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.PendingConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.PendingConnectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.PendingConnectionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.PendingConnectionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.PendingConnectionEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.PreviewLocationChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.PreviewLocationChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ResizeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ResizeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.ResizeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.ResizeEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.SelectionHelper.SelectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.SelectionHelper.SelectionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.SelectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.SelectionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.StateNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.StateNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Nodify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Nodify.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

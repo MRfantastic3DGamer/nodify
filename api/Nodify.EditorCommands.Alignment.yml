@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.EditorCommands.Alignment
+  commentId: T:Nodify.EditorCommands.Alignment
+  id: EditorCommands.Alignment
+  parent: Nodify
+  children:
+  - Nodify.EditorCommands.Alignment.Bottom
+  - Nodify.EditorCommands.Alignment.Center
+  - Nodify.EditorCommands.Alignment.Left
+  - Nodify.EditorCommands.Alignment.Middle
+  - Nodify.EditorCommands.Alignment.Right
+  - Nodify.EditorCommands.Alignment.Top
+  langs:
+  - csharp
+  - vb
+  name: EditorCommands.Alignment
+  nameWithType: EditorCommands.Alignment
+  fullName: Nodify.EditorCommands.Alignment
+  type: Enum
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Alignment
+    path: Nodify/EditorCommands.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Specifies the possible alignment values used by the <xref href="Nodify.EditorCommands.Align" data-throw-if-not-resolved="false"></xref> command.
+  example: []
+  syntax:
+    content: public enum EditorCommands.Alignment
+    content.vb: Public Enum EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Top
+  commentId: F:Nodify.EditorCommands.Alignment.Top
+  id: Top
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: EditorCommands.Alignment.Top
+  fullName: Nodify.EditorCommands.Alignment.Top
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Top
+    path: Nodify/EditorCommands.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Top = 0
+    return:
+      type: Nodify.EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Left
+  commentId: F:Nodify.EditorCommands.Alignment.Left
+  id: Left
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: EditorCommands.Alignment.Left
+  fullName: Nodify.EditorCommands.Alignment.Left
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Left
+    path: Nodify/EditorCommands.cs
+    startLine: 18
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Left = 1
+    return:
+      type: Nodify.EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Bottom
+  commentId: F:Nodify.EditorCommands.Alignment.Bottom
+  id: Bottom
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: EditorCommands.Alignment.Bottom
+  fullName: Nodify.EditorCommands.Alignment.Bottom
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Bottom
+    path: Nodify/EditorCommands.cs
+    startLine: 19
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Bottom = 2
+    return:
+      type: Nodify.EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Right
+  commentId: F:Nodify.EditorCommands.Alignment.Right
+  id: Right
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: EditorCommands.Alignment.Right
+  fullName: Nodify.EditorCommands.Alignment.Right
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Right
+    path: Nodify/EditorCommands.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Right = 3
+    return:
+      type: Nodify.EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Middle
+  commentId: F:Nodify.EditorCommands.Alignment.Middle
+  id: Middle
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: EditorCommands.Alignment.Middle
+  fullName: Nodify.EditorCommands.Alignment.Middle
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Middle
+    path: Nodify/EditorCommands.cs
+    startLine: 21
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Middle = 4
+    return:
+      type: Nodify.EditorCommands.Alignment
+- uid: Nodify.EditorCommands.Alignment.Center
+  commentId: F:Nodify.EditorCommands.Alignment.Center
+  id: Center
+  parent: Nodify.EditorCommands.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: EditorCommands.Alignment.Center
+  fullName: Nodify.EditorCommands.Alignment.Center
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorCommands.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Center
+    path: Nodify/EditorCommands.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: Center = 5
+    return:
+      type: Nodify.EditorCommands.Alignment
+references:
+- uid: Nodify.EditorCommands.Align
+  commentId: P:Nodify.EditorCommands.Align
+  href: Nodify.EditorCommands.html#Nodify_EditorCommands_Align
+  name: Align
+  nameWithType: EditorCommands.Align
+  fullName: Nodify.EditorCommands.Align
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: Nodify.EditorCommands.Alignment
+  commentId: T:Nodify.EditorCommands.Alignment
+  parent: Nodify
+  href: Nodify.EditorCommands.html
+  name: EditorCommands.Alignment
+  nameWithType: EditorCommands.Alignment
+  fullName: Nodify.EditorCommands.Alignment
+  spec.csharp:
+  - uid: Nodify.EditorCommands
+    name: EditorCommands
+    href: Nodify.EditorCommands.html
+  - name: .
+  - uid: Nodify.EditorCommands.Alignment
+    name: Alignment
+    href: Nodify.EditorCommands.Alignment.html
+  spec.vb:
+  - uid: Nodify.EditorCommands
+    name: EditorCommands
+    href: Nodify.EditorCommands.html
+  - name: .
+  - uid: Nodify.EditorCommands.Alignment
+    name: Alignment
+    href: Nodify.EditorCommands.Alignment.html

@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.PendingConnectionEventHandler
+  commentId: T:Nodify.PendingConnectionEventHandler
+  id: PendingConnectionEventHandler
+  parent: Nodify
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PendingConnectionEventHandler
+  nameWithType: PendingConnectionEventHandler
+  fullName: Nodify.PendingConnectionEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Nodify/Events/PendingConnectionEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PendingConnectionEventHandler
+    path: Nodify/Events/PendingConnectionEventArgs.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents the method that will handle <xref href="Nodify.PendingConnection" data-throw-if-not-resolved="false"></xref> related routed events.
+  example: []
+  syntax:
+    content: public delegate void PendingConnectionEventHandler(object sender, PendingConnectionEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: The object where the event handler is attached.
+    - id: e
+      type: Nodify.PendingConnectionEventArgs
+      description: The event data.
+    content.vb: Public Delegate Sub PendingConnectionEventHandler(sender As Object, e As PendingConnectionEventArgs)
+references:
+- uid: Nodify.PendingConnection
+  commentId: T:Nodify.PendingConnection
+  href: Nodify.PendingConnection.html
+  name: PendingConnection
+  nameWithType: PendingConnection
+  fullName: Nodify.PendingConnection
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Nodify.PendingConnectionEventArgs
+  commentId: T:Nodify.PendingConnectionEventArgs
+  parent: Nodify
+  href: Nodify.PendingConnectionEventArgs.html
+  name: PendingConnectionEventArgs
+  nameWithType: PendingConnectionEventArgs
+  fullName: Nodify.PendingConnectionEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

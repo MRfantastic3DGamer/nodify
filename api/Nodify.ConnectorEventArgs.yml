@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ConnectorEventArgs
+  commentId: T:Nodify.ConnectorEventArgs
+  id: ConnectorEventArgs
+  parent: Nodify
+  children:
+  - Nodify.ConnectorEventArgs.#ctor(System.Object)
+  - Nodify.ConnectorEventArgs.Anchor
+  - Nodify.ConnectorEventArgs.Connector
+  - Nodify.ConnectorEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ConnectorEventArgs
+  nameWithType: ConnectorEventArgs
+  fullName: Nodify.ConnectorEventArgs
+  type: Class
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ConnectorEventArgs
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Provides data for <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> related routed events.
+  example: []
+  syntax:
+    content: 'public class ConnectorEventArgs : RoutedEventArgs'
+    content.vb: Public Class ConnectorEventArgs Inherits RoutedEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - System.Windows.RoutedEventArgs
+- uid: Nodify.ConnectorEventArgs.#ctor(System.Object)
+  commentId: M:Nodify.ConnectorEventArgs.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: Nodify.ConnectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ConnectorEventArgs(object)
+  nameWithType: ConnectorEventArgs.ConnectorEventArgs(object)
+  fullName: Nodify.ConnectorEventArgs.ConnectorEventArgs(object)
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 21
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Initializes a new instance of the <xref href="Nodify.ConnectorEventArgs" data-throw-if-not-resolved="false"></xref> class using the specified <xref href="Nodify.ConnectorEventArgs.Connector" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ConnectorEventArgs(object connector)
+    parameters:
+    - id: connector
+      type: System.Object
+      description: The <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> of a related <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(connector As Object)
+  overload: Nodify.ConnectorEventArgs.#ctor*
+  nameWithType.vb: ConnectorEventArgs.New(Object)
+  fullName.vb: Nodify.ConnectorEventArgs.New(Object)
+  name.vb: New(Object)
+- uid: Nodify.ConnectorEventArgs.Anchor
+  commentId: P:Nodify.ConnectorEventArgs.Anchor
+  id: Anchor
+  parent: Nodify.ConnectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Anchor
+  nameWithType: ConnectorEventArgs.Anchor
+  fullName: Nodify.ConnectorEventArgs.Anchor
+  type: Property
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Anchor
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 27
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the <xref href="Nodify.Connector.Anchor" data-throw-if-not-resolved="false"></xref> of the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> associated with this event.
+  example: []
+  syntax:
+    content: public Point Anchor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Point
+    content.vb: Public Property Anchor As Point
+  overload: Nodify.ConnectorEventArgs.Anchor*
+- uid: Nodify.ConnectorEventArgs.Connector
+  commentId: P:Nodify.ConnectorEventArgs.Connector
+  id: Connector
+  parent: Nodify.ConnectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: ConnectorEventArgs.Connector
+  fullName: Nodify.ConnectorEventArgs.Connector
+  type: Property
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Connector
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 32
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="System.Windows.FrameworkElement.DataContext" data-throw-if-not-resolved="false"></xref> of the <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref> associated with this event.
+  example: []
+  syntax:
+    content: public object Connector { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Connector As Object
+  overload: Nodify.ConnectorEventArgs.Connector*
+- uid: Nodify.ConnectorEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  commentId: M:Nodify.ConnectorEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  id: InvokeEventHandler(System.Delegate,System.Object)
+  parent: Nodify.ConnectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: InvokeEventHandler(Delegate, object)
+  nameWithType: ConnectorEventArgs.InvokeEventHandler(Delegate, object)
+  fullName: Nodify.ConnectorEventArgs.InvokeEventHandler(System.Delegate, object)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Events/ConnectorEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InvokeEventHandler
+    path: Nodify/Events/ConnectorEventArgs.cs
+    startLine: 34
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, provides a way to invoke event handlers in a type-specific way, which can increase efficiency over the base implementation.
+  example: []
+  syntax:
+    content: protected override void InvokeEventHandler(Delegate genericHandler, object genericTarget)
+    parameters:
+    - id: genericHandler
+      type: System.Delegate
+      description: The generic handler / delegate implementation to be invoked.
+    - id: genericTarget
+      type: System.Object
+      description: The target on which the provided handler should be invoked.
+    content.vb: Protected Overrides Sub InvokeEventHandler(genericHandler As [Delegate], genericTarget As Object)
+  overridden: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  overload: Nodify.ConnectorEventArgs.InvokeEventHandler*
+  nameWithType.vb: ConnectorEventArgs.InvokeEventHandler(Delegate, Object)
+  fullName.vb: Nodify.ConnectorEventArgs.InvokeEventHandler(System.Delegate, Object)
+  name.vb: InvokeEventHandler(Delegate, Object)
+references:
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Windows.RoutedEventArgs
+  commentId: T:System.Windows.RoutedEventArgs
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs
+  name: RoutedEventArgs
+  nameWithType: RoutedEventArgs
+  fullName: System.Windows.RoutedEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: Nodify.ConnectorEventArgs
+  commentId: T:Nodify.ConnectorEventArgs
+  parent: Nodify
+  href: Nodify.ConnectorEventArgs.html
+  name: ConnectorEventArgs
+  nameWithType: ConnectorEventArgs
+  fullName: Nodify.ConnectorEventArgs
+- uid: Nodify.ConnectorEventArgs.Connector
+  commentId: P:Nodify.ConnectorEventArgs.Connector
+  href: Nodify.ConnectorEventArgs.html#Nodify_ConnectorEventArgs_Connector
+  name: Connector
+  nameWithType: ConnectorEventArgs.Connector
+  fullName: Nodify.ConnectorEventArgs.Connector
+- uid: System.Windows.FrameworkElement.DataContext
+  commentId: P:System.Windows.FrameworkElement.DataContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontext
+  name: DataContext
+  nameWithType: FrameworkElement.DataContext
+  fullName: System.Windows.FrameworkElement.DataContext
+- uid: Nodify.ConnectorEventArgs.#ctor*
+  commentId: Overload:Nodify.ConnectorEventArgs.#ctor
+  href: Nodify.ConnectorEventArgs.html#Nodify_ConnectorEventArgs__ctor_System_Object_
+  name: ConnectorEventArgs
+  nameWithType: ConnectorEventArgs.ConnectorEventArgs
+  fullName: Nodify.ConnectorEventArgs.ConnectorEventArgs
+  nameWithType.vb: ConnectorEventArgs.New
+  fullName.vb: Nodify.ConnectorEventArgs.New
+  name.vb: New
+- uid: Nodify.Connector.Anchor
+  commentId: P:Nodify.Connector.Anchor
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Anchor
+  name: Anchor
+  nameWithType: Connector.Anchor
+  fullName: Nodify.Connector.Anchor
+- uid: Nodify.ConnectorEventArgs.Anchor*
+  commentId: Overload:Nodify.ConnectorEventArgs.Anchor
+  href: Nodify.ConnectorEventArgs.html#Nodify_ConnectorEventArgs_Anchor
+  name: Anchor
+  nameWithType: ConnectorEventArgs.Anchor
+  fullName: Nodify.ConnectorEventArgs.Anchor
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: Nodify.ConnectorEventArgs.Connector*
+  commentId: Overload:Nodify.ConnectorEventArgs.Connector
+  href: Nodify.ConnectorEventArgs.html#Nodify_ConnectorEventArgs_Connector
+  name: Connector
+  nameWithType: ConnectorEventArgs.Connector
+  fullName: Nodify.ConnectorEventArgs.Connector
+- uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  commentId: M:System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+  parent: System.Windows.RoutedEventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  name: InvokeEventHandler(Delegate, object)
+  nameWithType: RoutedEventArgs.InvokeEventHandler(Delegate, object)
+  fullName: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate, object)
+  nameWithType.vb: RoutedEventArgs.InvokeEventHandler(Delegate, Object)
+  fullName.vb: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate, Object)
+  name.vb: InvokeEventHandler(Delegate, Object)
+  spec.csharp:
+  - uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+    name: InvokeEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  - name: (
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.RoutedEventArgs.InvokeEventHandler(System.Delegate,System.Object)
+    name: InvokeEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs.invokeeventhandler
+  - name: (
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Nodify.ConnectorEventArgs.InvokeEventHandler*
+  commentId: Overload:Nodify.ConnectorEventArgs.InvokeEventHandler
+  href: Nodify.ConnectorEventArgs.html#Nodify_ConnectorEventArgs_InvokeEventHandler_System_Delegate_System_Object_
+  name: InvokeEventHandler
+  nameWithType: ConnectorEventArgs.InvokeEventHandler
+  fullName: Nodify.ConnectorEventArgs.InvokeEventHandler
+- uid: System.Delegate
+  commentId: T:System.Delegate
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.delegate
+  name: Delegate
+  nameWithType: Delegate
+  fullName: System.Delegate

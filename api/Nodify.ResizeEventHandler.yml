@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ResizeEventHandler
+  commentId: T:Nodify.ResizeEventHandler
+  id: ResizeEventHandler
+  parent: Nodify
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ResizeEventHandler
+  nameWithType: ResizeEventHandler
+  fullName: Nodify.ResizeEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Nodify/Events/ResizeEventArgs.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeEventHandler
+    path: Nodify/Events/ResizeEventArgs.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents the method that will handle resize related routed events.
+  example: []
+  syntax:
+    content: public delegate void ResizeEventHandler(object sender, ResizeEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: The sender of this event.
+    - id: e
+      type: Nodify.ResizeEventArgs
+      description: The event data.
+    content.vb: Public Delegate Sub ResizeEventHandler(sender As Object, e As ResizeEventArgs)
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Nodify.ResizeEventArgs
+  commentId: T:Nodify.ResizeEventArgs
+  parent: Nodify
+  href: Nodify.ResizeEventArgs.html
+  name: ResizeEventArgs
+  nameWithType: ResizeEventArgs
+  fullName: Nodify.ResizeEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

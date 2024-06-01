@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.BoxValue
+  commentId: T:Nodify.BoxValue
+  id: BoxValue
+  parent: Nodify
+  children:
+  - Nodify.BoxValue.ArrowSize
+  - Nodify.BoxValue.ConnectionOffset
+  - Nodify.BoxValue.Double0
+  - Nodify.BoxValue.Double1
+  - Nodify.BoxValue.Double1000
+  - Nodify.BoxValue.Double2
+  - Nodify.BoxValue.Double45
+  - Nodify.BoxValue.DoubleHalf
+  - Nodify.BoxValue.False
+  - Nodify.BoxValue.Int0
+  - Nodify.BoxValue.Int1
+  - Nodify.BoxValue.Point
+  - Nodify.BoxValue.Rect
+  - Nodify.BoxValue.Size
+  - Nodify.BoxValue.Thickness2
+  - Nodify.BoxValue.True
+  - Nodify.BoxValue.UInt0
+  - Nodify.BoxValue.UInt1
+  langs:
+  - csharp
+  - vb
+  name: BoxValue
+  nameWithType: BoxValue
+  fullName: Nodify.BoxValue
+  type: Class
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: BoxValue
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 4
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static class BoxValue
+    content.vb: Public Module BoxValue
+  inheritance:
+  - System.Object
+- uid: Nodify.BoxValue.Point
+  commentId: F:Nodify.BoxValue.Point
+  id: Point
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Point
+  nameWithType: BoxValue.Point
+  fullName: Nodify.BoxValue.Point
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Point
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 6
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Point
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Point As Object
+- uid: Nodify.BoxValue.Size
+  commentId: F:Nodify.BoxValue.Size
+  id: Size
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: BoxValue.Size
+  fullName: Nodify.BoxValue.Size
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Size
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 7
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Size
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Size As Object
+- uid: Nodify.BoxValue.Rect
+  commentId: F:Nodify.BoxValue.Rect
+  id: Rect
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Rect
+  nameWithType: BoxValue.Rect
+  fullName: Nodify.BoxValue.Rect
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Rect
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 8
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Rect
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Rect As Object
+- uid: Nodify.BoxValue.False
+  commentId: F:Nodify.BoxValue.False
+  id: "False"
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: "False"
+  nameWithType: BoxValue.False
+  fullName: Nodify.BoxValue.False
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: "False"
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 9
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object False
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly [False] As Object
+- uid: Nodify.BoxValue.True
+  commentId: F:Nodify.BoxValue.True
+  id: "True"
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: "True"
+  nameWithType: BoxValue.True
+  fullName: Nodify.BoxValue.True
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: "True"
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object True
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly [True] As Object
+- uid: Nodify.BoxValue.DoubleHalf
+  commentId: F:Nodify.BoxValue.DoubleHalf
+  id: DoubleHalf
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: DoubleHalf
+  nameWithType: BoxValue.DoubleHalf
+  fullName: Nodify.BoxValue.DoubleHalf
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: DoubleHalf
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 11
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object DoubleHalf
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly DoubleHalf As Object
+- uid: Nodify.BoxValue.Double0
+  commentId: F:Nodify.BoxValue.Double0
+  id: Double0
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Double0
+  nameWithType: BoxValue.Double0
+  fullName: Nodify.BoxValue.Double0
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Double0
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 12
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Double0
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Double0 As Object
+- uid: Nodify.BoxValue.Double1
+  commentId: F:Nodify.BoxValue.Double1
+  id: Double1
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Double1
+  nameWithType: BoxValue.Double1
+  fullName: Nodify.BoxValue.Double1
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Double1
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 13
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Double1
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Double1 As Object
+- uid: Nodify.BoxValue.Double2
+  commentId: F:Nodify.BoxValue.Double2
+  id: Double2
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Double2
+  nameWithType: BoxValue.Double2
+  fullName: Nodify.BoxValue.Double2
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Double2
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 14
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Double2
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Double2 As Object
+- uid: Nodify.BoxValue.Double45
+  commentId: F:Nodify.BoxValue.Double45
+  id: Double45
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Double45
+  nameWithType: BoxValue.Double45
+  fullName: Nodify.BoxValue.Double45
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Double45
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 15
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Double45
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Double45 As Object
+- uid: Nodify.BoxValue.Double1000
+  commentId: F:Nodify.BoxValue.Double1000
+  id: Double1000
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Double1000
+  nameWithType: BoxValue.Double1000
+  fullName: Nodify.BoxValue.Double1000
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Double1000
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 16
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Double1000
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Double1000 As Object
+- uid: Nodify.BoxValue.Int0
+  commentId: F:Nodify.BoxValue.Int0
+  id: Int0
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Int0
+  nameWithType: BoxValue.Int0
+  fullName: Nodify.BoxValue.Int0
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Int0
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Int0
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Int0 As Object
+- uid: Nodify.BoxValue.Int1
+  commentId: F:Nodify.BoxValue.Int1
+  id: Int1
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Int1
+  nameWithType: BoxValue.Int1
+  fullName: Nodify.BoxValue.Int1
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Int1
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 18
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Int1
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Int1 As Object
+- uid: Nodify.BoxValue.UInt1
+  commentId: F:Nodify.BoxValue.UInt1
+  id: UInt1
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: UInt1
+  nameWithType: BoxValue.UInt1
+  fullName: Nodify.BoxValue.UInt1
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: UInt1
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 19
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object UInt1
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly UInt1 As Object
+- uid: Nodify.BoxValue.UInt0
+  commentId: F:Nodify.BoxValue.UInt0
+  id: UInt0
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: UInt0
+  nameWithType: BoxValue.UInt0
+  fullName: Nodify.BoxValue.UInt0
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: UInt0
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object UInt0
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly UInt0 As Object
+- uid: Nodify.BoxValue.Thickness2
+  commentId: F:Nodify.BoxValue.Thickness2
+  id: Thickness2
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: Thickness2
+  nameWithType: BoxValue.Thickness2
+  fullName: Nodify.BoxValue.Thickness2
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Thickness2
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object Thickness2
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly Thickness2 As Object
+- uid: Nodify.BoxValue.ArrowSize
+  commentId: F:Nodify.BoxValue.ArrowSize
+  id: ArrowSize
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: ArrowSize
+  nameWithType: BoxValue.ArrowSize
+  fullName: Nodify.BoxValue.ArrowSize
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ArrowSize
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 23
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object ArrowSize
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly ArrowSize As Object
+- uid: Nodify.BoxValue.ConnectionOffset
+  commentId: F:Nodify.BoxValue.ConnectionOffset
+  id: ConnectionOffset
+  parent: Nodify.BoxValue
+  langs:
+  - csharp
+  - vb
+  name: ConnectionOffset
+  nameWithType: BoxValue.ConnectionOffset
+  fullName: Nodify.BoxValue.ConnectionOffset
+  type: Field
+  source:
+    remote:
+      path: Nodify/Helpers/BoxValue.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ConnectionOffset
+    path: Nodify/Helpers/BoxValue.cs
+    startLine: 24
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly object ConnectionOffset
+    return:
+      type: System.Object
+    content.vb: Public Shared ReadOnly ConnectionOffset As Object
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

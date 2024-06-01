@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.InputGestureRef
+  commentId: T:Nodify.InputGestureRef
+  id: InputGestureRef
+  parent: Nodify
+  children:
+  - Nodify.InputGestureRef.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  - Nodify.InputGestureRef.Value
+  - Nodify.InputGestureRef.op_Implicit(Nodify.MultiGesture)~Nodify.InputGestureRef
+  - Nodify.InputGestureRef.op_Implicit(System.Windows.Input.KeyGesture)~Nodify.InputGestureRef
+  - Nodify.InputGestureRef.op_Implicit(System.Windows.Input.MouseGesture)~Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: InputGestureRef
+  nameWithType: InputGestureRef
+  fullName: Nodify.InputGestureRef
+  type: Class
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InputGestureRef
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 88
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    An input gesture that allows changing its logic at runtime without changing its reference.
+
+    Useful for classes that capture the object reference without the posibility of updating it. (e.g. <xref href="Nodify.EditorCommands" data-throw-if-not-resolved="false"></xref>)
+  example: []
+  syntax:
+    content: 'public sealed class InputGestureRef : InputGesture'
+    content.vb: Public NotInheritable Class InputGestureRef Inherits InputGesture
+  inheritance:
+  - System.Object
+  - System.Windows.Input.InputGesture
+- uid: Nodify.InputGestureRef.Value
+  commentId: P:Nodify.InputGestureRef.Value
+  id: Value
+  parent: Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: InputGestureRef.Value
+  fullName: Nodify.InputGestureRef.Value
+  type: Property
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Value
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 91
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The referenced gesture.
+  example: []
+  syntax:
+    content: public InputGesture Value { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.InputGesture
+    content.vb: Public Property Value As InputGesture
+  overload: Nodify.InputGestureRef.Value*
+- uid: Nodify.InputGestureRef.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  commentId: M:Nodify.InputGestureRef.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  id: Matches(System.Object,System.Windows.Input.InputEventArgs)
+  parent: Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: Matches(object, InputEventArgs)
+  nameWithType: InputGestureRef.Matches(object, InputEventArgs)
+  fullName: Nodify.InputGestureRef.Matches(object, System.Windows.Input.InputEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Matches
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 95
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, determines whether the specified <xref href="System.Windows.Input.InputGesture" data-throw-if-not-resolved="false"></xref> matches the input associated with the specified <xref href="System.Windows.Input.InputEventArgs" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public override bool Matches(object targetElement, InputEventArgs inputEventArgs)
+    parameters:
+    - id: targetElement
+      type: System.Object
+      description: The target of the command.
+    - id: inputEventArgs
+      type: System.Windows.Input.InputEventArgs
+      description: The input event data to compare this gesture to.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the gesture matches the input; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Matches(targetElement As Object, inputEventArgs As InputEventArgs) As Boolean
+  overridden: System.Windows.Input.InputGesture.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  overload: Nodify.InputGestureRef.Matches*
+  nameWithType.vb: InputGestureRef.Matches(Object, InputEventArgs)
+  fullName.vb: Nodify.InputGestureRef.Matches(Object, System.Windows.Input.InputEventArgs)
+  name.vb: Matches(Object, InputEventArgs)
+- uid: Nodify.InputGestureRef.op_Implicit(System.Windows.Input.MouseGesture)~Nodify.InputGestureRef
+  commentId: M:Nodify.InputGestureRef.op_Implicit(System.Windows.Input.MouseGesture)~Nodify.InputGestureRef
+  id: op_Implicit(System.Windows.Input.MouseGesture)~Nodify.InputGestureRef
+  parent: Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputGestureRef(MouseGesture)
+  nameWithType: InputGestureRef.implicit operator InputGestureRef(MouseGesture)
+  fullName: Nodify.InputGestureRef.implicit operator Nodify.InputGestureRef(System.Windows.Input.MouseGesture)
+  type: Operator
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: op_Implicit
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 100
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static implicit operator InputGestureRef(MouseGesture gesture)
+    parameters:
+    - id: gesture
+      type: System.Windows.Input.MouseGesture
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public Shared Widening Operator CType(gesture As MouseGesture) As InputGestureRef
+  overload: Nodify.InputGestureRef.op_Implicit*
+  nameWithType.vb: InputGestureRef.CType(MouseGesture)
+  fullName.vb: Nodify.InputGestureRef.CType(System.Windows.Input.MouseGesture)
+  name.vb: CType(MouseGesture)
+- uid: Nodify.InputGestureRef.op_Implicit(System.Windows.Input.KeyGesture)~Nodify.InputGestureRef
+  commentId: M:Nodify.InputGestureRef.op_Implicit(System.Windows.Input.KeyGesture)~Nodify.InputGestureRef
+  id: op_Implicit(System.Windows.Input.KeyGesture)~Nodify.InputGestureRef
+  parent: Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputGestureRef(KeyGesture)
+  nameWithType: InputGestureRef.implicit operator InputGestureRef(KeyGesture)
+  fullName: Nodify.InputGestureRef.implicit operator Nodify.InputGestureRef(System.Windows.Input.KeyGesture)
+  type: Operator
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: op_Implicit
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 103
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static implicit operator InputGestureRef(KeyGesture gesture)
+    parameters:
+    - id: gesture
+      type: System.Windows.Input.KeyGesture
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public Shared Widening Operator CType(gesture As KeyGesture) As InputGestureRef
+  overload: Nodify.InputGestureRef.op_Implicit*
+  nameWithType.vb: InputGestureRef.CType(KeyGesture)
+  fullName.vb: Nodify.InputGestureRef.CType(System.Windows.Input.KeyGesture)
+  name.vb: CType(KeyGesture)
+- uid: Nodify.InputGestureRef.op_Implicit(Nodify.MultiGesture)~Nodify.InputGestureRef
+  commentId: M:Nodify.InputGestureRef.op_Implicit(Nodify.MultiGesture)~Nodify.InputGestureRef
+  id: op_Implicit(Nodify.MultiGesture)~Nodify.InputGestureRef
+  parent: Nodify.InputGestureRef
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputGestureRef(MultiGesture)
+  nameWithType: InputGestureRef.implicit operator InputGestureRef(MultiGesture)
+  fullName: Nodify.InputGestureRef.implicit operator Nodify.InputGestureRef(Nodify.MultiGesture)
+  type: Operator
+  source:
+    remote:
+      path: Nodify/Helpers/MultiGesture.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: op_Implicit
+    path: Nodify/Helpers/MultiGesture.cs
+    startLine: 106
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static implicit operator InputGestureRef(MultiGesture gesture)
+    parameters:
+    - id: gesture
+      type: Nodify.MultiGesture
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public Shared Widening Operator CType(gesture As MultiGesture) As InputGestureRef
+  overload: Nodify.InputGestureRef.op_Implicit*
+  nameWithType.vb: InputGestureRef.CType(MultiGesture)
+  fullName.vb: Nodify.InputGestureRef.CType(Nodify.MultiGesture)
+  name.vb: CType(MultiGesture)
+references:
+- uid: Nodify.EditorCommands
+  commentId: T:Nodify.EditorCommands
+  href: Nodify.EditorCommands.html
+  name: EditorCommands
+  nameWithType: EditorCommands
+  fullName: Nodify.EditorCommands
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Input.InputGesture
+  commentId: T:System.Windows.Input.InputGesture
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputgesture
+  name: InputGesture
+  nameWithType: InputGesture
+  fullName: System.Windows.Input.InputGesture
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: Nodify.InputGestureRef.Value*
+  commentId: Overload:Nodify.InputGestureRef.Value
+  href: Nodify.InputGestureRef.html#Nodify_InputGestureRef_Value
+  name: Value
+  nameWithType: InputGestureRef.Value
+  fullName: Nodify.InputGestureRef.Value
+- uid: System.Windows.Input.InputEventArgs
+  commentId: T:System.Windows.Input.InputEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputeventargs
+  name: InputEventArgs
+  nameWithType: InputEventArgs
+  fullName: System.Windows.Input.InputEventArgs
+- uid: System.Windows.Input.InputGesture.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  commentId: M:System.Windows.Input.InputGesture.Matches(System.Object,System.Windows.Input.InputEventArgs)
+  parent: System.Windows.Input.InputGesture
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputgesture.matches
+  name: Matches(object, InputEventArgs)
+  nameWithType: InputGesture.Matches(object, InputEventArgs)
+  fullName: System.Windows.Input.InputGesture.Matches(object, System.Windows.Input.InputEventArgs)
+  nameWithType.vb: InputGesture.Matches(Object, InputEventArgs)
+  fullName.vb: System.Windows.Input.InputGesture.Matches(Object, System.Windows.Input.InputEventArgs)
+  name.vb: Matches(Object, InputEventArgs)
+  spec.csharp:
+  - uid: System.Windows.Input.InputGesture.Matches(System.Object,System.Windows.Input.InputEventArgs)
+    name: Matches
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputgesture.matches
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.InputEventArgs
+    name: InputEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputeventargs
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Input.InputGesture.Matches(System.Object,System.Windows.Input.InputEventArgs)
+    name: Matches
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputgesture.matches
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.InputEventArgs
+    name: InputEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.inputeventargs
+  - name: )
+- uid: Nodify.InputGestureRef.Matches*
+  commentId: Overload:Nodify.InputGestureRef.Matches
+  href: Nodify.InputGestureRef.html#Nodify_InputGestureRef_Matches_System_Object_System_Windows_Input_InputEventArgs_
+  name: Matches
+  nameWithType: InputGestureRef.Matches
+  fullName: Nodify.InputGestureRef.Matches
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Nodify.InputGestureRef.op_Implicit*
+  commentId: Overload:Nodify.InputGestureRef.op_Implicit
+  name: implicit operator
+  nameWithType: InputGestureRef.implicit operator
+  fullName: Nodify.InputGestureRef.implicit operator
+  nameWithType.vb: InputGestureRef.CType
+  fullName.vb: Nodify.InputGestureRef.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Windows.Input.MouseGesture
+  commentId: T:System.Windows.Input.MouseGesture
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousegesture
+  name: MouseGesture
+  nameWithType: MouseGesture
+  fullName: System.Windows.Input.MouseGesture
+- uid: Nodify.InputGestureRef
+  commentId: T:Nodify.InputGestureRef
+  parent: Nodify
+  href: Nodify.InputGestureRef.html
+  name: InputGestureRef
+  nameWithType: InputGestureRef
+  fullName: Nodify.InputGestureRef
+- uid: System.Windows.Input.KeyGesture
+  commentId: T:System.Windows.Input.KeyGesture
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.keygesture
+  name: KeyGesture
+  nameWithType: KeyGesture
+  fullName: System.Windows.Input.KeyGesture
+- uid: Nodify.MultiGesture
+  commentId: T:Nodify.MultiGesture
+  parent: Nodify
+  href: Nodify.MultiGesture.html
+  name: MultiGesture
+  nameWithType: MultiGesture
+  fullName: Nodify.MultiGesture

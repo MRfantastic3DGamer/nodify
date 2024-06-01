@@ -1,0 +1,910 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.EditorSelectingState
+  commentId: T:Nodify.EditorSelectingState
+  id: EditorSelectingState
+  parent: Nodify
+  children:
+  - Nodify.EditorSelectingState.#ctor(Nodify.NodifyEditor,Nodify.SelectionHelper.SelectionType)
+  - Nodify.EditorSelectingState.Enter(Nodify.EditorState)
+  - Nodify.EditorSelectingState.Exit
+  - Nodify.EditorSelectingState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  - Nodify.EditorSelectingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  - Nodify.EditorSelectingState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.EditorSelectingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  - Nodify.EditorSelectingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.EditorSelectingState.Selection
+  langs:
+  - csharp
+  - vb
+  name: EditorSelectingState
+  nameWithType: EditorSelectingState
+  fullName: Nodify.EditorSelectingState
+  type: Class
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EditorSelectingState
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 6
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The selecting state of the editor.
+  example: []
+  syntax:
+    content: 'public class EditorSelectingState : EditorState'
+    content.vb: Public Class EditorSelectingState Inherits EditorState
+  inheritance:
+  - System.Object
+  - Nodify.EditorState
+  inheritedMembers:
+  - Nodify.EditorState.Editor
+  - Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  - Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  - Nodify.EditorState.ReEnter(Nodify.EditorState)
+  - Nodify.EditorState.PushState(Nodify.EditorState)
+  - Nodify.EditorState.PopState
+- uid: Nodify.EditorSelectingState.Selection
+  commentId: P:Nodify.EditorSelectingState.Selection
+  id: Selection
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: EditorSelectingState.Selection
+  fullName: Nodify.EditorSelectingState.Selection
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Selection
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 12
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The selection helper.
+  example: []
+  syntax:
+    content: protected SelectionHelper Selection { get; }
+    parameters: []
+    return:
+      type: Nodify.SelectionHelper
+    content.vb: Protected ReadOnly Property Selection As SelectionHelper
+  overload: Nodify.EditorSelectingState.Selection*
+- uid: Nodify.EditorSelectingState.#ctor(Nodify.NodifyEditor,Nodify.SelectionHelper.SelectionType)
+  commentId: M:Nodify.EditorSelectingState.#ctor(Nodify.NodifyEditor,Nodify.SelectionHelper.SelectionType)
+  id: '#ctor(Nodify.NodifyEditor,Nodify.SelectionHelper.SelectionType)'
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: EditorSelectingState(NodifyEditor, SelectionType)
+  nameWithType: EditorSelectingState.EditorSelectingState(NodifyEditor, SelectionHelper.SelectionType)
+  fullName: Nodify.EditorSelectingState.EditorSelectingState(Nodify.NodifyEditor, Nodify.SelectionHelper.SelectionType)
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 16
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Constructs an instance of the <xref href="Nodify.EditorSelectingState" data-throw-if-not-resolved="false"></xref> state.
+  example: []
+  syntax:
+    content: public EditorSelectingState(NodifyEditor editor, SelectionHelper.SelectionType type)
+    parameters:
+    - id: editor
+      type: Nodify.NodifyEditor
+      description: The owner of the state.
+    - id: type
+      type: Nodify.SelectionHelper.SelectionType
+    content.vb: Public Sub New(editor As NodifyEditor, type As SelectionHelper.SelectionType)
+  overload: Nodify.EditorSelectingState.#ctor*
+  nameWithType.vb: EditorSelectingState.New(NodifyEditor, SelectionHelper.SelectionType)
+  fullName.vb: Nodify.EditorSelectingState.New(Nodify.NodifyEditor, Nodify.SelectionHelper.SelectionType)
+  name.vb: New(NodifyEditor, SelectionType)
+- uid: Nodify.EditorSelectingState.Enter(Nodify.EditorState)
+  commentId: M:Nodify.EditorSelectingState.Enter(Nodify.EditorState)
+  id: Enter(Nodify.EditorState)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: Enter(EditorState?)
+  nameWithType: EditorSelectingState.Enter(EditorState?)
+  fullName: Nodify.EditorSelectingState.Enter(Nodify.EditorState?)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Enter
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 23
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Called when <xref href="Nodify.NodifyEditor.PushState(Nodify.EditorState)" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Enter(EditorState? from)
+    parameters:
+    - id: from
+      type: Nodify.EditorState
+      description: The state we enter from (is null for root state).
+    content.vb: Public Overrides Sub Enter(from As EditorState)
+  overridden: Nodify.EditorState.Enter(Nodify.EditorState)
+  overload: Nodify.EditorSelectingState.Enter*
+  nameWithType.vb: EditorSelectingState.Enter(EditorState)
+  fullName.vb: Nodify.EditorSelectingState.Enter(Nodify.EditorState)
+  name.vb: Enter(EditorState)
+- uid: Nodify.EditorSelectingState.Exit
+  commentId: M:Nodify.EditorSelectingState.Exit
+  id: Exit
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: Exit()
+  nameWithType: EditorSelectingState.Exit()
+  fullName: Nodify.EditorSelectingState.Exit()
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Exit
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 30
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Called when <xref href="Nodify.NodifyEditor.PopState" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Exit()
+    content.vb: Public Overrides Sub [Exit]()
+  overridden: Nodify.EditorState.Exit
+  overload: Nodify.EditorSelectingState.Exit*
+- uid: Nodify.EditorSelectingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.EditorSelectingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  id: HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: HandleMouseMove(MouseEventArgs)
+  nameWithType: EditorSelectingState.HandleMouseMove(MouseEventArgs)
+  fullName: Nodify.EditorSelectingState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleMouseMove
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 43
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseMove" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleMouseMove(MouseEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseEventArgs
+      description: The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Public Overrides Sub HandleMouseMove(e As MouseEventArgs)
+  overridden: Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  overload: Nodify.EditorSelectingState.HandleMouseMove*
+- uid: Nodify.EditorSelectingState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.EditorSelectingState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  id: HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: HandleMouseDown(MouseButtonEventArgs)
+  nameWithType: EditorSelectingState.HandleMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.EditorSelectingState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleMouseDown
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseDown" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleMouseDown(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+      description: The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. This event data reports details about the mouse button that was pressed and the handled state.
+    content.vb: Public Overrides Sub HandleMouseDown(e As MouseButtonEventArgs)
+  overridden: Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  overload: Nodify.EditorSelectingState.HandleMouseDown*
+- uid: Nodify.EditorSelectingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.EditorSelectingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  id: HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: HandleMouseUp(MouseButtonEventArgs)
+  nameWithType: EditorSelectingState.HandleMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.EditorSelectingState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleMouseUp
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 56
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseUp" data-throw-if-not-resolved="false"></xref> routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleMouseUp(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+      description: The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. The event data reports that the mouse button was released.
+    content.vb: Public Overrides Sub HandleMouseUp(e As MouseButtonEventArgs)
+  overridden: Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  overload: Nodify.EditorSelectingState.HandleMouseUp*
+- uid: Nodify.EditorSelectingState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.EditorSelectingState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  id: HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: HandleAutoPanning(MouseEventArgs)
+  nameWithType: EditorSelectingState.HandleAutoPanning(MouseEventArgs)
+  fullName: Nodify.EditorSelectingState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleAutoPanning
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 70
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Handles auto panning when mouse is outside the editor.
+  example: []
+  syntax:
+    content: public override void HandleAutoPanning(MouseEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseEventArgs
+      description: The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Public Overrides Sub HandleAutoPanning(e As MouseEventArgs)
+  overridden: Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  overload: Nodify.EditorSelectingState.HandleAutoPanning*
+- uid: Nodify.EditorSelectingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.EditorSelectingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  id: HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.EditorSelectingState
+  langs:
+  - csharp
+  - vb
+  name: HandleKeyUp(KeyEventArgs)
+  nameWithType: EditorSelectingState.HandleKeyUp(KeyEventArgs)
+  fullName: Nodify.EditorSelectingState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorStates/EditorSelectingState.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HandleKeyUp
+    path: Nodify/EditorStates/EditorSelectingState.cs
+    startLine: 73
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Keyboard.KeyUp" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: public override void HandleKeyUp(KeyEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.KeyEventArgs
+      description: The <xref href="System.Windows.Input.KeyEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Public Overrides Sub HandleKeyUp(e As KeyEventArgs)
+  overridden: Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  overload: Nodify.EditorSelectingState.HandleKeyUp*
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Nodify.EditorState
+  commentId: T:Nodify.EditorState
+  parent: Nodify
+  href: Nodify.EditorState.html
+  name: EditorState
+  nameWithType: EditorState
+  fullName: Nodify.EditorState
+- uid: Nodify.EditorState.Editor
+  commentId: P:Nodify.EditorState.Editor
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_Editor
+  name: Editor
+  nameWithType: EditorState.Editor
+  fullName: Nodify.EditorState.Editor
+- uid: Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  commentId: M:Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  name: HandleMouseWheel(MouseWheelEventArgs)
+  nameWithType: EditorState.HandleMouseWheel(MouseWheelEventArgs)
+  fullName: Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+    name: HandleMouseWheel
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseWheelEventArgs
+    name: MouseWheelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousewheeleventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleMouseWheel(System.Windows.Input.MouseWheelEventArgs)
+    name: HandleMouseWheel
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseWheel_System_Windows_Input_MouseWheelEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseWheelEventArgs
+    name: MouseWheelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousewheeleventargs
+  - name: )
+- uid: Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyDown(KeyEventArgs)
+  nameWithType: EditorState.HandleKeyDown(KeyEventArgs)
+  fullName: Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyDown
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleKeyDown(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyDown
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyDown_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+- uid: Nodify.EditorState.ReEnter(Nodify.EditorState)
+  commentId: M:Nodify.EditorState.ReEnter(Nodify.EditorState)
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_ReEnter_Nodify_EditorState_
+  name: ReEnter(EditorState)
+  nameWithType: EditorState.ReEnter(EditorState)
+  fullName: Nodify.EditorState.ReEnter(Nodify.EditorState)
+  spec.csharp:
+  - uid: Nodify.EditorState.ReEnter(Nodify.EditorState)
+    name: ReEnter
+    href: Nodify.EditorState.html#Nodify_EditorState_ReEnter_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.ReEnter(Nodify.EditorState)
+    name: ReEnter
+    href: Nodify.EditorState.html#Nodify_EditorState_ReEnter_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+- uid: Nodify.EditorState.PushState(Nodify.EditorState)
+  commentId: M:Nodify.EditorState.PushState(Nodify.EditorState)
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_PushState_Nodify_EditorState_
+  name: PushState(EditorState)
+  nameWithType: EditorState.PushState(EditorState)
+  fullName: Nodify.EditorState.PushState(Nodify.EditorState)
+  spec.csharp:
+  - uid: Nodify.EditorState.PushState(Nodify.EditorState)
+    name: PushState
+    href: Nodify.EditorState.html#Nodify_EditorState_PushState_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.PushState(Nodify.EditorState)
+    name: PushState
+    href: Nodify.EditorState.html#Nodify_EditorState_PushState_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+- uid: Nodify.EditorState.PopState
+  commentId: M:Nodify.EditorState.PopState
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_PopState
+  name: PopState()
+  nameWithType: EditorState.PopState()
+  fullName: Nodify.EditorState.PopState()
+  spec.csharp:
+  - uid: Nodify.EditorState.PopState
+    name: PopState
+    href: Nodify.EditorState.html#Nodify_EditorState_PopState
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.PopState
+    name: PopState
+    href: Nodify.EditorState.html#Nodify_EditorState_PopState
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nodify.EditorSelectingState.Selection*
+  commentId: Overload:Nodify.EditorSelectingState.Selection
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_Selection
+  name: Selection
+  nameWithType: EditorSelectingState.Selection
+  fullName: Nodify.EditorSelectingState.Selection
+- uid: Nodify.SelectionHelper
+  commentId: T:Nodify.SelectionHelper
+  parent: Nodify
+  href: Nodify.SelectionHelper.html
+  name: SelectionHelper
+  nameWithType: SelectionHelper
+  fullName: Nodify.SelectionHelper
+- uid: Nodify.EditorSelectingState
+  commentId: T:Nodify.EditorSelectingState
+  href: Nodify.EditorSelectingState.html
+  name: EditorSelectingState
+  nameWithType: EditorSelectingState
+  fullName: Nodify.EditorSelectingState
+- uid: Nodify.EditorSelectingState.#ctor*
+  commentId: Overload:Nodify.EditorSelectingState.#ctor
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState__ctor_Nodify_NodifyEditor_Nodify_SelectionHelper_SelectionType_
+  name: EditorSelectingState
+  nameWithType: EditorSelectingState.EditorSelectingState
+  fullName: Nodify.EditorSelectingState.EditorSelectingState
+  nameWithType.vb: EditorSelectingState.New
+  fullName.vb: Nodify.EditorSelectingState.New
+  name.vb: New
+- uid: Nodify.NodifyEditor
+  commentId: T:Nodify.NodifyEditor
+  parent: Nodify
+  href: Nodify.NodifyEditor.html
+  name: NodifyEditor
+  nameWithType: NodifyEditor
+  fullName: Nodify.NodifyEditor
+- uid: Nodify.SelectionHelper.SelectionType
+  commentId: T:Nodify.SelectionHelper.SelectionType
+  parent: Nodify
+  href: Nodify.SelectionHelper.html
+  name: SelectionHelper.SelectionType
+  nameWithType: SelectionHelper.SelectionType
+  fullName: Nodify.SelectionHelper.SelectionType
+  spec.csharp:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html
+  spec.vb:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html
+- uid: Nodify.NodifyEditor.PushState(Nodify.EditorState)
+  commentId: M:Nodify.NodifyEditor.PushState(Nodify.EditorState)
+  href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PushState_Nodify_EditorState_
+  name: PushState(EditorState)
+  nameWithType: NodifyEditor.PushState(EditorState)
+  fullName: Nodify.NodifyEditor.PushState(Nodify.EditorState)
+  spec.csharp:
+  - uid: Nodify.NodifyEditor.PushState(Nodify.EditorState)
+    name: PushState
+    href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PushState_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.NodifyEditor.PushState(Nodify.EditorState)
+    name: PushState
+    href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PushState_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+- uid: Nodify.EditorState.Enter(Nodify.EditorState)
+  commentId: M:Nodify.EditorState.Enter(Nodify.EditorState)
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_Enter_Nodify_EditorState_
+  name: Enter(EditorState)
+  nameWithType: EditorState.Enter(EditorState)
+  fullName: Nodify.EditorState.Enter(Nodify.EditorState)
+  spec.csharp:
+  - uid: Nodify.EditorState.Enter(Nodify.EditorState)
+    name: Enter
+    href: Nodify.EditorState.html#Nodify_EditorState_Enter_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.Enter(Nodify.EditorState)
+    name: Enter
+    href: Nodify.EditorState.html#Nodify_EditorState_Enter_Nodify_EditorState_
+  - name: (
+  - uid: Nodify.EditorState
+    name: EditorState
+    href: Nodify.EditorState.html
+  - name: )
+- uid: Nodify.EditorSelectingState.Enter*
+  commentId: Overload:Nodify.EditorSelectingState.Enter
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_Enter_Nodify_EditorState_
+  name: Enter
+  nameWithType: EditorSelectingState.Enter
+  fullName: Nodify.EditorSelectingState.Enter
+- uid: Nodify.NodifyEditor.PopState
+  commentId: M:Nodify.NodifyEditor.PopState
+  href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PopState
+  name: PopState()
+  nameWithType: NodifyEditor.PopState()
+  fullName: Nodify.NodifyEditor.PopState()
+  spec.csharp:
+  - uid: Nodify.NodifyEditor.PopState
+    name: PopState
+    href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PopState
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.NodifyEditor.PopState
+    name: PopState
+    href: Nodify.NodifyEditor.html#Nodify_NodifyEditor_PopState
+  - name: (
+  - name: )
+- uid: Nodify.EditorState.Exit
+  commentId: M:Nodify.EditorState.Exit
+  parent: Nodify.EditorState
+  href: Nodify.EditorState.html#Nodify_EditorState_Exit
+  name: Exit()
+  nameWithType: EditorState.Exit()
+  fullName: Nodify.EditorState.Exit()
+  spec.csharp:
+  - uid: Nodify.EditorState.Exit
+    name: Exit
+    href: Nodify.EditorState.html#Nodify_EditorState_Exit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.Exit
+    name: Exit
+    href: Nodify.EditorState.html#Nodify_EditorState_Exit
+  - name: (
+  - name: )
+- uid: Nodify.EditorSelectingState.Exit*
+  commentId: Overload:Nodify.EditorSelectingState.Exit
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_Exit
+  name: Exit
+  nameWithType: EditorSelectingState.Exit
+  fullName: Nodify.EditorSelectingState.Exit
+- uid: System.Windows.Input.Mouse.MouseMove
+  commentId: E:System.Windows.Input.Mouse.MouseMove
+  isExternal: true
+- uid: System.Windows.Input.MouseEventArgs
+  commentId: T:System.Windows.Input.MouseEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs
+  fullName: System.Windows.Input.MouseEventArgs
+- uid: Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  name: HandleMouseMove(MouseEventArgs)
+  nameWithType: EditorState.HandleMouseMove(MouseEventArgs)
+  fullName: Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+    name: HandleMouseMove
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleMouseMove(System.Windows.Input.MouseEventArgs)
+    name: HandleMouseMove
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: Nodify.EditorSelectingState.HandleMouseMove*
+  commentId: Overload:Nodify.EditorSelectingState.HandleMouseMove
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_HandleMouseMove_System_Windows_Input_MouseEventArgs_
+  name: HandleMouseMove
+  nameWithType: EditorSelectingState.HandleMouseMove
+  fullName: Nodify.EditorSelectingState.HandleMouseMove
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: System.Windows.Input.Mouse.MouseDown
+  commentId: E:System.Windows.Input.Mouse.MouseDown
+  isExternal: true
+- uid: System.Windows.Input.MouseButtonEventArgs
+  commentId: T:System.Windows.Input.MouseButtonEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  name: MouseButtonEventArgs
+  nameWithType: MouseButtonEventArgs
+  fullName: System.Windows.Input.MouseButtonEventArgs
+- uid: Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseDown(MouseButtonEventArgs)
+  nameWithType: EditorState.HandleMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseDown
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseDown
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.EditorSelectingState.HandleMouseDown*
+  commentId: Overload:Nodify.EditorSelectingState.HandleMouseDown
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_HandleMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseDown
+  nameWithType: EditorSelectingState.HandleMouseDown
+  fullName: Nodify.EditorSelectingState.HandleMouseDown
+- uid: System.Windows.Input.Mouse.MouseUp
+  commentId: E:System.Windows.Input.Mouse.MouseUp
+  isExternal: true
+- uid: Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseUp(MouseButtonEventArgs)
+  nameWithType: EditorState.HandleMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseUp
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: HandleMouseUp
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.EditorSelectingState.HandleMouseUp*
+  commentId: Overload:Nodify.EditorSelectingState.HandleMouseUp
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_HandleMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: HandleMouseUp
+  nameWithType: EditorSelectingState.HandleMouseUp
+  fullName: Nodify.EditorSelectingState.HandleMouseUp
+- uid: Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleAutoPanning_System_Windows_Input_MouseEventArgs_
+  name: HandleAutoPanning(MouseEventArgs)
+  nameWithType: EditorState.HandleAutoPanning(MouseEventArgs)
+  fullName: Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+    name: HandleAutoPanning
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleAutoPanning_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleAutoPanning(System.Windows.Input.MouseEventArgs)
+    name: HandleAutoPanning
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleAutoPanning_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: Nodify.EditorSelectingState.HandleAutoPanning*
+  commentId: Overload:Nodify.EditorSelectingState.HandleAutoPanning
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_HandleAutoPanning_System_Windows_Input_MouseEventArgs_
+  name: HandleAutoPanning
+  nameWithType: EditorSelectingState.HandleAutoPanning
+  fullName: Nodify.EditorSelectingState.HandleAutoPanning
+- uid: System.Windows.Input.Keyboard.KeyUp
+  commentId: E:System.Windows.Input.Keyboard.KeyUp
+  isExternal: true
+- uid: System.Windows.Input.KeyEventArgs
+  commentId: T:System.Windows.Input.KeyEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  name: KeyEventArgs
+  nameWithType: KeyEventArgs
+  fullName: System.Windows.Input.KeyEventArgs
+- uid: Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.EditorState
+  isExternal: true
+  href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyUp(KeyEventArgs)
+  nameWithType: EditorState.HandleKeyUp(KeyEventArgs)
+  fullName: Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+  spec.csharp:
+  - uid: Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyUp
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.EditorState.HandleKeyUp(System.Windows.Input.KeyEventArgs)
+    name: HandleKeyUp
+    href: Nodify.EditorState.html#Nodify_EditorState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+- uid: Nodify.EditorSelectingState.HandleKeyUp*
+  commentId: Overload:Nodify.EditorSelectingState.HandleKeyUp
+  href: Nodify.EditorSelectingState.html#Nodify_EditorSelectingState_HandleKeyUp_System_Windows_Input_KeyEventArgs_
+  name: HandleKeyUp
+  nameWithType: EditorSelectingState.HandleKeyUp
+  fullName: Nodify.EditorSelectingState.HandleKeyUp

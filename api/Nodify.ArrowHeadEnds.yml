@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.ArrowHeadEnds
+  commentId: T:Nodify.ArrowHeadEnds
+  id: ArrowHeadEnds
+  parent: Nodify
+  children:
+  - Nodify.ArrowHeadEnds.Both
+  - Nodify.ArrowHeadEnds.End
+  - Nodify.ArrowHeadEnds.None
+  - Nodify.ArrowHeadEnds.Start
+  langs:
+  - csharp
+  - vb
+  name: ArrowHeadEnds
+  nameWithType: ArrowHeadEnds
+  fullName: Nodify.ArrowHeadEnds
+  type: Enum
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ArrowHeadEnds
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 62
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The end at which the arrow head is drawn.
+  example: []
+  syntax:
+    content: public enum ArrowHeadEnds
+    content.vb: Public Enum ArrowHeadEnds
+- uid: Nodify.ArrowHeadEnds.Start
+  commentId: F:Nodify.ArrowHeadEnds.Start
+  id: Start
+  parent: Nodify.ArrowHeadEnds
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: ArrowHeadEnds.Start
+  fullName: Nodify.ArrowHeadEnds.Start
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Start
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 67
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Arrow head at start.
+  example: []
+  syntax:
+    content: Start = 0
+    return:
+      type: Nodify.ArrowHeadEnds
+- uid: Nodify.ArrowHeadEnds.End
+  commentId: F:Nodify.ArrowHeadEnds.End
+  id: End
+  parent: Nodify.ArrowHeadEnds
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: ArrowHeadEnds.End
+  fullName: Nodify.ArrowHeadEnds.End
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: End
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 72
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Arrow head at end.
+  example: []
+  syntax:
+    content: End = 1
+    return:
+      type: Nodify.ArrowHeadEnds
+- uid: Nodify.ArrowHeadEnds.Both
+  commentId: F:Nodify.ArrowHeadEnds.Both
+  id: Both
+  parent: Nodify.ArrowHeadEnds
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: ArrowHeadEnds.Both
+  fullName: Nodify.ArrowHeadEnds.Both
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Both
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 77
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Arrow heads at both ends.
+  example: []
+  syntax:
+    content: Both = 2
+    return:
+      type: Nodify.ArrowHeadEnds
+- uid: Nodify.ArrowHeadEnds.None
+  commentId: F:Nodify.ArrowHeadEnds.None
+  id: None
+  parent: Nodify.ArrowHeadEnds
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ArrowHeadEnds.None
+  fullName: Nodify.ArrowHeadEnds.None
+  type: Field
+  source:
+    remote:
+      path: Nodify/Connections/BaseConnection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: None
+    path: Nodify/Connections/BaseConnection.cs
+    startLine: 82
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: No arrow head.
+  example: []
+  syntax:
+    content: None = 3
+    return:
+      type: Nodify.ArrowHeadEnds
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: Nodify.ArrowHeadEnds
+  commentId: T:Nodify.ArrowHeadEnds
+  parent: Nodify
+  href: Nodify.ArrowHeadEnds.html
+  name: ArrowHeadEnds
+  nameWithType: ArrowHeadEnds
+  fullName: Nodify.ArrowHeadEnds

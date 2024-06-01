@@ -1,34 +1,45 @@
 {
-    "metadata": [
+  "metadata": [
+    {
+      "src": [
         {
-            "src": [
-                {
-                    "files": [
-                        "src/Nodify/Nodify.csproj"
-                    ]
-                }
-            ],
-            "dest": "api"
+          "files": [
+            "Nodify/Nodify.csproj"
+          ]
         }
-    ],
-    "build": {
-        "content": [
-            {
-                "files": [
-                    "api/**.yml",
-                    "api/index.md"
-                ]
-            },
-            {
-                "files": [
-                    "articles/**.md",
-                    "toc.yml"
-                ]
-            }
-        ],
-        "xref": [
-            "https://xref.docs.microsoft.com/query?uid={uid}"
-        ],
-        "output": "site"
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml"
     }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Nodify-Docs",
+      "_appTitle": "Nodify-Docs",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
 }

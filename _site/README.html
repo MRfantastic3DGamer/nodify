@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Nodify  | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Nodify  | Nodify-Docs ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Nodify-Docs">
+            Nodify-Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="nodify-">Nodify <img src="https://user-images.githubusercontent.com/12727904/195416464-cbe7e3be-a372-4a17-a4be-a868059b9d7e.png" width="120px" alt="Nodify" align="right"></h1>
+
+<p><a href="https://www.nuget.org/packages/Nodify/"><img src="https://img.shields.io/nuget/v/Nodify?style=for-the-badge&amp;logo=nuget&amp;label=release" alt="NuGet"></a>
+<a href="https://www.nuget.org/packages/Nodify"><img src="https://img.shields.io/nuget/dt/Nodify?label=downloads&amp;style=for-the-badge&amp;logo=nuget" alt="NuGet"></a>
+<a href="https://github.com/miroiu/nodify/blob/master/LICENSE"><img src="https://img.shields.io/github/license/miroiu/nodify?style=for-the-badge" alt="License"></a>
+<a href="https://github.com/miroiu/nodify/wiki"><img src="https://img.shields.io/static/v1?label=docs&amp;message=WIP&amp;color=orange&amp;style=for-the-badge" alt="C#"></a></p>
+<p>A collection of highly performant controls for node based editors designed for MVVM.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>There is now a fantastic Avalonia port available! You can check it out <a href="https://github.com/BAndysc/nodify-avalonia">here</a>. Huge thanks to <a href="https://github.com/BAndysc">BAndysc</a> who made this possible!</p>
+</div>
+<h2 id="-examples-of-node-based-applications">🚀 Examples of node-based applications</h2>
+<p>🎨 A playground application where you can try all the available settings.</p>
+<blockquote>
+<p><a href="Examples/Nodify.Playground">Examples/Nodify.Playground</a></p>
+</blockquote>
+<p><img src="https://i.imgur.com/aqrUpuP.gif" alt="Playground"></p>
+<p>🌓 A state machine where each state represents an executable action, and each transition represents a condition for the next action to execute.</p>
+<blockquote>
+<p><a href="Examples/Nodify.StateMachine">Examples/Nodify.StateMachine</a></p>
+</blockquote>
+<p><img src="https://i.imgur.com/nVKV5ly.gif" alt="StateMachine"></p>
+<p>💻 A simple &quot;real-time&quot; calculator where each node represents an operation that takes input and feeds its output into other nodes input.</p>
+<blockquote>
+<p><a href="Examples/Nodify.Calculator">Examples/Nodify.Calculator</a></p>
+</blockquote>
+<p><img src="https://i.imgur.com/jonrZAq.gif" alt="Calculator"></p>
+<h2 id="-installation">📥 Installation</h2>
+<p>Use the nuget package manager to install Nodify.</p>
+<pre><code>Install-Package Nodify
+</code></pre>
+<h2 id="-features">⭐️ Features</h2>
+<ul>
+<li>Designed from the start to work with <strong>MVVM</strong></li>
+<li><strong>No dependencies</strong> other than WPF</li>
+<li><strong>Optimized</strong> for interactions with hundreds of nodes at once</li>
+<li>Built-in dark and light <strong>themes</strong></li>
+<li><strong>Selecting</strong>, <strong>zooming</strong>, <strong>panning</strong> with <strong>auto panning</strong> when close to edge</li>
+<li><strong>Select</strong>, <strong>move</strong> and <strong>connect</strong> nodes</li>
+<li>Lots of <strong>configurable</strong> dependency properties</li>
+<li>Ready for undo/redo</li>
+<li>Example applications: 🎨 <a href="Examples/Nodify.Playground"><strong>Playground</strong></a>, 🌓 <a href="Examples/Nodify.StateMachine"><strong>State machine</strong></a>, 💻 <a href="Examples/Nodify.Calculator"><strong>Calculator</strong></a></li>
+</ul>
+<h2 id="-documentation">📝 Documentation</h2>
+<p>Check out the <a href="https://github.com/miroiu/nodify/wiki">wiki</a> and the <a href="CHANGELOG.html">changelog</a> in github.</p>
+<h2 id="-contributing">❤️ <a href="CONTRIBUTING.html">Contributing</a></h2>
+<p>Helping with documentation, bug reports, pull requests or anything else is very welcome.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

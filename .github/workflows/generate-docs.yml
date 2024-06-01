@@ -16,18 +16,10 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '6.0.x'
-
-    - name: Install DocFX
-      run: |
-        wget https://github.com/dotnet/docfx/archive/refs/tags/v2.76.0.zip
-        unzip docfx.zip -d docfx
-
-    - name: Build the project
-      run: dotnet build --configuration Release
+        dotnet-version: '8.0.x'
 
     - name: Generate documentation
-      run: ./docfx/docfx.exe docfx.json
+      run: ./DocFX/docfx.exe docfx.json
 
     - name: Checkout wiki
       uses: actions/checkout@v2
