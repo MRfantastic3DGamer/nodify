@@ -15,9 +15,7 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.{md,yml}"
-        ],
+        "files": ["**/*.{md,yml}"],
         "exclude": [
           "_site/**"
         ]
