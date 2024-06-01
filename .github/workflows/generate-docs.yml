@@ -24,7 +24,7 @@ jobs:
     - name: Generate documentation
       run: |
         chmod +x src/DocFX/docfx.exe
-        src/DocFX/docfx.exe docfx.json
+        DocFX/docfx.exe docfx.json
 
     - name: Checkout wiki
       uses: actions/checkout@v2
