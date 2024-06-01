@@ -49,7 +49,5 @@ jobs:
       with:
         path: Docs
 
-    - name: Move in Docs
-      run: cd Docs
     - name: log all Docs
-      run: ls -a
+      run: tree
