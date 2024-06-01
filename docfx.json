@@ -1,4 +1,55 @@
 {
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "Nodify/**/*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**/*"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "template": [
+      "default"
+    ],
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**/*"
+        ],
+        "exclude": [
+          "*.md"
+        ]
+      }
+    ],
+    "markdownEngineName": "markdig",
+    "cleanupCacheHistory": false,
+    "keepFileLinksWithoutTitle": false,
+    "disableGitFeatures": false,
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepRawFiles": false,
+    "externalReference": [],
+    "forceRebuild": false,
+    "incremental": true,
+    "disableDefaultFilter": false,
+    "filter": null,
+    "fileMetadata": null,
+    "globalMetadata": null,
+    "templateMetadata": null,
+    "markdownEngineProperties": null,
+    "disableGitFeatures": false,
+    "disableSearchIndex": false
+  },
   "metadata": [
     {
       "src": [
@@ -15,57 +66,5 @@
       "dest": "api",
       "disableDefaultFilter": false
     }
-  ],
-  "build": {
-    "content": [
-      {
-        "files": [
-          "api/**/*.md",
-          "*.md"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "images/**/*"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**/*"
-        ],
-        "exclude": [
-          "*.md"
-        ]
-      }
-    ],
-    "dest": "_site",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
-    "template": [
-      "default"
-    ],
-    "markdownEngineName": "markdig",
-    "cleanupCacheHistory": false,
-    "keepFileLinksWithoutTitle": false,
-    "disableGitFeatures": false,
-    "cleanupCacheHistory": false,
-    "postProcessors": [],
-    "noLangKeyword": false,
-    "keepRawFiles": false,
-    "externalReference": [],
-    "forceRebuild": false,
-    "incremental": true,
-    "disableDefaultFilter": false,
-    "filter": null,
-    "fileMetadata": null,
-    "globalMetadata": null,
-    "templateMetadata": null,
-    "markdownEngineProperties": null,
-    "disableGitFeatures": false,
-    "disableSearchIndex": false
-  }
+  ]
 }
