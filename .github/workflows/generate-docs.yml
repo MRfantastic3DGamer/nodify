@@ -11,7 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: setup-docfx
-  # You may pin to the exact commit or the version.
-  # uses: clFaster/docfx-setup-action@bde296d7a34194fbd3173068b722180d4f382e76
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup .NET Core 8.x
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: "8.x"
+
+    - name: Setup DocFx
       uses: clFaster/docfx-setup-action@v1
+
+    - name: Build Documentation
+      uses: clFaster/docfx-build-action@v1
+      with:
+        docfx-file-path: "docs/docfx.json"
+
+    - name: Checkout wiki
+      uses: actions/checkout@v2
+      with:
+        repository: your-org/your-repo.wiki
+        path: wiki
+
+    - name: Copy generated docs to wiki
+      run: cp -r site/* wiki/
+
+    - name: Commit and push changes
+      run: |
+        cd wiki
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m "Update API documentation"
+        git push
