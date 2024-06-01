@@ -8,32 +8,30 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2.1.0
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '8.0.x'
 
-    - name: Install dependencies
-      run: dotnet restore
+    - name: Install DocFX
+      run: |
+        wget https://github.com/dotnet/docfx/releases/download/v2.56.8/docfx.zip
+        unzip docfx.zip -d docfx
+
+    - name: Build the project
+      run: dotnet build --configuration Release
 
     - name: Generate documentation
-      run: |
-        chmod +x src/DocFX/docfx.exe
-        DocFX/docfx.exe docfx.json
-
-    - name: Checkout wiki
-      uses: actions/checkout@v2
-      with:
-        repository: your-org/your-repo.wiki
-        path: wiki
+      run: ./docfx/docfx.exe docfx.json
 
     - name: Copy generated docs to wiki
-      run: cp -r site/* wiki/
+      run: cp -r _site/* wiki/
 
     - name: Commit and push changes
       run: |
