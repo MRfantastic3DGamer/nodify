@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - auto-docs
 
 jobs:
   build:
