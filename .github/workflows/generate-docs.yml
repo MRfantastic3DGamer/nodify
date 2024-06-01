@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: DocFX Publish
+    - name: setup-docfx
   # You may pin to the exact commit or the version.
-  # uses: frankhaugen/frank-docfx-publish@ae488e9172294f60ab21755503bd8f07ee5fce0c
-    - name: DocFX Publish
-      uses: frankhaugen/frank-docfx-publish@1.0
+  # uses: clFaster/docfx-setup-action@bde296d7a34194fbd3173068b722180d4f382e76
+      uses: clFaster/docfx-setup-action@v1
