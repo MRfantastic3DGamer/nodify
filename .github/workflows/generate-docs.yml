@@ -46,9 +46,6 @@ jobs:
         name: Docs
         path: Docs
 
-    - name: Copy generated docs to wiki
-      run: cp -r Docs/* wiki/
-
     - name: Sync Wiki
       uses: joeizzard/action-wiki-sync@master
       with:
