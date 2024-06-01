@@ -7,8 +7,8 @@ on:
       - auto-docs
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build-docs:
+    runs-on: windows-latest
 
     steps:
     - name: Checkout
@@ -27,13 +27,39 @@ jobs:
       with:
         docfx-file-path: "docfx.json"
         docfx-output-path: "Docs"
-        
+
+    - name: Upload Docs artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Docs
+        path: Docs
+
+  sync-wiki:
+    runs-on: ubuntu-latest
+    needs: build-docs
+
+    steps:
+    - name: Checkout wiki
+      uses: actions/checkout@v2
+      with:
+        repository: your-org/your-repo.wiki
+        path: wiki
+
+    - name: Download Docs artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: Docs
+        path: Docs
+
+    - name: Copy generated docs to wiki
+      run: cp -r Docs/* wiki/
+
     - name: Sync Wiki
       uses: joeizzard/action-wiki-sync@master
       with:
         username: MRfantastic3DGamer
         access_token: ${{ secrets.GITHUB_TOKEN }}
-        wiki_folder: "Docs"
+        wiki_folder: "wiki"
         commit_username: 'MRfantastic3DGamer'
         commit_email: 'dhruvtgs003@gmail.com'
         commit_message: 'action: wiki sync'
