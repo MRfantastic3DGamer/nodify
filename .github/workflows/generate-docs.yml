@@ -26,6 +26,7 @@ jobs:
       uses: clFaster/docfx-build-action@v1
       with:
         docfx-file-path: "docfx.json"
+        docfx-output-path: "Docs"
 
     - name: Checkout wiki
       uses: actions/checkout@v2
@@ -33,14 +34,20 @@ jobs:
         repository: your-org/your-repo.wiki
         path: wiki
 
-    - name: Copy generated docs to wiki
-      run: cp -r site/* wiki/
-
-    - name: Commit and push changes
-      run: |
-        cd wiki
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add .
-        git commit -m "Update API documentation"
-        git push
+    - name: DocFxToMarkdown
+      uses: fillefilip8/DocFxToMarkdown@1.4.0
+      with:
+    # DocFX metadata folder
+        input-folder: "Docs"
+    # Markdown output folder
+        output-folder: wiki
+        
+    - name: Sync Wiki
+      uses: joeizzard/action-wiki-sync@master
+      with:
+        username: MRfantastic3DGamer
+        access_token: ${{ secrets.GITHUB_TOKEN }}
+        wiki_folder: wiki
+        commit_username: 'MRfantastic3DGamer'
+        commit_email: 'dhruvtgs003@gmail.com'
+        commit_message: 'action: wiki sync'
