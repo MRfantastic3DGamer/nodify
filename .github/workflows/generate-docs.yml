@@ -25,7 +25,7 @@ jobs:
     - name: Build Documentation
       uses: clFaster/docfx-build-action@v1
       with:
-        docfx-file-path: "docs/docfx.json"
+        docfx-file-path: "docfx.json"
 
     - name: Checkout wiki
       uses: actions/checkout@v2
