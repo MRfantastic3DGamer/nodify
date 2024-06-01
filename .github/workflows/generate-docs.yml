@@ -8,29 +8,46 @@ on:
 
 jobs:
   build-docs:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
+    runs-on: windows-latest
 
-    - name: Setup .NET Core
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup .NET Core 8.x
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: "8.x"
 
-    - name: Install DocFX
-      run: |
-        dotnet tool install -g docfx
-        echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+    - name: Setup DocFx
+      uses: clFaster/docfx-setup-action@v1
 
     - name: Build Documentation
-      run: docfx build docfx.json
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: clFaster/docfx-build-action@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: Docs
+        docfx-file-path: "docfx.json"
+        docfx-output-path: "Docs"
+
+    - name: Upload Docs artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Docs
+        path: Docs
+
+  sync-wiki:
+    runs-on: ubuntu-latest
+    needs: build-docs
+
+    steps:
+
+    - name: Download Docs artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: Docs
+        path: Docs
+    - uses: spenserblack/actions-wiki@v0.3.0
+      with:
+        path: Docs
+
+    - name: log all Docs
+      run: tree

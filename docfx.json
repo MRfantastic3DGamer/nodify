@@ -23,6 +23,12 @@
         ]
       }
     ],
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+          "Abbreviations",
+          "Footnotes"
+      ]
+    },
     "resource": [
       {
         "files": [
