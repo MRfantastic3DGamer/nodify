@@ -39,10 +39,15 @@ jobs:
     needs: build-docs
 
     steps:
+    - name: DocFxToMarkdown
+      uses: fillefilip8/DocFxToMarkdown@1.4.0
+      with:
+        input-folder: Docs
+        output-folder: wiki
     - name: Checkout wiki
       uses: actions/checkout@v2
       with:
-        repository: your-org/your-repo.wiki
+        repository: https://github.com/MRfantastic3DGamer/nodify/wiki
         path: wiki
 
     - name: Download Docs artifact
