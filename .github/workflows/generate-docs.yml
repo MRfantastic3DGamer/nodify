@@ -39,6 +39,13 @@ jobs:
     needs: build-docs
 
     steps:
+
+    - name: Download Docs artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: Docs
+        path: Docs
+
     - name: DocFxToMarkdown
       uses: fillefilip8/DocFxToMarkdown@1.4.0
       with:
@@ -49,12 +56,6 @@ jobs:
       with:
         repository: https://github.com/MRfantastic3DGamer/nodify/wiki
         path: wiki
-
-    - name: Download Docs artifact
-      uses: actions/download-artifact@v3
-      with:
-        name: Docs
-        path: Docs
 
     - name: Copy generated docs to wiki
       run: cp -r Docs/* wiki/
