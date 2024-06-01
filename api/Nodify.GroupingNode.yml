@@ -1,0 +1,1383 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.GroupingNode
+  commentId: T:Nodify.GroupingNode
+  id: GroupingNode
+  parent: Nodify
+  children:
+  - Nodify.GroupingNode.#ctor
+  - Nodify.GroupingNode.ActualSize
+  - Nodify.GroupingNode.ActualSizeProperty
+  - Nodify.GroupingNode.CanResize
+  - Nodify.GroupingNode.CanResizeProperty
+  - Nodify.GroupingNode.Container
+  - Nodify.GroupingNode.ContentControl
+  - Nodify.GroupingNode.Editor
+  - Nodify.GroupingNode.ElementContent
+  - Nodify.GroupingNode.ElementHeader
+  - Nodify.GroupingNode.ElementResizeThumb
+  - Nodify.GroupingNode.GroupMovementBoxed
+  - Nodify.GroupingNode.HeaderBrush
+  - Nodify.GroupingNode.HeaderBrushProperty
+  - Nodify.GroupingNode.HeaderControl
+  - Nodify.GroupingNode.MovementMode
+  - Nodify.GroupingNode.MovementModeProperty
+  - Nodify.GroupingNode.OnApplyTemplate
+  - Nodify.GroupingNode.ResizeCompleted
+  - Nodify.GroupingNode.ResizeCompletedCommand
+  - Nodify.GroupingNode.ResizeCompletedCommandProperty
+  - Nodify.GroupingNode.ResizeCompletedEvent
+  - Nodify.GroupingNode.ResizeStarted
+  - Nodify.GroupingNode.ResizeStartedCommand
+  - Nodify.GroupingNode.ResizeStartedCommandProperty
+  - Nodify.GroupingNode.ResizeStartedEvent
+  - Nodify.GroupingNode.ResizeThumb
+  langs:
+  - csharp
+  - vb
+  name: GroupingNode
+  nameWithType: GroupingNode
+  fullName: Nodify.GroupingNode
+  type: Class
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GroupingNode
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 28
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Defines a panel with a header that groups <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref>s inside it and can be resized.
+  example: []
+  syntax:
+    content: >-
+      [TemplatePart(Name = "PART_ResizeThumb", Type = typeof(FrameworkElement))]
+
+      [TemplatePart(Name = "PART_Header", Type = typeof(FrameworkElement))]
+
+      [TemplatePart(Name = "PART_Content", Type = typeof(FrameworkElement))]
+
+      public class GroupingNode : HeaderedContentControl
+    content.vb: >-
+      <TemplatePart(Name:="PART_ResizeThumb", Type:=GetType(FrameworkElement))>
+
+      <TemplatePart(Name:="PART_Header", Type:=GetType(FrameworkElement))>
+
+      <TemplatePart(Name:="PART_Content", Type:=GetType(FrameworkElement))>
+
+      Public Class GroupingNode Inherits HeaderedContentControl
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Visual
+  - System.Windows.UIElement
+  - System.Windows.FrameworkElement
+  - System.Windows.Controls.Control
+  - System.Windows.Controls.ContentControl
+  - System.Windows.Controls.HeaderedContentControl
+  attributes:
+  - type: System.Windows.TemplatePartAttribute
+    ctor: System.Windows.TemplatePartAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PART_ResizeThumb
+  - type: System.Windows.TemplatePartAttribute
+    ctor: System.Windows.TemplatePartAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PART_Header
+  - type: System.Windows.TemplatePartAttribute
+    ctor: System.Windows.TemplatePartAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PART_Content
+- uid: Nodify.GroupingNode.GroupMovementBoxed
+  commentId: F:Nodify.GroupingNode.GroupMovementBoxed
+  id: GroupMovementBoxed
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: GroupMovementBoxed
+  nameWithType: GroupingNode.GroupMovementBoxed
+  fullName: Nodify.GroupingNode.GroupMovementBoxed
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GroupMovementBoxed
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 33
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected static readonly object GroupMovementBoxed
+    return:
+      type: System.Object
+    content.vb: Protected Shared ReadOnly GroupMovementBoxed As Object
+- uid: Nodify.GroupingNode.ElementResizeThumb
+  commentId: F:Nodify.GroupingNode.ElementResizeThumb
+  id: ElementResizeThumb
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ElementResizeThumb
+  nameWithType: GroupingNode.ElementResizeThumb
+  fullName: Nodify.GroupingNode.ElementResizeThumb
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ElementResizeThumb
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 35
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected const string ElementResizeThumb = "PART_ResizeThumb"
+    return:
+      type: System.String
+    content.vb: Protected Const ElementResizeThumb As String = "PART_ResizeThumb"
+- uid: Nodify.GroupingNode.ElementHeader
+  commentId: F:Nodify.GroupingNode.ElementHeader
+  id: ElementHeader
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ElementHeader
+  nameWithType: GroupingNode.ElementHeader
+  fullName: Nodify.GroupingNode.ElementHeader
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ElementHeader
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 36
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected const string ElementHeader = "PART_Header"
+    return:
+      type: System.String
+    content.vb: Protected Const ElementHeader As String = "PART_Header"
+- uid: Nodify.GroupingNode.ElementContent
+  commentId: F:Nodify.GroupingNode.ElementContent
+  id: ElementContent
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ElementContent
+  nameWithType: GroupingNode.ElementContent
+  fullName: Nodify.GroupingNode.ElementContent
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ElementContent
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 37
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected const string ElementContent = "PART_Content"
+    return:
+      type: System.String
+    content.vb: Protected Const ElementContent As String = "PART_Content"
+- uid: Nodify.GroupingNode.ResizeStartedEvent
+  commentId: F:Nodify.GroupingNode.ResizeStartedEvent
+  id: ResizeStartedEvent
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeStartedEvent
+  nameWithType: GroupingNode.ResizeStartedEvent
+  fullName: Nodify.GroupingNode.ResizeStartedEvent
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeStartedEvent
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 41
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly RoutedEvent ResizeStartedEvent
+    return:
+      type: System.Windows.RoutedEvent
+    content.vb: Public Shared ReadOnly ResizeStartedEvent As RoutedEvent
+- uid: Nodify.GroupingNode.ResizeCompletedEvent
+  commentId: F:Nodify.GroupingNode.ResizeCompletedEvent
+  id: ResizeCompletedEvent
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeCompletedEvent
+  nameWithType: GroupingNode.ResizeCompletedEvent
+  fullName: Nodify.GroupingNode.ResizeCompletedEvent
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeCompletedEvent
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 42
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly RoutedEvent ResizeCompletedEvent
+    return:
+      type: System.Windows.RoutedEvent
+    content.vb: Public Shared ReadOnly ResizeCompletedEvent As RoutedEvent
+- uid: Nodify.GroupingNode.ResizeCompleted
+  commentId: E:Nodify.GroupingNode.ResizeCompleted
+  id: ResizeCompleted
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeCompleted
+  nameWithType: GroupingNode.ResizeCompleted
+  fullName: Nodify.GroupingNode.ResizeCompleted
+  type: Event
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeCompleted
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Occurs when the node finished resizing.
+  example: []
+  syntax:
+    content: public event ResizeEventHandler ResizeCompleted
+    return:
+      type: Nodify.ResizeEventHandler
+    content.vb: Public Event ResizeCompleted As ResizeEventHandler
+- uid: Nodify.GroupingNode.ResizeStarted
+  commentId: E:Nodify.GroupingNode.ResizeStarted
+  id: ResizeStarted
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeStarted
+  nameWithType: GroupingNode.ResizeStarted
+  fullName: Nodify.GroupingNode.ResizeStarted
+  type: Event
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeStarted
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 56
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Occurs when the node started resizing.
+  example: []
+  syntax:
+    content: public event ResizeEventHandler ResizeStarted
+    return:
+      type: Nodify.ResizeEventHandler
+    content.vb: Public Event ResizeStarted As ResizeEventHandler
+- uid: Nodify.GroupingNode.HeaderBrushProperty
+  commentId: F:Nodify.GroupingNode.HeaderBrushProperty
+  id: HeaderBrushProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: HeaderBrushProperty
+  nameWithType: GroupingNode.HeaderBrushProperty
+  fullName: Nodify.GroupingNode.HeaderBrushProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HeaderBrushProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 66
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty HeaderBrushProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly HeaderBrushProperty As DependencyProperty
+- uid: Nodify.GroupingNode.CanResizeProperty
+  commentId: F:Nodify.GroupingNode.CanResizeProperty
+  id: CanResizeProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: CanResizeProperty
+  nameWithType: GroupingNode.CanResizeProperty
+  fullName: Nodify.GroupingNode.CanResizeProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CanResizeProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 67
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty CanResizeProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly CanResizeProperty As DependencyProperty
+- uid: Nodify.GroupingNode.ActualSizeProperty
+  commentId: F:Nodify.GroupingNode.ActualSizeProperty
+  id: ActualSizeProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ActualSizeProperty
+  nameWithType: GroupingNode.ActualSizeProperty
+  fullName: Nodify.GroupingNode.ActualSizeProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ActualSizeProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 68
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ActualSizeProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ActualSizeProperty As DependencyProperty
+- uid: Nodify.GroupingNode.MovementModeProperty
+  commentId: F:Nodify.GroupingNode.MovementModeProperty
+  id: MovementModeProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: MovementModeProperty
+  nameWithType: GroupingNode.MovementModeProperty
+  fullName: Nodify.GroupingNode.MovementModeProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: MovementModeProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 69
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty MovementModeProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly MovementModeProperty As DependencyProperty
+- uid: Nodify.GroupingNode.ResizeCompletedCommandProperty
+  commentId: F:Nodify.GroupingNode.ResizeCompletedCommandProperty
+  id: ResizeCompletedCommandProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeCompletedCommandProperty
+  nameWithType: GroupingNode.ResizeCompletedCommandProperty
+  fullName: Nodify.GroupingNode.ResizeCompletedCommandProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeCompletedCommandProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 70
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ResizeCompletedCommandProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ResizeCompletedCommandProperty As DependencyProperty
+- uid: Nodify.GroupingNode.ResizeStartedCommandProperty
+  commentId: F:Nodify.GroupingNode.ResizeStartedCommandProperty
+  id: ResizeStartedCommandProperty
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeStartedCommandProperty
+  nameWithType: GroupingNode.ResizeStartedCommandProperty
+  fullName: Nodify.GroupingNode.ResizeStartedCommandProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeStartedCommandProperty
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 71
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ResizeStartedCommandProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ResizeStartedCommandProperty As DependencyProperty
+- uid: Nodify.GroupingNode.HeaderBrush
+  commentId: P:Nodify.GroupingNode.HeaderBrush
+  id: HeaderBrush
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: HeaderBrush
+  nameWithType: GroupingNode.HeaderBrush
+  fullName: Nodify.GroupingNode.HeaderBrush
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HeaderBrush
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 84
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the brush used for the background of the <xref href="System.Windows.Controls.HeaderedContentControl.Header" data-throw-if-not-resolved="false"></xref> of this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Brush HeaderBrush { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property HeaderBrush As Brush
+  overload: Nodify.GroupingNode.HeaderBrush*
+- uid: Nodify.GroupingNode.CanResize
+  commentId: P:Nodify.GroupingNode.CanResize
+  id: CanResize
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: CanResize
+  nameWithType: GroupingNode.CanResize
+  fullName: Nodify.GroupingNode.CanResize
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CanResize
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 93
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets a value that indicates whether this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref> can be resized.
+  example: []
+  syntax:
+    content: public bool CanResize { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanResize As Boolean
+  overload: Nodify.GroupingNode.CanResize*
+- uid: Nodify.GroupingNode.ActualSize
+  commentId: P:Nodify.GroupingNode.ActualSize
+  id: ActualSize
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ActualSize
+  nameWithType: GroupingNode.ActualSize
+  fullName: Nodify.GroupingNode.ActualSize
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ActualSize
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 102
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the actual size of this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Size ActualSize { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Size
+    content.vb: Public Property ActualSize As Size
+  overload: Nodify.GroupingNode.ActualSize*
+- uid: Nodify.GroupingNode.MovementMode
+  commentId: P:Nodify.GroupingNode.MovementMode
+  id: MovementMode
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: MovementMode
+  nameWithType: GroupingNode.MovementMode
+  fullName: Nodify.GroupingNode.MovementMode
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: MovementMode
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 111
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the default movement mode which can be temporarily changed by holding the SwitchMovementModeModifierKey while dragging by the header.
+  example: []
+  syntax:
+    content: public GroupingMovementMode MovementMode { get; set; }
+    parameters: []
+    return:
+      type: Nodify.GroupingMovementMode
+    content.vb: Public Property MovementMode As GroupingMovementMode
+  overload: Nodify.GroupingNode.MovementMode*
+- uid: Nodify.GroupingNode.ResizeCompletedCommand
+  commentId: P:Nodify.GroupingNode.ResizeCompletedCommand
+  id: ResizeCompletedCommand
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeCompletedCommand
+  nameWithType: GroupingNode.ResizeCompletedCommand
+  fullName: Nodify.GroupingNode.ResizeCompletedCommand
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeCompletedCommand
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 121
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    Invoked when the <xref href="Nodify.GroupingNode.ResizeCompleted" data-throw-if-not-resolved="false"></xref> event is not handled.
+
+    Parameter is the <xref href="Nodify.ItemContainer.ActualSize" data-throw-if-not-resolved="false"></xref> of the container.
+  example: []
+  syntax:
+    content: public ICommand? ResizeCompletedCommand { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public Property ResizeCompletedCommand As ICommand
+  overload: Nodify.GroupingNode.ResizeCompletedCommand*
+- uid: Nodify.GroupingNode.ResizeStartedCommand
+  commentId: P:Nodify.GroupingNode.ResizeStartedCommand
+  id: ResizeStartedCommand
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeStartedCommand
+  nameWithType: GroupingNode.ResizeStartedCommand
+  fullName: Nodify.GroupingNode.ResizeStartedCommand
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeStartedCommand
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 131
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: >-
+    Invoked when the <xref href="Nodify.GroupingNode.ResizeStarted" data-throw-if-not-resolved="false"></xref> event is not handled.
+
+    Parameter is the <xref href="Nodify.ItemContainer.ActualSize" data-throw-if-not-resolved="false"></xref> of the container.
+  example: []
+  syntax:
+    content: public ICommand? ResizeStartedCommand { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public Property ResizeStartedCommand As ICommand
+  overload: Nodify.GroupingNode.ResizeStartedCommand*
+- uid: Nodify.GroupingNode.Editor
+  commentId: P:Nodify.GroupingNode.Editor
+  id: Editor
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: GroupingNode.Editor
+  fullName: Nodify.GroupingNode.Editor
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Editor
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 144
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="Nodify.NodifyEditor" data-throw-if-not-resolved="false"></xref> that owns this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected NodifyEditor? Editor { get; }
+    parameters: []
+    return:
+      type: Nodify.NodifyEditor
+    content.vb: Protected Property Editor As NodifyEditor
+  overload: Nodify.GroupingNode.Editor*
+- uid: Nodify.GroupingNode.Container
+  commentId: P:Nodify.GroupingNode.Container
+  id: Container
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: GroupingNode.Container
+  fullName: Nodify.GroupingNode.Container
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Container
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 149
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="Nodify.NodifyEditor" data-throw-if-not-resolved="false"></xref> that owns this <xref href="Nodify.GroupingNode.Container" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected ItemContainer? Container { get; }
+    parameters: []
+    return:
+      type: Nodify.ItemContainer
+    content.vb: Protected Property Container As ItemContainer
+  overload: Nodify.GroupingNode.Container*
+- uid: Nodify.GroupingNode.ResizeThumb
+  commentId: F:Nodify.GroupingNode.ResizeThumb
+  id: ResizeThumb
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ResizeThumb
+  nameWithType: GroupingNode.ResizeThumb
+  fullName: Nodify.GroupingNode.ResizeThumb
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ResizeThumb
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 154
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref> used to resize this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected FrameworkElement? ResizeThumb
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Protected ResizeThumb As FrameworkElement
+- uid: Nodify.GroupingNode.HeaderControl
+  commentId: F:Nodify.GroupingNode.HeaderControl
+  id: HeaderControl
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: HeaderControl
+  nameWithType: GroupingNode.HeaderControl
+  fullName: Nodify.GroupingNode.HeaderControl
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HeaderControl
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 159
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="System.Windows.Controls.HeaderedContentControl.Header" data-throw-if-not-resolved="false"></xref> control of this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected FrameworkElement? HeaderControl
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Protected HeaderControl As FrameworkElement
+- uid: Nodify.GroupingNode.ContentControl
+  commentId: F:Nodify.GroupingNode.ContentControl
+  id: ContentControl
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: ContentControl
+  nameWithType: GroupingNode.ContentControl
+  fullName: Nodify.GroupingNode.ContentControl
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentControl
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 164
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="System.Windows.Controls.ContentControl" data-throw-if-not-resolved="false"></xref> control of this <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected FrameworkElement? ContentControl
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Protected ContentControl As FrameworkElement
+- uid: Nodify.GroupingNode.#ctor
+  commentId: M:Nodify.GroupingNode.#ctor
+  id: '#ctor'
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: GroupingNode()
+  nameWithType: GroupingNode.GroupingNode()
+  fullName: Nodify.GroupingNode.GroupingNode()
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 189
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Initializes a new instance of the <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public GroupingNode()
+    content.vb: Public Sub New()
+  overload: Nodify.GroupingNode.#ctor*
+  nameWithType.vb: GroupingNode.New()
+  fullName.vb: Nodify.GroupingNode.New()
+  name.vb: New()
+- uid: Nodify.GroupingNode.OnApplyTemplate
+  commentId: M:Nodify.GroupingNode.OnApplyTemplate
+  id: OnApplyTemplate
+  parent: Nodify.GroupingNode
+  langs:
+  - csharp
+  - vb
+  name: OnApplyTemplate()
+  nameWithType: GroupingNode.OnApplyTemplate()
+  fullName: Nodify.GroupingNode.OnApplyTemplate()
+  type: Method
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnApplyTemplate
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 269
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, is invoked whenever application code or internal processes call <xref href="System.Windows.FrameworkElement.ApplyTemplate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void OnApplyTemplate()
+    content.vb: Public Overrides Sub OnApplyTemplate()
+  overridden: System.Windows.FrameworkElement.OnApplyTemplate
+  overload: Nodify.GroupingNode.OnApplyTemplate*
+references:
+- uid: Nodify.ItemContainer
+  commentId: T:Nodify.ItemContainer
+  parent: Nodify
+  href: Nodify.ItemContainer.html
+  name: ItemContainer
+  nameWithType: ItemContainer
+  fullName: Nodify.ItemContainer
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows.Controls.Control
+  commentId: T:System.Windows.Controls.Control
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.control
+  name: Control
+  nameWithType: Control
+  fullName: System.Windows.Controls.Control
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol
+  name: ContentControl
+  nameWithType: ContentControl
+  fullName: System.Windows.Controls.ContentControl
+- uid: System.Windows.Controls.HeaderedContentControl
+  commentId: T:System.Windows.Controls.HeaderedContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol
+  name: HeaderedContentControl
+  nameWithType: HeaderedContentControl
+  fullName: System.Windows.Controls.HeaderedContentControl
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.RoutedEvent
+  commentId: T:System.Windows.RoutedEvent
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedevent
+  name: RoutedEvent
+  nameWithType: RoutedEvent
+  fullName: System.Windows.RoutedEvent
+- uid: Nodify.ResizeEventHandler
+  commentId: T:Nodify.ResizeEventHandler
+  parent: Nodify
+  href: Nodify.ResizeEventHandler.html
+  name: ResizeEventHandler
+  nameWithType: ResizeEventHandler
+  fullName: Nodify.ResizeEventHandler
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: System.Windows.Controls.HeaderedContentControl.Header
+  commentId: P:System.Windows.Controls.HeaderedContentControl.Header
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol.header
+  name: Header
+  nameWithType: HeaderedContentControl.Header
+  fullName: System.Windows.Controls.HeaderedContentControl.Header
+- uid: Nodify.GroupingNode
+  commentId: T:Nodify.GroupingNode
+  href: Nodify.GroupingNode.html
+  name: GroupingNode
+  nameWithType: GroupingNode
+  fullName: Nodify.GroupingNode
+- uid: Nodify.GroupingNode.HeaderBrush*
+  commentId: Overload:Nodify.GroupingNode.HeaderBrush
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_HeaderBrush
+  name: HeaderBrush
+  nameWithType: GroupingNode.HeaderBrush
+  fullName: Nodify.GroupingNode.HeaderBrush
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: Nodify.GroupingNode.CanResize*
+  commentId: Overload:Nodify.GroupingNode.CanResize
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_CanResize
+  name: CanResize
+  nameWithType: GroupingNode.CanResize
+  fullName: Nodify.GroupingNode.CanResize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Nodify.GroupingNode.ActualSize*
+  commentId: Overload:Nodify.GroupingNode.ActualSize
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_ActualSize
+  name: ActualSize
+  nameWithType: GroupingNode.ActualSize
+  fullName: Nodify.GroupingNode.ActualSize
+- uid: System.Windows.Size
+  commentId: T:System.Windows.Size
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.size
+  name: Size
+  nameWithType: Size
+  fullName: System.Windows.Size
+- uid: Nodify.GroupingNode.MovementMode*
+  commentId: Overload:Nodify.GroupingNode.MovementMode
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_MovementMode
+  name: MovementMode
+  nameWithType: GroupingNode.MovementMode
+  fullName: Nodify.GroupingNode.MovementMode
+- uid: Nodify.GroupingMovementMode
+  commentId: T:Nodify.GroupingMovementMode
+  parent: Nodify
+  href: Nodify.GroupingMovementMode.html
+  name: GroupingMovementMode
+  nameWithType: GroupingMovementMode
+  fullName: Nodify.GroupingMovementMode
+- uid: Nodify.GroupingNode.ResizeCompleted
+  commentId: E:Nodify.GroupingNode.ResizeCompleted
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_ResizeCompleted
+  name: ResizeCompleted
+  nameWithType: GroupingNode.ResizeCompleted
+  fullName: Nodify.GroupingNode.ResizeCompleted
+- uid: Nodify.ItemContainer.ActualSize
+  commentId: P:Nodify.ItemContainer.ActualSize
+  href: Nodify.ItemContainer.html#Nodify_ItemContainer_ActualSize
+  name: ActualSize
+  nameWithType: ItemContainer.ActualSize
+  fullName: Nodify.ItemContainer.ActualSize
+- uid: Nodify.GroupingNode.ResizeCompletedCommand*
+  commentId: Overload:Nodify.GroupingNode.ResizeCompletedCommand
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_ResizeCompletedCommand
+  name: ResizeCompletedCommand
+  nameWithType: GroupingNode.ResizeCompletedCommand
+  fullName: Nodify.GroupingNode.ResizeCompletedCommand
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.icommand
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: Nodify.GroupingNode.ResizeStarted
+  commentId: E:Nodify.GroupingNode.ResizeStarted
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_ResizeStarted
+  name: ResizeStarted
+  nameWithType: GroupingNode.ResizeStarted
+  fullName: Nodify.GroupingNode.ResizeStarted
+- uid: Nodify.GroupingNode.ResizeStartedCommand*
+  commentId: Overload:Nodify.GroupingNode.ResizeStartedCommand
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_ResizeStartedCommand
+  name: ResizeStartedCommand
+  nameWithType: GroupingNode.ResizeStartedCommand
+  fullName: Nodify.GroupingNode.ResizeStartedCommand
+- uid: Nodify.NodifyEditor
+  commentId: T:Nodify.NodifyEditor
+  parent: Nodify
+  href: Nodify.NodifyEditor.html
+  name: NodifyEditor
+  nameWithType: NodifyEditor
+  fullName: Nodify.NodifyEditor
+- uid: Nodify.GroupingNode.Editor*
+  commentId: Overload:Nodify.GroupingNode.Editor
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_Editor
+  name: Editor
+  nameWithType: GroupingNode.Editor
+  fullName: Nodify.GroupingNode.Editor
+- uid: Nodify.GroupingNode.Container
+  commentId: P:Nodify.GroupingNode.Container
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_Container
+  name: Container
+  nameWithType: GroupingNode.Container
+  fullName: Nodify.GroupingNode.Container
+- uid: Nodify.GroupingNode.Container*
+  commentId: Overload:Nodify.GroupingNode.Container
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_Container
+  name: Container
+  nameWithType: GroupingNode.Container
+  fullName: Nodify.GroupingNode.Container
+- uid: Nodify.GroupingNode.#ctor*
+  commentId: Overload:Nodify.GroupingNode.#ctor
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode__ctor
+  name: GroupingNode
+  nameWithType: GroupingNode.GroupingNode
+  fullName: Nodify.GroupingNode.GroupingNode
+  nameWithType.vb: GroupingNode.New
+  fullName.vb: Nodify.GroupingNode.New
+  name.vb: New
+- uid: System.Windows.FrameworkElement.ApplyTemplate
+  commentId: M:System.Windows.FrameworkElement.ApplyTemplate
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  name: ApplyTemplate()
+  nameWithType: FrameworkElement.ApplyTemplate()
+  fullName: System.Windows.FrameworkElement.ApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+- uid: System.Windows.FrameworkElement.OnApplyTemplate
+  commentId: M:System.Windows.FrameworkElement.OnApplyTemplate
+  parent: System.Windows.FrameworkElement
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  name: OnApplyTemplate()
+  nameWithType: FrameworkElement.OnApplyTemplate()
+  fullName: System.Windows.FrameworkElement.OnApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.FrameworkElement.OnApplyTemplate
+    name: OnApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.FrameworkElement.OnApplyTemplate
+    name: OnApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate
+  - name: (
+  - name: )
+- uid: Nodify.GroupingNode.OnApplyTemplate*
+  commentId: Overload:Nodify.GroupingNode.OnApplyTemplate
+  href: Nodify.GroupingNode.html#Nodify_GroupingNode_OnApplyTemplate
+  name: OnApplyTemplate
+  nameWithType: GroupingNode.OnApplyTemplate
+  fullName: Nodify.GroupingNode.OnApplyTemplate

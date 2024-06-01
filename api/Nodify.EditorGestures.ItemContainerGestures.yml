@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.EditorGestures.ItemContainerGestures
+  commentId: T:Nodify.EditorGestures.ItemContainerGestures
+  id: EditorGestures.ItemContainerGestures
+  parent: Nodify
+  children:
+  - Nodify.EditorGestures.ItemContainerGestures.#ctor
+  - Nodify.EditorGestures.ItemContainerGestures.Apply(Nodify.EditorGestures.ItemContainerGestures)
+  - Nodify.EditorGestures.ItemContainerGestures.CancelAction
+  - Nodify.EditorGestures.ItemContainerGestures.Drag
+  - Nodify.EditorGestures.ItemContainerGestures.Selection
+  langs:
+  - csharp
+  - vb
+  name: EditorGestures.ItemContainerGestures
+  nameWithType: EditorGestures.ItemContainerGestures
+  fullName: Nodify.EditorGestures.ItemContainerGestures
+  type: Class
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ItemContainerGestures
+    path: Nodify/EditorGestures.cs
+    startLine: 66
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the item containers.
+  example: []
+  syntax:
+    content: public class EditorGestures.ItemContainerGestures
+    content.vb: Public Class EditorGestures.ItemContainerGestures
+  inheritance:
+  - System.Object
+- uid: Nodify.EditorGestures.ItemContainerGestures.#ctor
+  commentId: M:Nodify.EditorGestures.ItemContainerGestures.#ctor
+  id: '#ctor'
+  parent: Nodify.EditorGestures.ItemContainerGestures
+  langs:
+  - csharp
+  - vb
+  name: ItemContainerGestures()
+  nameWithType: EditorGestures.ItemContainerGestures.ItemContainerGestures()
+  fullName: Nodify.EditorGestures.ItemContainerGestures.ItemContainerGestures()
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/EditorGestures.cs
+    startLine: 68
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public ItemContainerGestures()
+    content.vb: Public Sub New()
+  overload: Nodify.EditorGestures.ItemContainerGestures.#ctor*
+  nameWithType.vb: EditorGestures.ItemContainerGestures.New()
+  fullName.vb: Nodify.EditorGestures.ItemContainerGestures.New()
+  name.vb: New()
+- uid: Nodify.EditorGestures.ItemContainerGestures.Selection
+  commentId: P:Nodify.EditorGestures.ItemContainerGestures.Selection
+  id: Selection
+  parent: Nodify.EditorGestures.ItemContainerGestures
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: EditorGestures.ItemContainerGestures.Selection
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Selection
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Selection
+    path: Nodify/EditorGestures.cs
+    startLine: 84
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to select the container using a <xref href="Nodify.EditorGestures.SelectionGestures" data-throw-if-not-resolved="false"></xref> strategy.
+  remarks: Defaults to <xref href="System.Windows.Input.MouseAction.RightClick" data-throw-if-not-resolved="false"></xref> or any of the <xref href="Nodify.EditorGestures.SelectionGestures" data-throw-if-not-resolved="false"></xref> gestures.
+  example: []
+  syntax:
+    content: public EditorGestures.SelectionGestures Selection { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.SelectionGestures
+    content.vb: Public ReadOnly Property Selection As EditorGestures.SelectionGestures
+  overload: Nodify.EditorGestures.ItemContainerGestures.Selection*
+- uid: Nodify.EditorGestures.ItemContainerGestures.Drag
+  commentId: P:Nodify.EditorGestures.ItemContainerGestures.Drag
+  id: Drag
+  parent: Nodify.EditorGestures.ItemContainerGestures
+  langs:
+  - csharp
+  - vb
+  name: Drag
+  nameWithType: EditorGestures.ItemContainerGestures.Drag
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Drag
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Drag
+    path: Nodify/EditorGestures.cs
+    startLine: 90
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to start and complete a dragging operation.
+  remarks: >-
+    Using a <xref href="Nodify.EditorGestures.ItemContainerGestures.Selection" data-throw-if-not-resolved="false"></xref> strategy to drag from a new selection. 
+        <br /> Defaults to any of the <xref href="Nodify.EditorGestures.ItemContainerGestures.Selection" data-throw-if-not-resolved="false"></xref> gestures.
+  example: []
+  syntax:
+    content: public InputGestureRef Drag { get; }
+    parameters: []
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public ReadOnly Property Drag As InputGestureRef
+  overload: Nodify.EditorGestures.ItemContainerGestures.Drag*
+- uid: Nodify.EditorGestures.ItemContainerGestures.CancelAction
+  commentId: P:Nodify.EditorGestures.ItemContainerGestures.CancelAction
+  id: CancelAction
+  parent: Nodify.EditorGestures.ItemContainerGestures
+  langs:
+  - csharp
+  - vb
+  name: CancelAction
+  nameWithType: EditorGestures.ItemContainerGestures.CancelAction
+  fullName: Nodify.EditorGestures.ItemContainerGestures.CancelAction
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CancelAction
+    path: Nodify/EditorGestures.cs
+    startLine: 94
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to cancel the dragging operation.
+  remarks: Defaults to <xref href="System.Windows.Input.MouseAction.RightClick" data-throw-if-not-resolved="false"></xref> or <xref href="System.Windows.Input.Key.Escape" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public InputGestureRef CancelAction { get; }
+    parameters: []
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public ReadOnly Property CancelAction As InputGestureRef
+  overload: Nodify.EditorGestures.ItemContainerGestures.CancelAction*
+- uid: Nodify.EditorGestures.ItemContainerGestures.Apply(Nodify.EditorGestures.ItemContainerGestures)
+  commentId: M:Nodify.EditorGestures.ItemContainerGestures.Apply(Nodify.EditorGestures.ItemContainerGestures)
+  id: Apply(Nodify.EditorGestures.ItemContainerGestures)
+  parent: Nodify.EditorGestures.ItemContainerGestures
+  langs:
+  - csharp
+  - vb
+  name: Apply(ItemContainerGestures)
+  nameWithType: EditorGestures.ItemContainerGestures.Apply(EditorGestures.ItemContainerGestures)
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Apply(Nodify.EditorGestures.ItemContainerGestures)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Apply
+    path: Nodify/EditorGestures.cs
+    startLine: 98
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Copies from the specified gestures.
+  example: []
+  syntax:
+    content: public void Apply(EditorGestures.ItemContainerGestures gestures)
+    parameters:
+    - id: gestures
+      type: Nodify.EditorGestures.ItemContainerGestures
+      description: The gestures to copy.
+    content.vb: Public Sub Apply(gestures As EditorGestures.ItemContainerGestures)
+  overload: Nodify.EditorGestures.ItemContainerGestures.Apply*
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nodify.EditorGestures.ItemContainerGestures.#ctor*
+  commentId: Overload:Nodify.EditorGestures.ItemContainerGestures.#ctor
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures__ctor
+  name: ItemContainerGestures
+  nameWithType: EditorGestures.ItemContainerGestures.ItemContainerGestures
+  fullName: Nodify.EditorGestures.ItemContainerGestures.ItemContainerGestures
+  nameWithType.vb: EditorGestures.ItemContainerGestures.New
+  fullName.vb: Nodify.EditorGestures.ItemContainerGestures.New
+  name.vb: New
+- uid: Nodify.EditorGestures.SelectionGestures
+  commentId: T:Nodify.EditorGestures.SelectionGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.SelectionGestures
+  nameWithType: EditorGestures.SelectionGestures
+  fullName: Nodify.EditorGestures.SelectionGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.SelectionGestures
+    name: SelectionGestures
+    href: Nodify.EditorGestures.SelectionGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.SelectionGestures
+    name: SelectionGestures
+    href: Nodify.EditorGestures.SelectionGestures.html
+- uid: System.Windows.Input.MouseAction.RightClick
+  commentId: F:System.Windows.Input.MouseAction.RightClick
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseaction#system-windows-input-mouseaction-rightclick
+  name: RightClick
+  nameWithType: MouseAction.RightClick
+  fullName: System.Windows.Input.MouseAction.RightClick
+- uid: Nodify.EditorGestures.ItemContainerGestures.Selection*
+  commentId: Overload:Nodify.EditorGestures.ItemContainerGestures.Selection
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures_Selection
+  name: Selection
+  nameWithType: EditorGestures.ItemContainerGestures.Selection
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Selection
+- uid: Nodify.EditorGestures.ItemContainerGestures.Selection
+  commentId: P:Nodify.EditorGestures.ItemContainerGestures.Selection
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures_Selection
+  name: Selection
+  nameWithType: EditorGestures.ItemContainerGestures.Selection
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Selection
+- uid: Nodify.EditorGestures.ItemContainerGestures.Drag*
+  commentId: Overload:Nodify.EditorGestures.ItemContainerGestures.Drag
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures_Drag
+  name: Drag
+  nameWithType: EditorGestures.ItemContainerGestures.Drag
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Drag
+- uid: Nodify.InputGestureRef
+  commentId: T:Nodify.InputGestureRef
+  parent: Nodify
+  href: Nodify.InputGestureRef.html
+  name: InputGestureRef
+  nameWithType: InputGestureRef
+  fullName: Nodify.InputGestureRef
+- uid: System.Windows.Input.Key.Escape
+  commentId: F:System.Windows.Input.Key.Escape
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.key#system-windows-input-key-escape
+  name: Escape
+  nameWithType: Key.Escape
+  fullName: System.Windows.Input.Key.Escape
+- uid: Nodify.EditorGestures.ItemContainerGestures.CancelAction*
+  commentId: Overload:Nodify.EditorGestures.ItemContainerGestures.CancelAction
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures_CancelAction
+  name: CancelAction
+  nameWithType: EditorGestures.ItemContainerGestures.CancelAction
+  fullName: Nodify.EditorGestures.ItemContainerGestures.CancelAction
+- uid: Nodify.EditorGestures.ItemContainerGestures.Apply*
+  commentId: Overload:Nodify.EditorGestures.ItemContainerGestures.Apply
+  href: Nodify.EditorGestures.ItemContainerGestures.html#Nodify_EditorGestures_ItemContainerGestures_Apply_Nodify_EditorGestures_ItemContainerGestures_
+  name: Apply
+  nameWithType: EditorGestures.ItemContainerGestures.Apply
+  fullName: Nodify.EditorGestures.ItemContainerGestures.Apply
+- uid: Nodify.EditorGestures.ItemContainerGestures
+  commentId: T:Nodify.EditorGestures.ItemContainerGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ItemContainerGestures
+  nameWithType: EditorGestures.ItemContainerGestures
+  fullName: Nodify.EditorGestures.ItemContainerGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html

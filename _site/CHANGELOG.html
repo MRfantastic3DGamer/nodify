@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title> | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content=" | Nodify-Docs ">
+    
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="Nodify-Docs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<h2 id="changelog">Changelog</h2>
+<h4 id="in-development"><strong>In development</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:</li>
+<li>Features:</li>
+<li>Bugfixes:</li>
+</ul>
+</blockquote>
+<h4 id="version-600"><strong>Version 6.0.0</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:
+<ul>
+<li>Added a parameter for the orientation to DrawArrowGeometry, DrawDefaultArrowhead, DrawRectangleArrowhead and DrawEllipseArrowhead in BaseConnection</li>
+<li>Added source and target parameters to GetTextPosition in BaseConnection</li>
+<li>EditorGestures is now a singleton instead of a static class (can be inherited to create custom mappings)</li>
+<li>Selection gestures for ItemContainer and GroupingNode are now separated from the NodifyEditor selection gestures</li>
+<li>Renamed EditorGestures.Editor.Zoom to ZoomModifierKey</li>
+</ul>
+</li>
+<li>Features:
+<ul>
+<li>Added SourceOrientation and TargetOrientation to BaseConnection to support vertical connectors (vertical/mixed connection orientation)</li>
+<li>Added DirectionalArrowsCount to BaseConnection to allow drawing multipe arrows on a connection flowing in the connection direction</li>
+<li>Added DrawDirectionalArrowsGeometry and DrawDirectionalArrowheadGeometry to BaseConnection to allow customizing the directional arrows</li>
+<li>Improved EditorGestures to allow changing input gestures at runtime</li>
+<li>Added new gesture types: AnyGesture, AllGestures, and InputGestureRef</li>
+<li>Added Orientation dependency property to NodeInput and NodeOutput</li>
+<li>Added DirectionalArrowsOffset dependency property to BaseConnection</li>
+<li>Added StartAnimation and StopAnimation methods to BaseConnection</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Fixed BaseConnection.Text not always displaying in the center of the connection</li>
+<li>Fixed a bug where the item container would incorrectly transition to the dragging state on mouse over</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-520"><strong>Version 5.2.0</strong></h4>
+<blockquote>
+<ul>
+<li>Features:
+<ul>
+<li>Added Text to BaseConnection, allowing displaying of text on connections</li>
+<li>Added Foreground, FontSize, FontWeight, FontStyle, FontStretch and FontFamily to BaseConnection, allowing styling the displaying text</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Fixed MouseCapture not being released when EnableStickyConnections is enabled and the PendingConnection is canceled by a key gesture</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-510"><strong>Version 5.1.0</strong></h4>
+<blockquote>
+<ul>
+<li>Features:
+<ul>
+<li>Added ItemContainer.SelectedBorderThickness dependency property</li>
+<li>Added NodifyEditor.GetLocationInsideEditor</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Fixed PendingConnection.PreviewTarget not being set to null when there is no actual target</li>
+<li>Fixed PendingConnection.PreviewTarget not being set on Connector.PendingConnectionStartedEvent</li>
+<li>Fixed PendingConnection.PreviewTarget not being set to null on Connector.PendingConnectionCompletedEvent</li>
+<li>Fixed connectors panel not being affected by Node.VerticalAlignment</li>
+<li>Changing BorderThickness causes layout shift when selecting an item container</li>
+<li>Fixed the unintentional movement caused by snapping correction</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-502"><strong>Version 5.0.2</strong></h4>
+<blockquote>
+<ul>
+<li>Bugfixes:
+<ul>
+<li>Fixed NodeOutput content horizontal alignment</li>
+<li>Fixed Connector not opening Context Menu</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-501"><strong>Version 5.0.1</strong></h4>
+<blockquote>
+<ul>
+<li>Bugfixes:
+<ul>
+<li>Returning false from PendingConnection.StartedCommand.CanExecute does not stop the creation of a pending connection</li>
+<li>BaseConnection.ArrowEnds does not display correctly when BaseConnection.Direction is ConnectionDirection.Backward</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-500"><strong>Version 5.0.0</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:
+<ul>
+<li>Removed BaseConnection.GetArrowHeadPoints</li>
+<li>Removed BaseConnection.OffsetMode</li>
+<li>Changed return type of BaseConnection.DrawLineGeometry to support both arrowheads no matter the number of points on the line</li>
+<li>Changed the default for BaseConnection.SourceOffset and BaseConnection.TargetOffset from Size(0, 0) to Size(14, 0)</li>
+<li>Changed the default for BaseConnection.ArrowSize from Size(7, 6) to Size(8, 8)</li>
+</ul>
+</li>
+<li>Features:
+<ul>
+<li>Added BaseConnection.SourceOffsetMode and BaseConnection.TargetOffsetMode</li>
+<li>Added BaseConnection.ArrowEnds dependency property to allow configurable arrowhead ends</li>
+<li>Added BaseConnection.ArrowShape dependency property to allow configurable arrowhead shape</li>
+<li>Added NodifyEditor.EnableDraggingContainersOptimizations to allow receiving ItemContainer.Location updates in realtime</li>
+<li>Added ConnectionOffsetMode.Static to allow offsetting the source and target points of the connection on the X and the Y axis without revolving around the source or target points</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-410"><strong>Version 4.1.0</strong></h4>
+<blockquote>
+<ul>
+<li>Features:
+<ul>
+<li>Added EditorGestures.Selection.DefaultMouseAction to make it easier to change between mouse buttons for selection</li>
+<li>Added EditorGestures.Selection.Cancel gesture to cancel the selection operation reverting to the previous selection</li>
+<li>Added ItemsSelectStartedCommand and ItemsSelectCompletedCommand dependency properties to NodifyEditor for better undo/redo support</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Fixed NodifyEditor.SelectedItems being empty after selection is completed</li>
+<li>Fixed drag canceling when Drag and CancelAction are bound to the same gesture</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-401"><strong>Version 4.0.1</strong></h4>
+<blockquote>
+<ul>
+<li>Bugfixes:
+<ul>
+<li>Fixed DisablePanning not working anymore</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-400"><strong>Version 4.0.0</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:
+<ul>
+<li>Removed Selection field from NodifyEditor</li>
+<li>Removed InitialMousePosition, CurrentMousePosition, PreviousMousePosition fields from NodifyEditor</li>
+<li>Removed ItemContainer.DraggableHost (use Editor.ItemsHost instead)</li>
+<li>Made SelectionType required in SelectionHelper</li>
+<li>Moved GroupingNode.SwitchMovementModeModifierKey to EditorGestures.GroupingNode</li>
+<li>Pending connections are now restricted to connect only to Connectors or to NodifyEditors and ItemContainers if PendingConnection.AllowOnlyConnectors is false</li>
+</ul>
+</li>
+<li>Features:
+<ul>
+<li>Added Connector.EnableStickyConnections to allow completing pending connections in two steps</li>
+<li>Added editor states which can be overriden by inheriting from NodifyEditor and implementing NodifyEditor.GetInitialState()
+<ul>
+<li>EditorState - base class for all editor states</li>
+<li>EditorDefaultState</li>
+<li>EditorSelectingState</li>
+<li>EditorPanningState</li>
+</ul>
+</li>
+<li>Added container states which can be overriden by inheriting from ItemContainer and implementing ItemContainer.GetInitialState()
+<ul>
+<li>ContainerState - base class for all container states</li>
+<li>ContainerDefaultState</li>
+<li>ContainerDraggingState</li>
+</ul>
+</li>
+<li>Added MultiGesture utility that can combine multiple input gestures into one gesture</li>
+<li>Added configurable input gestures for NodifyEditor, ItemContainer, Connector, BaseConnection and GroupingNode to EditorGestures</li>
+<li>Added State, PushState, PopState and PopAllStates to NodifyEditor and ItemContainer</li>
+<li>Changed the default AutoPanSpeed to 15 from 10 pixels per tick</li>
+<li>Allow setting ItemContainer.IsPreviewingLocation from derived classes</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Fixed HandleRightClickAfterPanningThreshold not working as expected</li>
+<li>Fixed DisablePanning not disabling auto panning in certain situations</li>
+<li>Fixed GroupingNode selection not working with multiple selection modes</li>
+<li>Fixed PendingConnection connecting cross editors</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-300"><strong>Version 3.0.0</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:
+<ul>
+<li>Changed Decorators from UIElement collection to IEnumerable</li>
+</ul>
+</li>
+<li>Features:
+<ul>
+<li>Added ItemsExtent and DecoratorsExtent dependency properties to NodifyEditor</li>
+<li>Added DecoratorTemplate dependency property to NodifyEditor</li>
+<li>Added FitToScreenExtentMargin static field to NodifyEditor</li>
+<li>Added Extent dependency property to NodifyCanvas</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Selection rectangle and Decorators are no longer scaled with the viewport zoom</li>
+<li>Fixed connector anchor not updating when container size changed</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-201"><strong>Version 2.0.1</strong></h4>
+<blockquote>
+<ul>
+<li>Bugfixes:
+<ul>
+<li>Fixed pending connection default style</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="version-200"><strong>Version 2.0.0</strong></h4>
+<blockquote>
+<ul>
+<li>Breaking Changes:
+<ul>
+<li>Renamed Offset to ViewportLocation in NodifyEditor</li>
+<li>Renamed Scale to ViewportZoom in NodifyEditor</li>
+<li>Renamed MinScale to MinViewportZoom in NodifyEditor</li>
+<li>Renamed MaxScale to MaxViewportZoom in NodifyEditor</li>
+<li>Renamed AppliedTransform to ViewportTransform in NodifyEditor</li>
+<li>Renamed DirectionalConnection to LineConnection</li>
+<li>Removed BringIntoViewAnimationDuration from NodifyEditor</li>
+<li>Removed Viewport dependency property from NodifyEditor</li>
+<li>Removed ActualSize dependency property from StateNode</li>
+<li>Removed Icon dependency property from Node as the icon can <em>(and should)</em> be added in the HeaderTemplate if necessary</li>
+<li>PART_ItemsHost is now required for NodifyEditor to work</li>
+<li>ItemContainers cannot be used outside a NodifyEditor anymore</li>
+<li>ZoomAtPosition now requires graph space coordinates instead of screen space coordinates</li>
+<li>Removed custom value converters</li>
+<li>Made DependencyObjectExtensions internal</li>
+<li>Removed the <a href="http://miroiu.github.io/winfx/xaml/nodify">http://miroiu.github.io/winfx/xaml/nodify</a> xaml prefix</li>
+</ul>
+</li>
+<li>Features:
+<ul>
+<li>Added ResizeStartedEvent routed event to GroupingNode</li>
+<li>Added ViewportSize - <strong>OneWayToSource</strong> dependency property to NodifyEditor</li>
+<li>Added ActualSize - <strong>OneWayToSource</strong> dependency property to ItemContainer</li>
+<li>Added DecoratorContainer and DecoratorContainerStyle dependency properties to NodifyEditor</li>
+<li>Added RemoveConnectionCommand command to NodifyEditor</li>
+<li>Added DisconnectCommand and SplitCommand commands to BaseConnection</li>
+<li>Added ContentBrush dependency property to NodifyEditor</li>
+<li>Added HasFooter dependency property to Node</li>
+<li>Added FitToScreen command to NodifyEditor and EditorCommands</li>
+<li>Added onFinish callback to BringIntoView in NodifyEditor</li>
+<li>Added ArrowSize and Spacing dependency properties to all connections inheriting from BaseConnection</li>
+<li>Added BringIntoViewMaxDuration dependency property to NodifyEditor</li>
+<li>Added BringIntoViewSpeed dependency property to NodifyEditor</li>
+<li>Auto panning speed now scales with the zoom factor</li>
+</ul>
+</li>
+<li>Bugfixes:
+<ul>
+<li>Every public property or method should work with graph space coordinates</li>
+<li>Disable auto panning when panning is disabled</li>
+<li>Min zoom could be set to a very small value</li>
+<li>Bring into view was not disabling all interfering operations</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/CHANGELOG.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

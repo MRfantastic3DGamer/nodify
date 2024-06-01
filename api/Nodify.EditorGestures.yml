@@ -1,0 +1,443 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.EditorGestures
+  commentId: T:Nodify.EditorGestures
+  id: EditorGestures
+  parent: Nodify
+  children:
+  - Nodify.EditorGestures.Apply(Nodify.EditorGestures)
+  - Nodify.EditorGestures.Connection
+  - Nodify.EditorGestures.Connector
+  - Nodify.EditorGestures.Editor
+  - Nodify.EditorGestures.GroupingNode
+  - Nodify.EditorGestures.ItemContainer
+  - Nodify.EditorGestures.Mappings
+  langs:
+  - csharp
+  - vb
+  name: EditorGestures
+  nameWithType: EditorGestures
+  fullName: Nodify.EditorGestures
+  type: Class
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: EditorGestures
+    path: Nodify/EditorGestures.cs
+    startLine: 5
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures used by built-in controls inside the <xref href="Nodify.NodifyEditor" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public class EditorGestures
+    content.vb: Public Class EditorGestures
+  inheritance:
+  - System.Object
+- uid: Nodify.EditorGestures.Mappings
+  commentId: F:Nodify.EditorGestures.Mappings
+  id: Mappings
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: Mappings
+  nameWithType: EditorGestures.Mappings
+  fullName: Nodify.EditorGestures.Mappings
+  type: Field
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Mappings
+    path: Nodify/EditorGestures.cs
+    startLine: 7
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly EditorGestures Mappings
+    return:
+      type: Nodify.EditorGestures
+    content.vb: Public Shared ReadOnly Mappings As EditorGestures
+- uid: Nodify.EditorGestures.Editor
+  commentId: P:Nodify.EditorGestures.Editor
+  id: Editor
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: EditorGestures.Editor
+  fullName: Nodify.EditorGestures.Editor
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Editor
+    path: Nodify/EditorGestures.cs
+    startLine: 237
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the editor.
+  example: []
+  syntax:
+    content: public EditorGestures.NodifyEditorGestures Editor { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.NodifyEditorGestures
+    content.vb: Public ReadOnly Property Editor As EditorGestures.NodifyEditorGestures
+  overload: Nodify.EditorGestures.Editor*
+- uid: Nodify.EditorGestures.ItemContainer
+  commentId: P:Nodify.EditorGestures.ItemContainer
+  id: ItemContainer
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: ItemContainer
+  nameWithType: EditorGestures.ItemContainer
+  fullName: Nodify.EditorGestures.ItemContainer
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ItemContainer
+    path: Nodify/EditorGestures.cs
+    startLine: 240
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the item container.
+  example: []
+  syntax:
+    content: public EditorGestures.ItemContainerGestures ItemContainer { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.ItemContainerGestures
+    content.vb: Public ReadOnly Property ItemContainer As EditorGestures.ItemContainerGestures
+  overload: Nodify.EditorGestures.ItemContainer*
+- uid: Nodify.EditorGestures.Connector
+  commentId: P:Nodify.EditorGestures.Connector
+  id: Connector
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: EditorGestures.Connector
+  fullName: Nodify.EditorGestures.Connector
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Connector
+    path: Nodify/EditorGestures.cs
+    startLine: 243
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the connector.
+  example: []
+  syntax:
+    content: public EditorGestures.ConnectorGestures Connector { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.ConnectorGestures
+    content.vb: Public ReadOnly Property Connector As EditorGestures.ConnectorGestures
+  overload: Nodify.EditorGestures.Connector*
+- uid: Nodify.EditorGestures.Connection
+  commentId: P:Nodify.EditorGestures.Connection
+  id: Connection
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: EditorGestures.Connection
+  fullName: Nodify.EditorGestures.Connection
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Connection
+    path: Nodify/EditorGestures.cs
+    startLine: 246
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the connection.
+  example: []
+  syntax:
+    content: public EditorGestures.ConnectionGestures Connection { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.ConnectionGestures
+    content.vb: Public ReadOnly Property Connection As EditorGestures.ConnectionGestures
+  overload: Nodify.EditorGestures.Connection*
+- uid: Nodify.EditorGestures.GroupingNode
+  commentId: P:Nodify.EditorGestures.GroupingNode
+  id: GroupingNode
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: GroupingNode
+  nameWithType: EditorGestures.GroupingNode
+  fullName: Nodify.EditorGestures.GroupingNode
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GroupingNode
+    path: Nodify/EditorGestures.cs
+    startLine: 249
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures for the grouping node.
+  example: []
+  syntax:
+    content: public EditorGestures.GroupingNodeGestures GroupingNode { get; }
+    parameters: []
+    return:
+      type: Nodify.EditorGestures.GroupingNodeGestures
+    content.vb: Public ReadOnly Property GroupingNode As EditorGestures.GroupingNodeGestures
+  overload: Nodify.EditorGestures.GroupingNode*
+- uid: Nodify.EditorGestures.Apply(Nodify.EditorGestures)
+  commentId: M:Nodify.EditorGestures.Apply(Nodify.EditorGestures)
+  id: Apply(Nodify.EditorGestures)
+  parent: Nodify.EditorGestures
+  langs:
+  - csharp
+  - vb
+  name: Apply(EditorGestures)
+  nameWithType: EditorGestures.Apply(EditorGestures)
+  fullName: Nodify.EditorGestures.Apply(Nodify.EditorGestures)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Apply
+    path: Nodify/EditorGestures.cs
+    startLine: 253
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Copies from the specified gestures.
+  example: []
+  syntax:
+    content: public void Apply(EditorGestures gestures)
+    parameters:
+    - id: gestures
+      type: Nodify.EditorGestures
+      description: The gestures to copy.
+    content.vb: Public Sub Apply(gestures As EditorGestures)
+  overload: Nodify.EditorGestures.Apply*
+references:
+- uid: Nodify.NodifyEditor
+  commentId: T:Nodify.NodifyEditor
+  parent: Nodify
+  href: Nodify.NodifyEditor.html
+  name: NodifyEditor
+  nameWithType: NodifyEditor
+  fullName: Nodify.NodifyEditor
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nodify.EditorGestures
+  commentId: T:Nodify.EditorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures
+  nameWithType: EditorGestures
+  fullName: Nodify.EditorGestures
+- uid: Nodify.EditorGestures.Editor*
+  commentId: Overload:Nodify.EditorGestures.Editor
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_Editor
+  name: Editor
+  nameWithType: EditorGestures.Editor
+  fullName: Nodify.EditorGestures.Editor
+- uid: Nodify.EditorGestures.NodifyEditorGestures
+  commentId: T:Nodify.EditorGestures.NodifyEditorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.NodifyEditorGestures
+  nameWithType: EditorGestures.NodifyEditorGestures
+  fullName: Nodify.EditorGestures.NodifyEditorGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.NodifyEditorGestures
+    name: NodifyEditorGestures
+    href: Nodify.EditorGestures.NodifyEditorGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.NodifyEditorGestures
+    name: NodifyEditorGestures
+    href: Nodify.EditorGestures.NodifyEditorGestures.html
+- uid: Nodify.EditorGestures.ItemContainer*
+  commentId: Overload:Nodify.EditorGestures.ItemContainer
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_ItemContainer
+  name: ItemContainer
+  nameWithType: EditorGestures.ItemContainer
+  fullName: Nodify.EditorGestures.ItemContainer
+- uid: Nodify.EditorGestures.ItemContainerGestures
+  commentId: T:Nodify.EditorGestures.ItemContainerGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ItemContainerGestures
+  nameWithType: EditorGestures.ItemContainerGestures
+  fullName: Nodify.EditorGestures.ItemContainerGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html
+- uid: Nodify.EditorGestures.Connector*
+  commentId: Overload:Nodify.EditorGestures.Connector
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_Connector
+  name: Connector
+  nameWithType: EditorGestures.Connector
+  fullName: Nodify.EditorGestures.Connector
+- uid: Nodify.EditorGestures.ConnectorGestures
+  commentId: T:Nodify.EditorGestures.ConnectorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ConnectorGestures
+  nameWithType: EditorGestures.ConnectorGestures
+  fullName: Nodify.EditorGestures.ConnectorGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html
+- uid: Nodify.EditorGestures.Connection*
+  commentId: Overload:Nodify.EditorGestures.Connection
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_Connection
+  name: Connection
+  nameWithType: EditorGestures.Connection
+  fullName: Nodify.EditorGestures.Connection
+- uid: Nodify.EditorGestures.ConnectionGestures
+  commentId: T:Nodify.EditorGestures.ConnectionGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ConnectionGestures
+  nameWithType: EditorGestures.ConnectionGestures
+  fullName: Nodify.EditorGestures.ConnectionGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectionGestures
+    name: ConnectionGestures
+    href: Nodify.EditorGestures.ConnectionGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectionGestures
+    name: ConnectionGestures
+    href: Nodify.EditorGestures.ConnectionGestures.html
+- uid: Nodify.EditorGestures.GroupingNode*
+  commentId: Overload:Nodify.EditorGestures.GroupingNode
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_GroupingNode
+  name: GroupingNode
+  nameWithType: EditorGestures.GroupingNode
+  fullName: Nodify.EditorGestures.GroupingNode
+- uid: Nodify.EditorGestures.GroupingNodeGestures
+  commentId: T:Nodify.EditorGestures.GroupingNodeGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.GroupingNodeGestures
+  nameWithType: EditorGestures.GroupingNodeGestures
+  fullName: Nodify.EditorGestures.GroupingNodeGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.GroupingNodeGestures
+    name: GroupingNodeGestures
+    href: Nodify.EditorGestures.GroupingNodeGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.GroupingNodeGestures
+    name: GroupingNodeGestures
+    href: Nodify.EditorGestures.GroupingNodeGestures.html
+- uid: Nodify.EditorGestures.Apply*
+  commentId: Overload:Nodify.EditorGestures.Apply
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_Apply_Nodify_EditorGestures_
+  name: Apply
+  nameWithType: EditorGestures.Apply
+  fullName: Nodify.EditorGestures.Apply

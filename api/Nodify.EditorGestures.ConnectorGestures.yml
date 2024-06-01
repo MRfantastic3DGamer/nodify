@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.EditorGestures.ConnectorGestures
+  commentId: T:Nodify.EditorGestures.ConnectorGestures
+  id: EditorGestures.ConnectorGestures
+  parent: Nodify
+  children:
+  - Nodify.EditorGestures.ConnectorGestures.#ctor
+  - Nodify.EditorGestures.ConnectorGestures.Apply(Nodify.EditorGestures.ConnectorGestures)
+  - Nodify.EditorGestures.ConnectorGestures.CancelAction
+  - Nodify.EditorGestures.ConnectorGestures.Connect
+  - Nodify.EditorGestures.ConnectorGestures.Disconnect
+  langs:
+  - csharp
+  - vb
+  name: EditorGestures.ConnectorGestures
+  nameWithType: EditorGestures.ConnectorGestures
+  fullName: Nodify.EditorGestures.ConnectorGestures
+  type: Class
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ConnectorGestures
+    path: Nodify/EditorGestures.cs
+    startLine: 162
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gestures used by the <xref href="Nodify.EditorGestures.Connector" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public class EditorGestures.ConnectorGestures
+    content.vb: Public Class EditorGestures.ConnectorGestures
+  inheritance:
+  - System.Object
+- uid: Nodify.EditorGestures.ConnectorGestures.#ctor
+  commentId: M:Nodify.EditorGestures.ConnectorGestures.#ctor
+  id: '#ctor'
+  parent: Nodify.EditorGestures.ConnectorGestures
+  langs:
+  - csharp
+  - vb
+  name: ConnectorGestures()
+  nameWithType: EditorGestures.ConnectorGestures.ConnectorGestures()
+  fullName: Nodify.EditorGestures.ConnectorGestures.ConnectorGestures()
+  type: Constructor
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: .ctor
+    path: Nodify/EditorGestures.cs
+    startLine: 164
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public ConnectorGestures()
+    content.vb: Public Sub New()
+  overload: Nodify.EditorGestures.ConnectorGestures.#ctor*
+  nameWithType.vb: EditorGestures.ConnectorGestures.New()
+  fullName.vb: Nodify.EditorGestures.ConnectorGestures.New()
+  name.vb: New()
+- uid: Nodify.EditorGestures.ConnectorGestures.Disconnect
+  commentId: P:Nodify.EditorGestures.ConnectorGestures.Disconnect
+  id: Disconnect
+  parent: Nodify.EditorGestures.ConnectorGestures
+  langs:
+  - csharp
+  - vb
+  name: Disconnect
+  nameWithType: EditorGestures.ConnectorGestures.Disconnect
+  fullName: Nodify.EditorGestures.ConnectorGestures.Disconnect
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Disconnect
+    path: Nodify/EditorGestures.cs
+    startLine: 173
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to call the <xref href="Nodify.Connector.DisconnectCommand" data-throw-if-not-resolved="false"></xref>.
+  remarks: Defaults to <xref href="System.Windows.Input.ModifierKeys.Alt" data-throw-if-not-resolved="false"></xref>+<xref href="System.Windows.Input.MouseAction.LeftClick" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public InputGestureRef Disconnect { get; }
+    parameters: []
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public ReadOnly Property Disconnect As InputGestureRef
+  overload: Nodify.EditorGestures.ConnectorGestures.Disconnect*
+- uid: Nodify.EditorGestures.ConnectorGestures.Connect
+  commentId: P:Nodify.EditorGestures.ConnectorGestures.Connect
+  id: Connect
+  parent: Nodify.EditorGestures.ConnectorGestures
+  langs:
+  - csharp
+  - vb
+  name: Connect
+  nameWithType: EditorGestures.ConnectorGestures.Connect
+  fullName: Nodify.EditorGestures.ConnectorGestures.Connect
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Connect
+    path: Nodify/EditorGestures.cs
+    startLine: 177
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to start and complete a pending connection.
+  remarks: Defaults to <xref href="System.Windows.Input.MouseAction.LeftClick" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public InputGestureRef Connect { get; }
+    parameters: []
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public ReadOnly Property Connect As InputGestureRef
+  overload: Nodify.EditorGestures.ConnectorGestures.Connect*
+- uid: Nodify.EditorGestures.ConnectorGestures.CancelAction
+  commentId: P:Nodify.EditorGestures.ConnectorGestures.CancelAction
+  id: CancelAction
+  parent: Nodify.EditorGestures.ConnectorGestures
+  langs:
+  - csharp
+  - vb
+  name: CancelAction
+  nameWithType: EditorGestures.ConnectorGestures.CancelAction
+  fullName: Nodify.EditorGestures.ConnectorGestures.CancelAction
+  type: Property
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CancelAction
+    path: Nodify/EditorGestures.cs
+    startLine: 181
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gesture to cancel the pending connection.
+  remarks: Defaults to <xref href="System.Windows.Input.MouseAction.RightClick" data-throw-if-not-resolved="false"></xref> or <xref href="System.Windows.Input.Key.Escape" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public InputGestureRef CancelAction { get; }
+    parameters: []
+    return:
+      type: Nodify.InputGestureRef
+    content.vb: Public ReadOnly Property CancelAction As InputGestureRef
+  overload: Nodify.EditorGestures.ConnectorGestures.CancelAction*
+- uid: Nodify.EditorGestures.ConnectorGestures.Apply(Nodify.EditorGestures.ConnectorGestures)
+  commentId: M:Nodify.EditorGestures.ConnectorGestures.Apply(Nodify.EditorGestures.ConnectorGestures)
+  id: Apply(Nodify.EditorGestures.ConnectorGestures)
+  parent: Nodify.EditorGestures.ConnectorGestures
+  langs:
+  - csharp
+  - vb
+  name: Apply(ConnectorGestures)
+  nameWithType: EditorGestures.ConnectorGestures.Apply(EditorGestures.ConnectorGestures)
+  fullName: Nodify.EditorGestures.ConnectorGestures.Apply(Nodify.EditorGestures.ConnectorGestures)
+  type: Method
+  source:
+    remote:
+      path: Nodify/EditorGestures.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Apply
+    path: Nodify/EditorGestures.cs
+    startLine: 185
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Copies from the specified gestures.
+  example: []
+  syntax:
+    content: public void Apply(EditorGestures.ConnectorGestures gestures)
+    parameters:
+    - id: gestures
+      type: Nodify.EditorGestures.ConnectorGestures
+      description: The gestures to copy.
+    content.vb: Public Sub Apply(gestures As EditorGestures.ConnectorGestures)
+  overload: Nodify.EditorGestures.ConnectorGestures.Apply*
+references:
+- uid: Nodify.EditorGestures.Connector
+  commentId: P:Nodify.EditorGestures.Connector
+  href: Nodify.EditorGestures.html#Nodify_EditorGestures_Connector
+  name: Connector
+  nameWithType: EditorGestures.Connector
+  fullName: Nodify.EditorGestures.Connector
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nodify.EditorGestures.ConnectorGestures.#ctor*
+  commentId: Overload:Nodify.EditorGestures.ConnectorGestures.#ctor
+  href: Nodify.EditorGestures.ConnectorGestures.html#Nodify_EditorGestures_ConnectorGestures__ctor
+  name: ConnectorGestures
+  nameWithType: EditorGestures.ConnectorGestures.ConnectorGestures
+  fullName: Nodify.EditorGestures.ConnectorGestures.ConnectorGestures
+  nameWithType.vb: EditorGestures.ConnectorGestures.New
+  fullName.vb: Nodify.EditorGestures.ConnectorGestures.New
+  name.vb: New
+- uid: Nodify.Connector.DisconnectCommand
+  commentId: P:Nodify.Connector.DisconnectCommand
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_DisconnectCommand
+  name: DisconnectCommand
+  nameWithType: Connector.DisconnectCommand
+  fullName: Nodify.Connector.DisconnectCommand
+- uid: System.Windows.Input.ModifierKeys.Alt
+  commentId: F:System.Windows.Input.ModifierKeys.Alt
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys#system-windows-input-modifierkeys-alt
+  name: Alt
+  nameWithType: ModifierKeys.Alt
+  fullName: System.Windows.Input.ModifierKeys.Alt
+- uid: System.Windows.Input.MouseAction.LeftClick
+  commentId: F:System.Windows.Input.MouseAction.LeftClick
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseaction#system-windows-input-mouseaction-leftclick
+  name: LeftClick
+  nameWithType: MouseAction.LeftClick
+  fullName: System.Windows.Input.MouseAction.LeftClick
+- uid: Nodify.EditorGestures.ConnectorGestures.Disconnect*
+  commentId: Overload:Nodify.EditorGestures.ConnectorGestures.Disconnect
+  href: Nodify.EditorGestures.ConnectorGestures.html#Nodify_EditorGestures_ConnectorGestures_Disconnect
+  name: Disconnect
+  nameWithType: EditorGestures.ConnectorGestures.Disconnect
+  fullName: Nodify.EditorGestures.ConnectorGestures.Disconnect
+- uid: Nodify.InputGestureRef
+  commentId: T:Nodify.InputGestureRef
+  parent: Nodify
+  href: Nodify.InputGestureRef.html
+  name: InputGestureRef
+  nameWithType: InputGestureRef
+  fullName: Nodify.InputGestureRef
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify.EditorGestures.ConnectorGestures.Connect*
+  commentId: Overload:Nodify.EditorGestures.ConnectorGestures.Connect
+  href: Nodify.EditorGestures.ConnectorGestures.html#Nodify_EditorGestures_ConnectorGestures_Connect
+  name: Connect
+  nameWithType: EditorGestures.ConnectorGestures.Connect
+  fullName: Nodify.EditorGestures.ConnectorGestures.Connect
+- uid: System.Windows.Input.MouseAction.RightClick
+  commentId: F:System.Windows.Input.MouseAction.RightClick
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseaction#system-windows-input-mouseaction-rightclick
+  name: RightClick
+  nameWithType: MouseAction.RightClick
+  fullName: System.Windows.Input.MouseAction.RightClick
+- uid: System.Windows.Input.Key.Escape
+  commentId: F:System.Windows.Input.Key.Escape
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.key#system-windows-input-key-escape
+  name: Escape
+  nameWithType: Key.Escape
+  fullName: System.Windows.Input.Key.Escape
+- uid: Nodify.EditorGestures.ConnectorGestures.CancelAction*
+  commentId: Overload:Nodify.EditorGestures.ConnectorGestures.CancelAction
+  href: Nodify.EditorGestures.ConnectorGestures.html#Nodify_EditorGestures_ConnectorGestures_CancelAction
+  name: CancelAction
+  nameWithType: EditorGestures.ConnectorGestures.CancelAction
+  fullName: Nodify.EditorGestures.ConnectorGestures.CancelAction
+- uid: Nodify.EditorGestures.ConnectorGestures.Apply*
+  commentId: Overload:Nodify.EditorGestures.ConnectorGestures.Apply
+  href: Nodify.EditorGestures.ConnectorGestures.html#Nodify_EditorGestures_ConnectorGestures_Apply_Nodify_EditorGestures_ConnectorGestures_
+  name: Apply
+  nameWithType: EditorGestures.ConnectorGestures.Apply
+  fullName: Nodify.EditorGestures.ConnectorGestures.Apply
+- uid: Nodify.EditorGestures.ConnectorGestures
+  commentId: T:Nodify.EditorGestures.ConnectorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ConnectorGestures
+  nameWithType: EditorGestures.ConnectorGestures
+  fullName: Nodify.EditorGestures.ConnectorGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html

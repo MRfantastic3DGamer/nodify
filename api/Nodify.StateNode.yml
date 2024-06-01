@@ -1,0 +1,1421 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.StateNode
+  commentId: T:Nodify.StateNode
+  id: StateNode
+  parent: Nodify
+  children:
+  - Nodify.StateNode.Content
+  - Nodify.StateNode.ContentControl
+  - Nodify.StateNode.ContentProperty
+  - Nodify.StateNode.ContentTemplate
+  - Nodify.StateNode.ContentTemplateProperty
+  - Nodify.StateNode.CornerRadius
+  - Nodify.StateNode.CornerRadiusProperty
+  - Nodify.StateNode.ElementContent
+  - Nodify.StateNode.HighlightBrush
+  - Nodify.StateNode.HighlightBrushProperty
+  - Nodify.StateNode.OnApplyTemplate
+  - Nodify.StateNode.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.StateNode.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: StateNode
+  nameWithType: StateNode
+  fullName: Nodify.StateNode
+  type: Class
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: StateNode
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents a control that acts as a <xref href="Nodify.Connector" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TemplatePart(Name = "PART_Content", Type = typeof(UIElement))]
+
+      public class StateNode : Connector
+    content.vb: >-
+      <TemplatePart(Name:="PART_Content", Type:=GetType(UIElement))>
+
+      Public Class StateNode Inherits Connector
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Visual
+  - System.Windows.UIElement
+  - System.Windows.FrameworkElement
+  - System.Windows.Controls.Control
+  - Nodify.Connector
+  inheritedMembers:
+  - Nodify.Connector.ElementConnector
+  - Nodify.Connector.PendingConnectionStartedEvent
+  - Nodify.Connector.PendingConnectionCompletedEvent
+  - Nodify.Connector.PendingConnectionDragEvent
+  - Nodify.Connector.DisconnectEvent
+  - Nodify.Connector.PendingConnectionStarted
+  - Nodify.Connector.PendingConnectionCompleted
+  - Nodify.Connector.PendingConnectionDrag
+  - Nodify.Connector.Disconnect
+  - Nodify.Connector.AnchorProperty
+  - Nodify.Connector.IsConnectedProperty
+  - Nodify.Connector.DisconnectCommandProperty
+  - Nodify.Connector.IsPendingConnectionProperty
+  - Nodify.Connector.Anchor
+  - Nodify.Connector.IsConnected
+  - Nodify.Connector.IsPendingConnection
+  - Nodify.Connector.DisconnectCommand
+  - Nodify.Connector.Thumb
+  - Nodify.Connector.Container
+  - Nodify.Connector.Editor
+  - Nodify.Connector.OptimizeSafeZone
+  - Nodify.Connector.OptimizeMinimumSelectedItems
+  - Nodify.Connector.EnableOptimizations
+  - Nodify.Connector.AllowPendingConnectionCancellation
+  - Nodify.Connector.EnableStickyConnections
+  - Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+  - Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+  - Nodify.Connector.UpdateAnchor(System.Windows.Point)
+  - Nodify.Connector.UpdateAnchor
+  - Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+  - Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+  - Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  - Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+  - Nodify.Connector.OnConnectorDragStarted
+  - Nodify.Connector.OnConnectorDragCompleted(System.Boolean)
+  - Nodify.Connector.OnDisconnect
+  attributes:
+  - type: System.Windows.TemplatePartAttribute
+    ctor: System.Windows.TemplatePartAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PART_Content
+- uid: Nodify.StateNode.ElementContent
+  commentId: F:Nodify.StateNode.ElementContent
+  id: ElementContent
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: ElementContent
+  nameWithType: StateNode.ElementContent
+  fullName: Nodify.StateNode.ElementContent
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ElementContent
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 13
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected const string ElementContent = "PART_Content"
+    return:
+      type: System.String
+    content.vb: Protected Const ElementContent As String = "PART_Content"
+- uid: Nodify.StateNode.HighlightBrushProperty
+  commentId: F:Nodify.StateNode.HighlightBrushProperty
+  id: HighlightBrushProperty
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: HighlightBrushProperty
+  nameWithType: StateNode.HighlightBrushProperty
+  fullName: Nodify.StateNode.HighlightBrushProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HighlightBrushProperty
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty HighlightBrushProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly HighlightBrushProperty As DependencyProperty
+- uid: Nodify.StateNode.ContentProperty
+  commentId: F:Nodify.StateNode.ContentProperty
+  id: ContentProperty
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: ContentProperty
+  nameWithType: StateNode.ContentProperty
+  fullName: Nodify.StateNode.ContentProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentProperty
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 18
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ContentProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ContentProperty As DependencyProperty
+- uid: Nodify.StateNode.ContentTemplateProperty
+  commentId: F:Nodify.StateNode.ContentTemplateProperty
+  id: ContentTemplateProperty
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: ContentTemplateProperty
+  nameWithType: StateNode.ContentTemplateProperty
+  fullName: Nodify.StateNode.ContentTemplateProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentTemplateProperty
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 19
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty ContentTemplateProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ContentTemplateProperty As DependencyProperty
+- uid: Nodify.StateNode.CornerRadiusProperty
+  commentId: F:Nodify.StateNode.CornerRadiusProperty
+  id: CornerRadiusProperty
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: CornerRadiusProperty
+  nameWithType: StateNode.CornerRadiusProperty
+  fullName: Nodify.StateNode.CornerRadiusProperty
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CornerRadiusProperty
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: public static readonly DependencyProperty CornerRadiusProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly CornerRadiusProperty As DependencyProperty
+- uid: Nodify.StateNode.HighlightBrush
+  commentId: P:Nodify.StateNode.HighlightBrush
+  id: HighlightBrush
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: HighlightBrush
+  nameWithType: StateNode.HighlightBrush
+  fullName: Nodify.StateNode.HighlightBrush
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: HighlightBrush
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 25
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the brush used when the <xref href="Nodify.PendingConnection.IsOverElementProperty" data-throw-if-not-resolved="false"></xref> attached property is true for this <xref href="Nodify.StateNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Brush HighlightBrush { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Property HighlightBrush As Brush
+  overload: Nodify.StateNode.HighlightBrush*
+- uid: Nodify.StateNode.Content
+  commentId: P:Nodify.StateNode.Content
+  id: Content
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: StateNode.Content
+  fullName: Nodify.StateNode.Content
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Content
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 34
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the data for the control's content.
+  example: []
+  syntax:
+    content: public object Content { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Content As Object
+  overload: Nodify.StateNode.Content*
+- uid: Nodify.StateNode.ContentTemplate
+  commentId: P:Nodify.StateNode.ContentTemplate
+  id: ContentTemplate
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: ContentTemplate
+  nameWithType: StateNode.ContentTemplate
+  fullName: Nodify.StateNode.ContentTemplate
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentTemplate
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 43
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets the template used to display the content of the control's header.
+  example: []
+  syntax:
+    content: public DataTemplate ContentTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.DataTemplate
+    content.vb: Public Property ContentTemplate As DataTemplate
+  overload: Nodify.StateNode.ContentTemplate*
+- uid: Nodify.StateNode.CornerRadius
+  commentId: P:Nodify.StateNode.CornerRadius
+  id: CornerRadius
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: CornerRadius
+  nameWithType: StateNode.CornerRadius
+  fullName: Nodify.StateNode.CornerRadius
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: CornerRadius
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 52
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets or sets a value that represents the degree to which the corners of the <xref href="Nodify.StateNode" data-throw-if-not-resolved="false"></xref> are rounded.
+  example: []
+  syntax:
+    content: public CornerRadius CornerRadius { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.CornerRadius
+    content.vb: Public Property CornerRadius As CornerRadius
+  overload: Nodify.StateNode.CornerRadius*
+- uid: Nodify.StateNode.ContentControl
+  commentId: P:Nodify.StateNode.ContentControl
+  id: ContentControl
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: ContentControl
+  nameWithType: StateNode.ContentControl
+  fullName: Nodify.StateNode.ContentControl
+  type: Property
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: ContentControl
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 63
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Gets the <xref href="Nodify.StateNode.ContentControl" data-throw-if-not-resolved="false"></xref> control of this <xref href="Nodify.StateNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected UIElement? ContentControl { get; }
+    parameters: []
+    return:
+      type: System.Windows.UIElement
+    content.vb: Protected Property ContentControl As UIElement
+  overload: Nodify.StateNode.ContentControl*
+- uid: Nodify.StateNode.OnApplyTemplate
+  commentId: M:Nodify.StateNode.OnApplyTemplate
+  id: OnApplyTemplate
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: OnApplyTemplate()
+  nameWithType: StateNode.OnApplyTemplate()
+  fullName: Nodify.StateNode.OnApplyTemplate()
+  type: Method
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnApplyTemplate
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 71
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: When overridden in a derived class, is invoked whenever application code or internal processes call <xref href="System.Windows.FrameworkElement.ApplyTemplate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void OnApplyTemplate()
+    content.vb: Public Overrides Sub OnApplyTemplate()
+  overridden: Nodify.Connector.OnApplyTemplate
+  overload: Nodify.StateNode.OnApplyTemplate*
+- uid: Nodify.StateNode.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.StateNode.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  id: OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown(MouseButtonEventArgs)
+  nameWithType: StateNode.OnMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.StateNode.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnMouseDown
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 79
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseDown" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: protected override void OnMouseDown(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+      description: The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. This event data reports details about the mouse button that was pressed and the handled state.
+    content.vb: Protected Overrides Sub OnMouseDown(e As MouseButtonEventArgs)
+  overridden: Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  overload: Nodify.StateNode.OnMouseDown*
+- uid: Nodify.StateNode.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.StateNode.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  id: OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: OnMouseUp(MouseButtonEventArgs)
+  nameWithType: StateNode.OnMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.StateNode.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Nodes/StateNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: OnMouseUp
+    path: Nodify/Nodes/StateNode.cs
+    startLine: 89
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseUp" data-throw-if-not-resolved="false"></xref> routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+  example: []
+  syntax:
+    content: protected override void OnMouseUp(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+      description: The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. The event data reports that the mouse button was released.
+    content.vb: Protected Overrides Sub OnMouseUp(e As MouseButtonEventArgs)
+  overridden: Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  overload: Nodify.StateNode.OnMouseUp*
+references:
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows.Controls.Control
+  commentId: T:System.Windows.Controls.Control
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.control
+  name: Control
+  nameWithType: Control
+  fullName: System.Windows.Controls.Control
+- uid: Nodify.Connector.ElementConnector
+  commentId: F:Nodify.Connector.ElementConnector
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_ElementConnector
+  name: ElementConnector
+  nameWithType: Connector.ElementConnector
+  fullName: Nodify.Connector.ElementConnector
+- uid: Nodify.Connector.PendingConnectionStartedEvent
+  commentId: F:Nodify.Connector.PendingConnectionStartedEvent
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionStartedEvent
+  name: PendingConnectionStartedEvent
+  nameWithType: Connector.PendingConnectionStartedEvent
+  fullName: Nodify.Connector.PendingConnectionStartedEvent
+- uid: Nodify.Connector.PendingConnectionCompletedEvent
+  commentId: F:Nodify.Connector.PendingConnectionCompletedEvent
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionCompletedEvent
+  name: PendingConnectionCompletedEvent
+  nameWithType: Connector.PendingConnectionCompletedEvent
+  fullName: Nodify.Connector.PendingConnectionCompletedEvent
+- uid: Nodify.Connector.PendingConnectionDragEvent
+  commentId: F:Nodify.Connector.PendingConnectionDragEvent
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionDragEvent
+  name: PendingConnectionDragEvent
+  nameWithType: Connector.PendingConnectionDragEvent
+  fullName: Nodify.Connector.PendingConnectionDragEvent
+- uid: Nodify.Connector.DisconnectEvent
+  commentId: F:Nodify.Connector.DisconnectEvent
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_DisconnectEvent
+  name: DisconnectEvent
+  nameWithType: Connector.DisconnectEvent
+  fullName: Nodify.Connector.DisconnectEvent
+- uid: Nodify.Connector.PendingConnectionStarted
+  commentId: E:Nodify.Connector.PendingConnectionStarted
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionStarted
+  name: PendingConnectionStarted
+  nameWithType: Connector.PendingConnectionStarted
+  fullName: Nodify.Connector.PendingConnectionStarted
+- uid: Nodify.Connector.PendingConnectionCompleted
+  commentId: E:Nodify.Connector.PendingConnectionCompleted
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionCompleted
+  name: PendingConnectionCompleted
+  nameWithType: Connector.PendingConnectionCompleted
+  fullName: Nodify.Connector.PendingConnectionCompleted
+- uid: Nodify.Connector.PendingConnectionDrag
+  commentId: E:Nodify.Connector.PendingConnectionDrag
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_PendingConnectionDrag
+  name: PendingConnectionDrag
+  nameWithType: Connector.PendingConnectionDrag
+  fullName: Nodify.Connector.PendingConnectionDrag
+- uid: Nodify.Connector.Disconnect
+  commentId: E:Nodify.Connector.Disconnect
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Disconnect
+  name: Disconnect
+  nameWithType: Connector.Disconnect
+  fullName: Nodify.Connector.Disconnect
+- uid: Nodify.Connector.AnchorProperty
+  commentId: F:Nodify.Connector.AnchorProperty
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_AnchorProperty
+  name: AnchorProperty
+  nameWithType: Connector.AnchorProperty
+  fullName: Nodify.Connector.AnchorProperty
+- uid: Nodify.Connector.IsConnectedProperty
+  commentId: F:Nodify.Connector.IsConnectedProperty
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_IsConnectedProperty
+  name: IsConnectedProperty
+  nameWithType: Connector.IsConnectedProperty
+  fullName: Nodify.Connector.IsConnectedProperty
+- uid: Nodify.Connector.DisconnectCommandProperty
+  commentId: F:Nodify.Connector.DisconnectCommandProperty
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_DisconnectCommandProperty
+  name: DisconnectCommandProperty
+  nameWithType: Connector.DisconnectCommandProperty
+  fullName: Nodify.Connector.DisconnectCommandProperty
+- uid: Nodify.Connector.IsPendingConnectionProperty
+  commentId: F:Nodify.Connector.IsPendingConnectionProperty
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_IsPendingConnectionProperty
+  name: IsPendingConnectionProperty
+  nameWithType: Connector.IsPendingConnectionProperty
+  fullName: Nodify.Connector.IsPendingConnectionProperty
+- uid: Nodify.Connector.Anchor
+  commentId: P:Nodify.Connector.Anchor
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Anchor
+  name: Anchor
+  nameWithType: Connector.Anchor
+  fullName: Nodify.Connector.Anchor
+- uid: Nodify.Connector.IsConnected
+  commentId: P:Nodify.Connector.IsConnected
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_IsConnected
+  name: IsConnected
+  nameWithType: Connector.IsConnected
+  fullName: Nodify.Connector.IsConnected
+- uid: Nodify.Connector.IsPendingConnection
+  commentId: P:Nodify.Connector.IsPendingConnection
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_IsPendingConnection
+  name: IsPendingConnection
+  nameWithType: Connector.IsPendingConnection
+  fullName: Nodify.Connector.IsPendingConnection
+- uid: Nodify.Connector.DisconnectCommand
+  commentId: P:Nodify.Connector.DisconnectCommand
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_DisconnectCommand
+  name: DisconnectCommand
+  nameWithType: Connector.DisconnectCommand
+  fullName: Nodify.Connector.DisconnectCommand
+- uid: Nodify.Connector.Thumb
+  commentId: P:Nodify.Connector.Thumb
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Thumb
+  name: Thumb
+  nameWithType: Connector.Thumb
+  fullName: Nodify.Connector.Thumb
+- uid: Nodify.Connector.Container
+  commentId: P:Nodify.Connector.Container
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Container
+  name: Container
+  nameWithType: Connector.Container
+  fullName: Nodify.Connector.Container
+- uid: Nodify.Connector.Editor
+  commentId: P:Nodify.Connector.Editor
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_Editor
+  name: Editor
+  nameWithType: Connector.Editor
+  fullName: Nodify.Connector.Editor
+- uid: Nodify.Connector.OptimizeSafeZone
+  commentId: F:Nodify.Connector.OptimizeSafeZone
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_OptimizeSafeZone
+  name: OptimizeSafeZone
+  nameWithType: Connector.OptimizeSafeZone
+  fullName: Nodify.Connector.OptimizeSafeZone
+- uid: Nodify.Connector.OptimizeMinimumSelectedItems
+  commentId: F:Nodify.Connector.OptimizeMinimumSelectedItems
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_OptimizeMinimumSelectedItems
+  name: OptimizeMinimumSelectedItems
+  nameWithType: Connector.OptimizeMinimumSelectedItems
+  fullName: Nodify.Connector.OptimizeMinimumSelectedItems
+- uid: Nodify.Connector.EnableOptimizations
+  commentId: F:Nodify.Connector.EnableOptimizations
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_EnableOptimizations
+  name: EnableOptimizations
+  nameWithType: Connector.EnableOptimizations
+  fullName: Nodify.Connector.EnableOptimizations
+- uid: Nodify.Connector.AllowPendingConnectionCancellation
+  commentId: P:Nodify.Connector.AllowPendingConnectionCancellation
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_AllowPendingConnectionCancellation
+  name: AllowPendingConnectionCancellation
+  nameWithType: Connector.AllowPendingConnectionCancellation
+  fullName: Nodify.Connector.AllowPendingConnectionCancellation
+- uid: Nodify.Connector.EnableStickyConnections
+  commentId: P:Nodify.Connector.EnableStickyConnections
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_EnableStickyConnections
+  name: EnableStickyConnections
+  nameWithType: Connector.EnableStickyConnections
+  fullName: Nodify.Connector.EnableStickyConnections
+- uid: Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+  commentId: M:Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnRenderSizeChanged_System_Windows_SizeChangedInfo_
+  name: OnRenderSizeChanged(SizeChangedInfo)
+  nameWithType: Connector.OnRenderSizeChanged(SizeChangedInfo)
+  fullName: Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+  spec.csharp:
+  - uid: Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+    name: OnRenderSizeChanged
+    href: Nodify.Connector.html#Nodify_Connector_OnRenderSizeChanged_System_Windows_SizeChangedInfo_
+  - name: (
+  - uid: System.Windows.SizeChangedInfo
+    name: SizeChangedInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.sizechangedinfo
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnRenderSizeChanged(System.Windows.SizeChangedInfo)
+    name: OnRenderSizeChanged
+    href: Nodify.Connector.html#Nodify_Connector_OnRenderSizeChanged_System_Windows_SizeChangedInfo_
+  - name: (
+  - uid: System.Windows.SizeChangedInfo
+    name: SizeChangedInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.sizechangedinfo
+  - name: )
+- uid: Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+  commentId: M:Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_UpdateAnchorOptimized_System_Windows_Point_
+  name: UpdateAnchorOptimized(Point)
+  nameWithType: Connector.UpdateAnchorOptimized(Point)
+  fullName: Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+    name: UpdateAnchorOptimized
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchorOptimized_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.UpdateAnchorOptimized(System.Windows.Point)
+    name: UpdateAnchorOptimized
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchorOptimized_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.Connector.UpdateAnchor(System.Windows.Point)
+  commentId: M:Nodify.Connector.UpdateAnchor(System.Windows.Point)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor_System_Windows_Point_
+  name: UpdateAnchor(Point)
+  nameWithType: Connector.UpdateAnchor(Point)
+  fullName: Nodify.Connector.UpdateAnchor(System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.Connector.UpdateAnchor(System.Windows.Point)
+    name: UpdateAnchor
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.UpdateAnchor(System.Windows.Point)
+    name: UpdateAnchor
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.Connector.UpdateAnchor
+  commentId: M:Nodify.Connector.UpdateAnchor
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor
+  name: UpdateAnchor()
+  nameWithType: Connector.UpdateAnchor()
+  fullName: Nodify.Connector.UpdateAnchor()
+  spec.csharp:
+  - uid: Nodify.Connector.UpdateAnchor
+    name: UpdateAnchor
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.UpdateAnchor
+    name: UpdateAnchor
+    href: Nodify.Connector.html#Nodify_Connector_UpdateAnchor
+  - name: (
+  - name: )
+- uid: Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_
+  name: OnLostMouseCapture(MouseEventArgs)
+  nameWithType: Connector.OnLostMouseCapture(MouseEventArgs)
+  fullName: Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+    name: OnLostMouseCapture
+    href: Nodify.Connector.html#Nodify_Connector_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)
+    name: OnLostMouseCapture
+    href: Nodify.Connector.html#Nodify_Connector_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+  commentId: M:Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnKeyUp_System_Windows_Input_KeyEventArgs_
+  name: OnKeyUp(KeyEventArgs)
+  nameWithType: Connector.OnKeyUp(KeyEventArgs)
+  fullName: Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+  spec.csharp:
+  - uid: Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+    name: OnKeyUp
+    href: Nodify.Connector.html#Nodify_Connector_OnKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnKeyUp(System.Windows.Input.KeyEventArgs)
+    name: OnKeyUp
+    href: Nodify.Connector.html#Nodify_Connector_OnKeyUp_System_Windows_Input_KeyEventArgs_
+  - name: (
+  - uid: System.Windows.Input.KeyEventArgs
+    name: KeyEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.keyeventargs
+  - name: )
+- uid: Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnMouseMove_System_Windows_Input_MouseEventArgs_
+  name: OnMouseMove(MouseEventArgs)
+  nameWithType: Connector.OnMouseMove(MouseEventArgs)
+  fullName: Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+    name: OnMouseMove
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnMouseMove(System.Windows.Input.MouseEventArgs)
+    name: OnMouseMove
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseMove_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+  commentId: M:Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnConnectorDrag_System_Windows_Vector_
+  name: OnConnectorDrag(Vector)
+  nameWithType: Connector.OnConnectorDrag(Vector)
+  fullName: Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+  spec.csharp:
+  - uid: Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+    name: OnConnectorDrag
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDrag_System_Windows_Vector_
+  - name: (
+  - uid: System.Windows.Vector
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnConnectorDrag(System.Windows.Vector)
+    name: OnConnectorDrag
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDrag_System_Windows_Vector_
+  - name: (
+  - uid: System.Windows.Vector
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  - name: )
+- uid: Nodify.Connector.OnConnectorDragStarted
+  commentId: M:Nodify.Connector.OnConnectorDragStarted
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragStarted
+  name: OnConnectorDragStarted()
+  nameWithType: Connector.OnConnectorDragStarted()
+  fullName: Nodify.Connector.OnConnectorDragStarted()
+  spec.csharp:
+  - uid: Nodify.Connector.OnConnectorDragStarted
+    name: OnConnectorDragStarted
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragStarted
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnConnectorDragStarted
+    name: OnConnectorDragStarted
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragStarted
+  - name: (
+  - name: )
+- uid: Nodify.Connector.OnConnectorDragCompleted(System.Boolean)
+  commentId: M:Nodify.Connector.OnConnectorDragCompleted(System.Boolean)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragCompleted_System_Boolean_
+  name: OnConnectorDragCompleted(bool)
+  nameWithType: Connector.OnConnectorDragCompleted(bool)
+  fullName: Nodify.Connector.OnConnectorDragCompleted(bool)
+  nameWithType.vb: Connector.OnConnectorDragCompleted(Boolean)
+  fullName.vb: Nodify.Connector.OnConnectorDragCompleted(Boolean)
+  name.vb: OnConnectorDragCompleted(Boolean)
+  spec.csharp:
+  - uid: Nodify.Connector.OnConnectorDragCompleted(System.Boolean)
+    name: OnConnectorDragCompleted
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragCompleted_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnConnectorDragCompleted(System.Boolean)
+    name: OnConnectorDragCompleted
+    href: Nodify.Connector.html#Nodify_Connector_OnConnectorDragCompleted_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Nodify.Connector.OnDisconnect
+  commentId: M:Nodify.Connector.OnDisconnect
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_OnDisconnect
+  name: OnDisconnect()
+  nameWithType: Connector.OnDisconnect()
+  fullName: Nodify.Connector.OnDisconnect()
+  spec.csharp:
+  - uid: Nodify.Connector.OnDisconnect
+    name: OnDisconnect
+    href: Nodify.Connector.html#Nodify_Connector_OnDisconnect
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnDisconnect
+    name: OnDisconnect
+    href: Nodify.Connector.html#Nodify_Connector_OnDisconnect
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: Nodify.PendingConnection.IsOverElementProperty
+  commentId: F:Nodify.PendingConnection.IsOverElementProperty
+  href: Nodify.PendingConnection.html#Nodify_PendingConnection_IsOverElementProperty
+  name: IsOverElementProperty
+  nameWithType: PendingConnection.IsOverElementProperty
+  fullName: Nodify.PendingConnection.IsOverElementProperty
+- uid: Nodify.StateNode
+  commentId: T:Nodify.StateNode
+  href: Nodify.StateNode.html
+  name: StateNode
+  nameWithType: StateNode
+  fullName: Nodify.StateNode
+- uid: Nodify.StateNode.HighlightBrush*
+  commentId: Overload:Nodify.StateNode.HighlightBrush
+  href: Nodify.StateNode.html#Nodify_StateNode_HighlightBrush
+  name: HighlightBrush
+  nameWithType: StateNode.HighlightBrush
+  fullName: Nodify.StateNode.HighlightBrush
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: Nodify.StateNode.Content*
+  commentId: Overload:Nodify.StateNode.Content
+  href: Nodify.StateNode.html#Nodify_StateNode_Content
+  name: Content
+  nameWithType: StateNode.Content
+  fullName: Nodify.StateNode.Content
+- uid: Nodify.StateNode.ContentTemplate*
+  commentId: Overload:Nodify.StateNode.ContentTemplate
+  href: Nodify.StateNode.html#Nodify_StateNode_ContentTemplate
+  name: ContentTemplate
+  nameWithType: StateNode.ContentTemplate
+  fullName: Nodify.StateNode.ContentTemplate
+- uid: System.Windows.DataTemplate
+  commentId: T:System.Windows.DataTemplate
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.datatemplate
+  name: DataTemplate
+  nameWithType: DataTemplate
+  fullName: System.Windows.DataTemplate
+- uid: Nodify.StateNode.CornerRadius*
+  commentId: Overload:Nodify.StateNode.CornerRadius
+  href: Nodify.StateNode.html#Nodify_StateNode_CornerRadius
+  name: CornerRadius
+  nameWithType: StateNode.CornerRadius
+  fullName: Nodify.StateNode.CornerRadius
+- uid: System.Windows.CornerRadius
+  commentId: T:System.Windows.CornerRadius
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.cornerradius
+  name: CornerRadius
+  nameWithType: CornerRadius
+  fullName: System.Windows.CornerRadius
+- uid: Nodify.StateNode.ContentControl
+  commentId: P:Nodify.StateNode.ContentControl
+  href: Nodify.StateNode.html#Nodify_StateNode_ContentControl
+  name: ContentControl
+  nameWithType: StateNode.ContentControl
+  fullName: Nodify.StateNode.ContentControl
+- uid: Nodify.StateNode.ContentControl*
+  commentId: Overload:Nodify.StateNode.ContentControl
+  href: Nodify.StateNode.html#Nodify_StateNode_ContentControl
+  name: ContentControl
+  nameWithType: StateNode.ContentControl
+  fullName: Nodify.StateNode.ContentControl
+- uid: System.Windows.FrameworkElement.ApplyTemplate
+  commentId: M:System.Windows.FrameworkElement.ApplyTemplate
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  name: ApplyTemplate()
+  nameWithType: FrameworkElement.ApplyTemplate()
+  fullName: System.Windows.FrameworkElement.ApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.FrameworkElement.ApplyTemplate
+    name: ApplyTemplate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate
+  - name: (
+  - name: )
+- uid: Nodify.Connector.OnApplyTemplate
+  commentId: M:Nodify.Connector.OnApplyTemplate
+  parent: Nodify.Connector
+  href: Nodify.Connector.html#Nodify_Connector_OnApplyTemplate
+  name: OnApplyTemplate()
+  nameWithType: Connector.OnApplyTemplate()
+  fullName: Nodify.Connector.OnApplyTemplate()
+  spec.csharp:
+  - uid: Nodify.Connector.OnApplyTemplate
+    name: OnApplyTemplate
+    href: Nodify.Connector.html#Nodify_Connector_OnApplyTemplate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnApplyTemplate
+    name: OnApplyTemplate
+    href: Nodify.Connector.html#Nodify_Connector_OnApplyTemplate
+  - name: (
+  - name: )
+- uid: Nodify.StateNode.OnApplyTemplate*
+  commentId: Overload:Nodify.StateNode.OnApplyTemplate
+  href: Nodify.StateNode.html#Nodify_StateNode_OnApplyTemplate
+  name: OnApplyTemplate
+  nameWithType: StateNode.OnApplyTemplate
+  fullName: Nodify.StateNode.OnApplyTemplate
+- uid: System.Windows.Input.Mouse.MouseDown
+  commentId: E:System.Windows.Input.Mouse.MouseDown
+  isExternal: true
+- uid: System.Windows.Input.MouseButtonEventArgs
+  commentId: T:System.Windows.Input.MouseButtonEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  name: MouseButtonEventArgs
+  nameWithType: MouseButtonEventArgs
+  fullName: System.Windows.Input.MouseButtonEventArgs
+- uid: Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseDown(MouseButtonEventArgs)
+  nameWithType: Connector.OnMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseDown
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseDown
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.StateNode.OnMouseDown*
+  commentId: Overload:Nodify.StateNode.OnMouseDown
+  href: Nodify.StateNode.html#Nodify_StateNode_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseDown
+  nameWithType: StateNode.OnMouseDown
+  fullName: Nodify.StateNode.OnMouseDown
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: System.Windows.Input.Mouse.MouseUp
+  commentId: E:System.Windows.Input.Mouse.MouseUp
+  isExternal: true
+- uid: Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.Connector
+  isExternal: true
+  href: Nodify.Connector.html#Nodify_Connector_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseUp(MouseButtonEventArgs)
+  nameWithType: Connector.OnMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.Connector.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: Nodify.Connector.html#Nodify_Connector_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.StateNode.OnMouseUp*
+  commentId: Overload:Nodify.StateNode.OnMouseUp
+  href: Nodify.StateNode.html#Nodify_StateNode_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseUp
+  nameWithType: StateNode.OnMouseUp
+  fullName: Nodify.StateNode.OnMouseUp

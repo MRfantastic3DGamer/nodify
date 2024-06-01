@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.GroupingMovementMode
+  commentId: T:Nodify.GroupingMovementMode
+  id: GroupingMovementMode
+  parent: Nodify
+  children:
+  - Nodify.GroupingMovementMode.Group
+  - Nodify.GroupingMovementMode.Self
+  langs:
+  - csharp
+  - vb
+  name: GroupingMovementMode
+  nameWithType: GroupingMovementMode
+  fullName: Nodify.GroupingMovementMode
+  type: Enum
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GroupingMovementMode
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 12
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Specifies the possible movement modes of a <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public enum GroupingMovementMode
+    content.vb: Public Enum GroupingMovementMode
+- uid: Nodify.GroupingMovementMode.Group
+  commentId: F:Nodify.GroupingMovementMode.Group
+  id: Group
+  parent: Nodify.GroupingMovementMode
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: GroupingMovementMode.Group
+  fullName: Nodify.GroupingMovementMode.Group
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Group
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 17
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref> will move its content when moved.
+  example: []
+  syntax:
+    content: Group = 0
+    return:
+      type: Nodify.GroupingMovementMode
+- uid: Nodify.GroupingMovementMode.Self
+  commentId: F:Nodify.GroupingMovementMode.Self
+  id: Self
+  parent: Nodify.GroupingMovementMode
+  langs:
+  - csharp
+  - vb
+  name: Self
+  nameWithType: GroupingMovementMode.Self
+  fullName: Nodify.GroupingMovementMode.Self
+  type: Field
+  source:
+    remote:
+      path: Nodify/Nodes/GroupingNode.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Self
+    path: Nodify/Nodes/GroupingNode.cs
+    startLine: 22
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: The <xref href="Nodify.GroupingNode" data-throw-if-not-resolved="false"></xref> will not move its content when moved.
+  example: []
+  syntax:
+    content: Self = 1
+    return:
+      type: Nodify.GroupingMovementMode
+references:
+- uid: Nodify.GroupingNode
+  commentId: T:Nodify.GroupingNode
+  href: Nodify.GroupingNode.html
+  name: GroupingNode
+  nameWithType: GroupingNode
+  fullName: Nodify.GroupingNode
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: Nodify.GroupingMovementMode
+  commentId: T:Nodify.GroupingMovementMode
+  parent: Nodify
+  href: Nodify.GroupingMovementMode.html
+  name: GroupingMovementMode
+  nameWithType: GroupingMovementMode
+  fullName: Nodify.GroupingMovementMode

@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class Node | Nodify-Docs </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Node | Nodify-Docs ">
+    
+    <meta name="description" content="Represents a control that has a list of s and a list of s.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Nodify-Docs">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Nodify.Node">
+
+
+
+  <h1 id="Nodify_Node" data-uid="Nodify.Node" class="text-break">Class Node</h1>
+  <div class="markdown level0 summary"><p>Represents a control that has a list of <a class="xref" href="Nodify.Node.html#Nodify_Node_Input">Input</a><a class="xref" href="Nodify.Connector.html">Connector</a>s and a list of <a class="xref" href="Nodify.Node.html#Nodify_Node_Output">Output</a><a class="xref" href="Nodify.Connector.html">Connector</a>s.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a></div>
+    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></div>
+    <div class="level3"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual">Visual</a></div>
+    <div class="level4"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></div>
+    <div class="level5"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></div>
+    <div class="level6"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control">Control</a></div>
+    <div class="level7"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol">ContentControl</a></div>
+    <div class="level8"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol">HeaderedContentControl</a></div>
+    <div class="level9"><span class="xref">Node</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Nodify.html">Nodify</a></h6>
+  <h6><strong>Assembly</strong>: Nodify.dll</h6>
+  <h5 id="Nodify_Node_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Node : HeaderedContentControl</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_ContentBrushProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.ContentBrushProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L15">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_ContentBrushProperty" data-uid="Nodify.Node.ContentBrushProperty">ContentBrushProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty ContentBrushProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_FooterBrushProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.FooterBrushProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L17">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_FooterBrushProperty" data-uid="Nodify.Node.FooterBrushProperty">FooterBrushProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FooterBrushProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_FooterProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.FooterProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L18">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_FooterProperty" data-uid="Nodify.Node.FooterProperty">FooterProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FooterProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_FooterTemplateProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.FooterTemplateProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L19">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_FooterTemplateProperty" data-uid="Nodify.Node.FooterTemplateProperty">FooterTemplateProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty FooterTemplateProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_HasFooterProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.HasFooterProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L22">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_HasFooterProperty" data-uid="Nodify.Node.HasFooterProperty">HasFooterProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty HasFooterProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_HasFooterPropertyKey.md&amp;value=---%0Auid%3A%20Nodify.Node.HasFooterPropertyKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L21">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_HasFooterPropertyKey" data-uid="Nodify.Node.HasFooterPropertyKey">HasFooterPropertyKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly DependencyPropertyKey HasFooterPropertyKey</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey">DependencyPropertyKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_HeaderBrushProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.HeaderBrushProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L16">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_HeaderBrushProperty" data-uid="Nodify.Node.HeaderBrushProperty">HeaderBrushProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty HeaderBrushProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_InputConnectorTemplateProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.InputConnectorTemplateProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L20">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_InputConnectorTemplateProperty" data-uid="Nodify.Node.InputConnectorTemplateProperty">InputConnectorTemplateProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty InputConnectorTemplateProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_InputProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.InputProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L24">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_InputProperty" data-uid="Nodify.Node.InputProperty">InputProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty InputProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_OutputConnectorTemplateProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.OutputConnectorTemplateProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_OutputConnectorTemplateProperty" data-uid="Nodify.Node.OutputConnectorTemplateProperty">OutputConnectorTemplateProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty OutputConnectorTemplateProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_OutputProperty.md&amp;value=---%0Auid%3A%20Nodify.Node.OutputProperty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L25">View Source</a>
+  </span>
+  <h4 id="Nodify_Node_OutputProperty" data-uid="Nodify.Node.OutputProperty">OutputProperty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DependencyProperty OutputProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_ContentBrush.md&amp;value=---%0Auid%3A%20Nodify.Node.ContentBrush%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L30">View Source</a>
+  </span>
+  <a id="Nodify_Node_ContentBrush_" data-uid="Nodify.Node.ContentBrush*"></a>
+  <h4 id="Nodify_Node_ContentBrush" data-uid="Nodify.Node.ContentBrush">ContentBrush</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the brush used for the background of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content">Content</a> of this <a class="xref" href="Nodify.Node.html">Node</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush ContentBrush { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_Footer.md&amp;value=---%0Auid%3A%20Nodify.Node.Footer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L57">View Source</a>
+  </span>
+  <a id="Nodify_Node_Footer_" data-uid="Nodify.Node.Footer*"></a>
+  <h4 id="Nodify_Node_Footer" data-uid="Nodify.Node.Footer">Footer</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the data for the footer of this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Footer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_FooterBrush.md&amp;value=---%0Auid%3A%20Nodify.Node.FooterBrush%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L48">View Source</a>
+  </span>
+  <a id="Nodify_Node_FooterBrush_" data-uid="Nodify.Node.FooterBrush*"></a>
+  <h4 id="Nodify_Node_FooterBrush" data-uid="Nodify.Node.FooterBrush">FooterBrush</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the brush used for the background of the <a class="xref" href="Nodify.Node.html#Nodify_Node_Footer">Footer</a> of this <a class="xref" href="Nodify.Node.html">Node</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush FooterBrush { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_FooterTemplate.md&amp;value=---%0Auid%3A%20Nodify.Node.FooterTemplate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L66">View Source</a>
+  </span>
+  <a id="Nodify_Node_FooterTemplate_" data-uid="Nodify.Node.FooterTemplate*"></a>
+  <h4 id="Nodify_Node_FooterTemplate" data-uid="Nodify.Node.FooterTemplate">FooterTemplate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the template used to display the content of the control's footer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTemplate FooterTemplate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.datatemplate">DataTemplate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_HasFooter.md&amp;value=---%0Auid%3A%20Nodify.Node.HasFooter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L111">View Source</a>
+  </span>
+  <a id="Nodify_Node_HasFooter_" data-uid="Nodify.Node.HasFooter*"></a>
+  <h4 id="Nodify_Node_HasFooter" data-uid="Nodify.Node.HasFooter">HasFooter</h4>
+  <div class="markdown level1 summary"><p>Gets a value that indicates whether the <a class="xref" href="Nodify.Node.html#Nodify_Node_Footer">Footer</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFooter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_HeaderBrush.md&amp;value=---%0Auid%3A%20Nodify.Node.HeaderBrush%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L39">View Source</a>
+  </span>
+  <a id="Nodify_Node_HeaderBrush_" data-uid="Nodify.Node.HeaderBrush*"></a>
+  <h4 id="Nodify_Node_HeaderBrush" data-uid="Nodify.Node.HeaderBrush">HeaderBrush</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the brush used for the background of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.headeredcontentcontrol.header">Header</a> of this <a class="xref" href="Nodify.Node.html">Node</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush HeaderBrush { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_Input.md&amp;value=---%0Auid%3A%20Nodify.Node.Input%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L93">View Source</a>
+  </span>
+  <a id="Nodify_Node_Input_" data-uid="Nodify.Node.Input*"></a>
+  <h4 id="Nodify_Node_Input" data-uid="Nodify.Node.Input">Input</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the data for the input <a class="xref" href="Nodify.Connector.html">Connector</a>s of this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable Input { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_InputConnectorTemplate.md&amp;value=---%0Auid%3A%20Nodify.Node.InputConnectorTemplate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L75">View Source</a>
+  </span>
+  <a id="Nodify_Node_InputConnectorTemplate_" data-uid="Nodify.Node.InputConnectorTemplate*"></a>
+  <h4 id="Nodify_Node_InputConnectorTemplate" data-uid="Nodify.Node.InputConnectorTemplate">InputConnectorTemplate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the template used to display the content of the control's <a class="xref" href="Nodify.Node.html#Nodify_Node_Input">Input</a> connectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTemplate InputConnectorTemplate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.datatemplate">DataTemplate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_Output.md&amp;value=---%0Auid%3A%20Nodify.Node.Output%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L102">View Source</a>
+  </span>
+  <a id="Nodify_Node_Output_" data-uid="Nodify.Node.Output*"></a>
+  <h4 id="Nodify_Node_Output" data-uid="Nodify.Node.Output">Output</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the data for the output <a class="xref" href="Nodify.Connector.html">Connector</a>s of this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable Output { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node_OutputConnectorTemplate.md&amp;value=---%0Auid%3A%20Nodify.Node.OutputConnectorTemplate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L84">View Source</a>
+  </span>
+  <a id="Nodify_Node_OutputConnectorTemplate_" data-uid="Nodify.Node.OutputConnectorTemplate*"></a>
+  <h4 id="Nodify_Node_OutputConnectorTemplate" data-uid="Nodify.Node.OutputConnectorTemplate">OutputConnectorTemplate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the template used to display the content of the control's <a class="xref" href="Nodify.Node.html#Nodify_Node_Output">Output</a> connectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTemplate OutputConnectorTemplate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.datatemplate">DataTemplate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MRfantastic3DGamer/nodify/new/auto-docs/apiSpec/new?filename=Nodify_Node.md&amp;value=---%0Auid%3A%20Nodify.Node%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MRfantastic3DGamer/nodify/blob/auto-docs/Nodify/Nodes/Node.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

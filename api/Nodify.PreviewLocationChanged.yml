@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.PreviewLocationChanged
+  commentId: T:Nodify.PreviewLocationChanged
+  id: PreviewLocationChanged
+  parent: Nodify
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PreviewLocationChanged
+  nameWithType: PreviewLocationChanged
+  fullName: Nodify.PreviewLocationChanged
+  type: Delegate
+  source:
+    remote:
+      path: Nodify/ItemContainer.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: PreviewLocationChanged
+    path: Nodify/ItemContainer.cs
+    startLine: 13
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Delegate used to notify when an <xref href="Nodify.ItemContainer" data-throw-if-not-resolved="false"></xref> is previewing a new location.
+  example: []
+  syntax:
+    content: public delegate void PreviewLocationChanged(Point newLocation)
+    parameters:
+    - id: newLocation
+      type: System.Windows.Point
+      description: The new location.
+    content.vb: Public Delegate Sub PreviewLocationChanged(newLocation As Point)
+references:
+- uid: Nodify.ItemContainer
+  commentId: T:Nodify.ItemContainer
+  parent: Nodify
+  href: Nodify.ItemContainer.html
+  name: ItemContainer
+  nameWithType: ItemContainer
+  fullName: Nodify.ItemContainer
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows

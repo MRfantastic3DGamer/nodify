@@ -1,0 +1,1710 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify.Connection
+  commentId: T:Nodify.Connection
+  id: Connection
+  parent: Nodify
+  children:
+  - Nodify.Connection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  - Nodify.Connection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  - Nodify.Connection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  - Nodify.Connection.InterpolateCubicBezier(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: Connection
+  fullName: Nodify.Connection
+  type: Class
+  source:
+    remote:
+      path: Nodify/Connections/Connection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: Connection
+    path: Nodify/Connections/Connection.cs
+    startLine: 10
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  summary: Represents a cubic bezier curve.
+  example: []
+  syntax:
+    content: 'public class Connection : BaseConnection'
+    content.vb: Public Class Connection Inherits BaseConnection
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Visual
+  - System.Windows.UIElement
+  - System.Windows.FrameworkElement
+  - System.Windows.Shapes.Shape
+  - Nodify.BaseConnection
+  inheritedMembers:
+  - Nodify.BaseConnection.SourceProperty
+  - Nodify.BaseConnection.TargetProperty
+  - Nodify.BaseConnection.SourceOffsetProperty
+  - Nodify.BaseConnection.TargetOffsetProperty
+  - Nodify.BaseConnection.SourceOffsetModeProperty
+  - Nodify.BaseConnection.TargetOffsetModeProperty
+  - Nodify.BaseConnection.SourceOrientationProperty
+  - Nodify.BaseConnection.TargetOrientationProperty
+  - Nodify.BaseConnection.DirectionProperty
+  - Nodify.BaseConnection.DirectionalArrowsCountProperty
+  - Nodify.BaseConnection.DirectionalArrowsOffsetProperty
+  - Nodify.BaseConnection.SpacingProperty
+  - Nodify.BaseConnection.ArrowSizeProperty
+  - Nodify.BaseConnection.ArrowEndsProperty
+  - Nodify.BaseConnection.ArrowShapeProperty
+  - Nodify.BaseConnection.SplitCommandProperty
+  - Nodify.BaseConnection.DisconnectCommandProperty
+  - Nodify.BaseConnection.ForegroundProperty
+  - Nodify.BaseConnection.TextProperty
+  - Nodify.BaseConnection.FontSizeProperty
+  - Nodify.BaseConnection.FontFamilyProperty
+  - Nodify.BaseConnection.FontWeightProperty
+  - Nodify.BaseConnection.FontStyleProperty
+  - Nodify.BaseConnection.FontStretchProperty
+  - Nodify.BaseConnection.Source
+  - Nodify.BaseConnection.Target
+  - Nodify.BaseConnection.SourceOffset
+  - Nodify.BaseConnection.TargetOffset
+  - Nodify.BaseConnection.SourceOffsetMode
+  - Nodify.BaseConnection.TargetOffsetMode
+  - Nodify.BaseConnection.SourceOrientation
+  - Nodify.BaseConnection.TargetOrientation
+  - Nodify.BaseConnection.Direction
+  - Nodify.BaseConnection.DirectionalArrowsCount
+  - Nodify.BaseConnection.DirectionalArrowsOffset
+  - Nodify.BaseConnection.ArrowEnds
+  - Nodify.BaseConnection.ArrowShape
+  - Nodify.BaseConnection.Spacing
+  - Nodify.BaseConnection.ArrowSize
+  - Nodify.BaseConnection.SplitCommand
+  - Nodify.BaseConnection.DisconnectCommand
+  - Nodify.BaseConnection.Foreground
+  - Nodify.BaseConnection.Text
+  - Nodify.BaseConnection.FontSize
+  - Nodify.BaseConnection.FontFamily
+  - Nodify.BaseConnection.FontStyle
+  - Nodify.BaseConnection.FontWeight
+  - Nodify.BaseConnection.FontStretch
+  - Nodify.BaseConnection.DisconnectEvent
+  - Nodify.BaseConnection.SplitEvent
+  - Nodify.BaseConnection.Disconnect
+  - Nodify.BaseConnection.Split
+  - Nodify.BaseConnection.ZeroVector
+  - Nodify.BaseConnection.DefiningGeometry
+  - Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)
+  - Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)
+  - Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  - Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  - Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  - Nodify.BaseConnection.GetOffset
+  - Nodify.BaseConnection.StartAnimation(System.Double)
+  - Nodify.BaseConnection.StopAnimation
+  - Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  - Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+- uid: Nodify.Connection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.Connection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  id: DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.Connection
+  langs:
+  - csharp
+  - vb
+  name: DrawLineGeometry(StreamGeometryContext, Point, Point)
+  nameWithType: Connection.DrawLineGeometry(StreamGeometryContext, Point, Point)
+  fullName: Nodify.Connection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/Connection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: DrawLineGeometry
+    path: Nodify/Connections/Connection.cs
+    startLine: 20
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  example: []
+  syntax:
+    content: protected override ((Point ArrowStartSource, Point ArrowStartTarget), (Point ArrowEndSource, Point ArrowEndTarget)) DrawLineGeometry(StreamGeometryContext context, Point source, Point target)
+    parameters:
+    - id: context
+      type: System.Windows.Media.StreamGeometryContext
+    - id: source
+      type: System.Windows.Point
+    - id: target
+      type: System.Windows.Point
+    return:
+      type: System.ValueTuple{System.ValueTuple{System.Windows.Point,System.Windows.Point},System.ValueTuple{System.Windows.Point,System.Windows.Point}}
+    content.vb: Protected Overrides Function DrawLineGeometry(context As StreamGeometryContext, source As Point, target As Point) As ((ArrowStartSource As Point, ArrowStartTarget As Point), (ArrowEndSource As Point, ArrowEndTarget As Point))
+  overridden: Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  overload: Nodify.Connection.DrawLineGeometry*
+- uid: Nodify.Connection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.Connection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  id: DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.Connection
+  langs:
+  - csharp
+  - vb
+  name: DrawDirectionalArrowsGeometry(StreamGeometryContext, Point, Point)
+  nameWithType: Connection.DrawDirectionalArrowsGeometry(StreamGeometryContext, Point, Point)
+  fullName: Nodify.Connection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/Connection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: DrawDirectionalArrowsGeometry
+    path: Nodify/Connections/Connection.cs
+    startLine: 32
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  example: []
+  syntax:
+    content: protected override void DrawDirectionalArrowsGeometry(StreamGeometryContext context, Point source, Point target)
+    parameters:
+    - id: context
+      type: System.Windows.Media.StreamGeometryContext
+    - id: source
+      type: System.Windows.Point
+    - id: target
+      type: System.Windows.Point
+    content.vb: Protected Overrides Sub DrawDirectionalArrowsGeometry(context As StreamGeometryContext, source As Point, target As Point)
+  overridden: Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  overload: Nodify.Connection.DrawDirectionalArrowsGeometry*
+- uid: Nodify.Connection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.Connection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  id: GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.Connection
+  langs:
+  - csharp
+  - vb
+  name: GetTextPosition(FormattedText, Point, Point)
+  nameWithType: Connection.GetTextPosition(FormattedText, Point, Point)
+  fullName: Nodify.Connection.GetTextPosition(System.Windows.Media.FormattedText, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/Connection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: GetTextPosition
+    path: Nodify/Connections/Connection.cs
+    startLine: 47
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  example: []
+  syntax:
+    content: protected override Point GetTextPosition(FormattedText text, Point source, Point target)
+    parameters:
+    - id: text
+      type: System.Windows.Media.FormattedText
+    - id: source
+      type: System.Windows.Point
+    - id: target
+      type: System.Windows.Point
+    return:
+      type: System.Windows.Point
+    content.vb: Protected Overrides Function GetTextPosition(text As FormattedText, source As Point, target As Point) As Point
+  overridden: Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  overload: Nodify.Connection.GetTextPosition*
+- uid: Nodify.Connection.InterpolateCubicBezier(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Double)
+  commentId: M:Nodify.Connection.InterpolateCubicBezier(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Double)
+  id: InterpolateCubicBezier(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Double)
+  parent: Nodify.Connection
+  langs:
+  - csharp
+  - vb
+  name: InterpolateCubicBezier(Point, Point, Point, Point, double)
+  nameWithType: Connection.InterpolateCubicBezier(Point, Point, Point, Point, double)
+  fullName: Nodify.Connection.InterpolateCubicBezier(System.Windows.Point, System.Windows.Point, System.Windows.Point, System.Windows.Point, double)
+  type: Method
+  source:
+    remote:
+      path: Nodify/Connections/Connection.cs
+      branch: auto-docs
+      repo: git@github.com:MRfantastic3DGamer/nodify.git
+    id: InterpolateCubicBezier
+    path: Nodify/Connections/Connection.cs
+    startLine: 100
+  assemblies:
+  - Nodify
+  namespace: Nodify
+  syntax:
+    content: protected static Point InterpolateCubicBezier(Point P0, Point P1, Point P2, Point P3, double t)
+    parameters:
+    - id: P0
+      type: System.Windows.Point
+    - id: P1
+      type: System.Windows.Point
+    - id: P2
+      type: System.Windows.Point
+    - id: P3
+      type: System.Windows.Point
+    - id: t
+      type: System.Double
+    return:
+      type: System.Windows.Point
+    content.vb: Protected Shared Function InterpolateCubicBezier(P0 As Point, P1 As Point, P2 As Point, P3 As Point, t As Double) As Point
+  overload: Nodify.Connection.InterpolateCubicBezier*
+  nameWithType.vb: Connection.InterpolateCubicBezier(Point, Point, Point, Point, Double)
+  fullName.vb: Nodify.Connection.InterpolateCubicBezier(System.Windows.Point, System.Windows.Point, System.Windows.Point, System.Windows.Point, Double)
+  name.vb: InterpolateCubicBezier(Point, Point, Point, Point, Double)
+references:
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows.Shapes.Shape
+  commentId: T:System.Windows.Shapes.Shape
+  parent: System.Windows.Shapes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.shapes.shape
+  name: Shape
+  nameWithType: Shape
+  fullName: System.Windows.Shapes.Shape
+- uid: Nodify.BaseConnection
+  commentId: T:Nodify.BaseConnection
+  parent: Nodify
+  href: Nodify.BaseConnection.html
+  name: BaseConnection
+  nameWithType: BaseConnection
+  fullName: Nodify.BaseConnection
+- uid: Nodify.BaseConnection.SourceProperty
+  commentId: F:Nodify.BaseConnection.SourceProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceProperty
+  name: SourceProperty
+  nameWithType: BaseConnection.SourceProperty
+  fullName: Nodify.BaseConnection.SourceProperty
+- uid: Nodify.BaseConnection.TargetProperty
+  commentId: F:Nodify.BaseConnection.TargetProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetProperty
+  name: TargetProperty
+  nameWithType: BaseConnection.TargetProperty
+  fullName: Nodify.BaseConnection.TargetProperty
+- uid: Nodify.BaseConnection.SourceOffsetProperty
+  commentId: F:Nodify.BaseConnection.SourceOffsetProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffsetProperty
+  name: SourceOffsetProperty
+  nameWithType: BaseConnection.SourceOffsetProperty
+  fullName: Nodify.BaseConnection.SourceOffsetProperty
+- uid: Nodify.BaseConnection.TargetOffsetProperty
+  commentId: F:Nodify.BaseConnection.TargetOffsetProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOffsetProperty
+  name: TargetOffsetProperty
+  nameWithType: BaseConnection.TargetOffsetProperty
+  fullName: Nodify.BaseConnection.TargetOffsetProperty
+- uid: Nodify.BaseConnection.SourceOffsetModeProperty
+  commentId: F:Nodify.BaseConnection.SourceOffsetModeProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffsetModeProperty
+  name: SourceOffsetModeProperty
+  nameWithType: BaseConnection.SourceOffsetModeProperty
+  fullName: Nodify.BaseConnection.SourceOffsetModeProperty
+- uid: Nodify.BaseConnection.TargetOffsetModeProperty
+  commentId: F:Nodify.BaseConnection.TargetOffsetModeProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOffsetModeProperty
+  name: TargetOffsetModeProperty
+  nameWithType: BaseConnection.TargetOffsetModeProperty
+  fullName: Nodify.BaseConnection.TargetOffsetModeProperty
+- uid: Nodify.BaseConnection.SourceOrientationProperty
+  commentId: F:Nodify.BaseConnection.SourceOrientationProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOrientationProperty
+  name: SourceOrientationProperty
+  nameWithType: BaseConnection.SourceOrientationProperty
+  fullName: Nodify.BaseConnection.SourceOrientationProperty
+- uid: Nodify.BaseConnection.TargetOrientationProperty
+  commentId: F:Nodify.BaseConnection.TargetOrientationProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOrientationProperty
+  name: TargetOrientationProperty
+  nameWithType: BaseConnection.TargetOrientationProperty
+  fullName: Nodify.BaseConnection.TargetOrientationProperty
+- uid: Nodify.BaseConnection.DirectionProperty
+  commentId: F:Nodify.BaseConnection.DirectionProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionProperty
+  name: DirectionProperty
+  nameWithType: BaseConnection.DirectionProperty
+  fullName: Nodify.BaseConnection.DirectionProperty
+- uid: Nodify.BaseConnection.DirectionalArrowsCountProperty
+  commentId: F:Nodify.BaseConnection.DirectionalArrowsCountProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionalArrowsCountProperty
+  name: DirectionalArrowsCountProperty
+  nameWithType: BaseConnection.DirectionalArrowsCountProperty
+  fullName: Nodify.BaseConnection.DirectionalArrowsCountProperty
+- uid: Nodify.BaseConnection.DirectionalArrowsOffsetProperty
+  commentId: F:Nodify.BaseConnection.DirectionalArrowsOffsetProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionalArrowsOffsetProperty
+  name: DirectionalArrowsOffsetProperty
+  nameWithType: BaseConnection.DirectionalArrowsOffsetProperty
+  fullName: Nodify.BaseConnection.DirectionalArrowsOffsetProperty
+- uid: Nodify.BaseConnection.SpacingProperty
+  commentId: F:Nodify.BaseConnection.SpacingProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SpacingProperty
+  name: SpacingProperty
+  nameWithType: BaseConnection.SpacingProperty
+  fullName: Nodify.BaseConnection.SpacingProperty
+- uid: Nodify.BaseConnection.ArrowSizeProperty
+  commentId: F:Nodify.BaseConnection.ArrowSizeProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowSizeProperty
+  name: ArrowSizeProperty
+  nameWithType: BaseConnection.ArrowSizeProperty
+  fullName: Nodify.BaseConnection.ArrowSizeProperty
+- uid: Nodify.BaseConnection.ArrowEndsProperty
+  commentId: F:Nodify.BaseConnection.ArrowEndsProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowEndsProperty
+  name: ArrowEndsProperty
+  nameWithType: BaseConnection.ArrowEndsProperty
+  fullName: Nodify.BaseConnection.ArrowEndsProperty
+- uid: Nodify.BaseConnection.ArrowShapeProperty
+  commentId: F:Nodify.BaseConnection.ArrowShapeProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowShapeProperty
+  name: ArrowShapeProperty
+  nameWithType: BaseConnection.ArrowShapeProperty
+  fullName: Nodify.BaseConnection.ArrowShapeProperty
+- uid: Nodify.BaseConnection.SplitCommandProperty
+  commentId: F:Nodify.BaseConnection.SplitCommandProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SplitCommandProperty
+  name: SplitCommandProperty
+  nameWithType: BaseConnection.SplitCommandProperty
+  fullName: Nodify.BaseConnection.SplitCommandProperty
+- uid: Nodify.BaseConnection.DisconnectCommandProperty
+  commentId: F:Nodify.BaseConnection.DisconnectCommandProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DisconnectCommandProperty
+  name: DisconnectCommandProperty
+  nameWithType: BaseConnection.DisconnectCommandProperty
+  fullName: Nodify.BaseConnection.DisconnectCommandProperty
+- uid: Nodify.BaseConnection.ForegroundProperty
+  commentId: F:Nodify.BaseConnection.ForegroundProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ForegroundProperty
+  name: ForegroundProperty
+  nameWithType: BaseConnection.ForegroundProperty
+  fullName: Nodify.BaseConnection.ForegroundProperty
+- uid: Nodify.BaseConnection.TextProperty
+  commentId: F:Nodify.BaseConnection.TextProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TextProperty
+  name: TextProperty
+  nameWithType: BaseConnection.TextProperty
+  fullName: Nodify.BaseConnection.TextProperty
+- uid: Nodify.BaseConnection.FontSizeProperty
+  commentId: F:Nodify.BaseConnection.FontSizeProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontSizeProperty
+  name: FontSizeProperty
+  nameWithType: BaseConnection.FontSizeProperty
+  fullName: Nodify.BaseConnection.FontSizeProperty
+- uid: Nodify.BaseConnection.FontFamilyProperty
+  commentId: F:Nodify.BaseConnection.FontFamilyProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontFamilyProperty
+  name: FontFamilyProperty
+  nameWithType: BaseConnection.FontFamilyProperty
+  fullName: Nodify.BaseConnection.FontFamilyProperty
+- uid: Nodify.BaseConnection.FontWeightProperty
+  commentId: F:Nodify.BaseConnection.FontWeightProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontWeightProperty
+  name: FontWeightProperty
+  nameWithType: BaseConnection.FontWeightProperty
+  fullName: Nodify.BaseConnection.FontWeightProperty
+- uid: Nodify.BaseConnection.FontStyleProperty
+  commentId: F:Nodify.BaseConnection.FontStyleProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontStyleProperty
+  name: FontStyleProperty
+  nameWithType: BaseConnection.FontStyleProperty
+  fullName: Nodify.BaseConnection.FontStyleProperty
+- uid: Nodify.BaseConnection.FontStretchProperty
+  commentId: F:Nodify.BaseConnection.FontStretchProperty
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontStretchProperty
+  name: FontStretchProperty
+  nameWithType: BaseConnection.FontStretchProperty
+  fullName: Nodify.BaseConnection.FontStretchProperty
+- uid: Nodify.BaseConnection.Source
+  commentId: P:Nodify.BaseConnection.Source
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Source
+  name: Source
+  nameWithType: BaseConnection.Source
+  fullName: Nodify.BaseConnection.Source
+- uid: Nodify.BaseConnection.Target
+  commentId: P:Nodify.BaseConnection.Target
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Target
+  name: Target
+  nameWithType: BaseConnection.Target
+  fullName: Nodify.BaseConnection.Target
+- uid: Nodify.BaseConnection.SourceOffset
+  commentId: P:Nodify.BaseConnection.SourceOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffset
+  name: SourceOffset
+  nameWithType: BaseConnection.SourceOffset
+  fullName: Nodify.BaseConnection.SourceOffset
+- uid: Nodify.BaseConnection.TargetOffset
+  commentId: P:Nodify.BaseConnection.TargetOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOffset
+  name: TargetOffset
+  nameWithType: BaseConnection.TargetOffset
+  fullName: Nodify.BaseConnection.TargetOffset
+- uid: Nodify.BaseConnection.SourceOffsetMode
+  commentId: P:Nodify.BaseConnection.SourceOffsetMode
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOffsetMode
+  name: SourceOffsetMode
+  nameWithType: BaseConnection.SourceOffsetMode
+  fullName: Nodify.BaseConnection.SourceOffsetMode
+- uid: Nodify.BaseConnection.TargetOffsetMode
+  commentId: P:Nodify.BaseConnection.TargetOffsetMode
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOffsetMode
+  name: TargetOffsetMode
+  nameWithType: BaseConnection.TargetOffsetMode
+  fullName: Nodify.BaseConnection.TargetOffsetMode
+- uid: Nodify.BaseConnection.SourceOrientation
+  commentId: P:Nodify.BaseConnection.SourceOrientation
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SourceOrientation
+  name: SourceOrientation
+  nameWithType: BaseConnection.SourceOrientation
+  fullName: Nodify.BaseConnection.SourceOrientation
+- uid: Nodify.BaseConnection.TargetOrientation
+  commentId: P:Nodify.BaseConnection.TargetOrientation
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_TargetOrientation
+  name: TargetOrientation
+  nameWithType: BaseConnection.TargetOrientation
+  fullName: Nodify.BaseConnection.TargetOrientation
+- uid: Nodify.BaseConnection.Direction
+  commentId: P:Nodify.BaseConnection.Direction
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Direction
+  name: Direction
+  nameWithType: BaseConnection.Direction
+  fullName: Nodify.BaseConnection.Direction
+- uid: Nodify.BaseConnection.DirectionalArrowsCount
+  commentId: P:Nodify.BaseConnection.DirectionalArrowsCount
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionalArrowsCount
+  name: DirectionalArrowsCount
+  nameWithType: BaseConnection.DirectionalArrowsCount
+  fullName: Nodify.BaseConnection.DirectionalArrowsCount
+- uid: Nodify.BaseConnection.DirectionalArrowsOffset
+  commentId: P:Nodify.BaseConnection.DirectionalArrowsOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DirectionalArrowsOffset
+  name: DirectionalArrowsOffset
+  nameWithType: BaseConnection.DirectionalArrowsOffset
+  fullName: Nodify.BaseConnection.DirectionalArrowsOffset
+- uid: Nodify.BaseConnection.ArrowEnds
+  commentId: P:Nodify.BaseConnection.ArrowEnds
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowEnds
+  name: ArrowEnds
+  nameWithType: BaseConnection.ArrowEnds
+  fullName: Nodify.BaseConnection.ArrowEnds
+- uid: Nodify.BaseConnection.ArrowShape
+  commentId: P:Nodify.BaseConnection.ArrowShape
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowShape
+  name: ArrowShape
+  nameWithType: BaseConnection.ArrowShape
+  fullName: Nodify.BaseConnection.ArrowShape
+- uid: Nodify.BaseConnection.Spacing
+  commentId: P:Nodify.BaseConnection.Spacing
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Spacing
+  name: Spacing
+  nameWithType: BaseConnection.Spacing
+  fullName: Nodify.BaseConnection.Spacing
+- uid: Nodify.BaseConnection.ArrowSize
+  commentId: P:Nodify.BaseConnection.ArrowSize
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ArrowSize
+  name: ArrowSize
+  nameWithType: BaseConnection.ArrowSize
+  fullName: Nodify.BaseConnection.ArrowSize
+- uid: Nodify.BaseConnection.SplitCommand
+  commentId: P:Nodify.BaseConnection.SplitCommand
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SplitCommand
+  name: SplitCommand
+  nameWithType: BaseConnection.SplitCommand
+  fullName: Nodify.BaseConnection.SplitCommand
+- uid: Nodify.BaseConnection.DisconnectCommand
+  commentId: P:Nodify.BaseConnection.DisconnectCommand
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DisconnectCommand
+  name: DisconnectCommand
+  nameWithType: BaseConnection.DisconnectCommand
+  fullName: Nodify.BaseConnection.DisconnectCommand
+- uid: Nodify.BaseConnection.Foreground
+  commentId: P:Nodify.BaseConnection.Foreground
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Foreground
+  name: Foreground
+  nameWithType: BaseConnection.Foreground
+  fullName: Nodify.BaseConnection.Foreground
+- uid: Nodify.BaseConnection.Text
+  commentId: P:Nodify.BaseConnection.Text
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Text
+  name: Text
+  nameWithType: BaseConnection.Text
+  fullName: Nodify.BaseConnection.Text
+- uid: Nodify.BaseConnection.FontSize
+  commentId: P:Nodify.BaseConnection.FontSize
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontSize
+  name: FontSize
+  nameWithType: BaseConnection.FontSize
+  fullName: Nodify.BaseConnection.FontSize
+- uid: Nodify.BaseConnection.FontFamily
+  commentId: P:Nodify.BaseConnection.FontFamily
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontFamily
+  name: FontFamily
+  nameWithType: BaseConnection.FontFamily
+  fullName: Nodify.BaseConnection.FontFamily
+- uid: Nodify.BaseConnection.FontStyle
+  commentId: P:Nodify.BaseConnection.FontStyle
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontStyle
+  name: FontStyle
+  nameWithType: BaseConnection.FontStyle
+  fullName: Nodify.BaseConnection.FontStyle
+- uid: Nodify.BaseConnection.FontWeight
+  commentId: P:Nodify.BaseConnection.FontWeight
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontWeight
+  name: FontWeight
+  nameWithType: BaseConnection.FontWeight
+  fullName: Nodify.BaseConnection.FontWeight
+- uid: Nodify.BaseConnection.FontStretch
+  commentId: P:Nodify.BaseConnection.FontStretch
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_FontStretch
+  name: FontStretch
+  nameWithType: BaseConnection.FontStretch
+  fullName: Nodify.BaseConnection.FontStretch
+- uid: Nodify.BaseConnection.DisconnectEvent
+  commentId: F:Nodify.BaseConnection.DisconnectEvent
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DisconnectEvent
+  name: DisconnectEvent
+  nameWithType: BaseConnection.DisconnectEvent
+  fullName: Nodify.BaseConnection.DisconnectEvent
+- uid: Nodify.BaseConnection.SplitEvent
+  commentId: F:Nodify.BaseConnection.SplitEvent
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_SplitEvent
+  name: SplitEvent
+  nameWithType: BaseConnection.SplitEvent
+  fullName: Nodify.BaseConnection.SplitEvent
+- uid: Nodify.BaseConnection.Disconnect
+  commentId: E:Nodify.BaseConnection.Disconnect
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Disconnect
+  name: Disconnect
+  nameWithType: BaseConnection.Disconnect
+  fullName: Nodify.BaseConnection.Disconnect
+- uid: Nodify.BaseConnection.Split
+  commentId: E:Nodify.BaseConnection.Split
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_Split
+  name: Split
+  nameWithType: BaseConnection.Split
+  fullName: Nodify.BaseConnection.Split
+- uid: Nodify.BaseConnection.ZeroVector
+  commentId: F:Nodify.BaseConnection.ZeroVector
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_ZeroVector
+  name: ZeroVector
+  nameWithType: BaseConnection.ZeroVector
+  fullName: Nodify.BaseConnection.ZeroVector
+- uid: Nodify.BaseConnection.DefiningGeometry
+  commentId: P:Nodify.BaseConnection.DefiningGeometry
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DefiningGeometry
+  name: DefiningGeometry
+  nameWithType: BaseConnection.DefiningGeometry
+  fullName: Nodify.BaseConnection.DefiningGeometry
+- uid: Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)
+  commentId: M:Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowheadGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Vector_System_Windows_Point_
+  name: DrawDirectionalArrowheadGeometry(StreamGeometryContext, Vector, Point)
+  nameWithType: BaseConnection.DrawDirectionalArrowheadGeometry(StreamGeometryContext, Vector, Point)
+  fullName: Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Vector, System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)
+    name: DrawDirectionalArrowheadGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowheadGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Vector_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Vector
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawDirectionalArrowheadGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Vector,System.Windows.Point)
+    name: DrawDirectionalArrowheadGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowheadGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Vector_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Vector
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)
+  commentId: M:Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawArrowGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_Nodify_ArrowHeadShape_System_Windows_Controls_Orientation_
+  name: DrawArrowGeometry(StreamGeometryContext, Point, Point, ConnectionDirection, ArrowHeadShape, Orientation)
+  nameWithType: BaseConnection.DrawArrowGeometry(StreamGeometryContext, Point, Point, ConnectionDirection, ArrowHeadShape, Orientation)
+  fullName: Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point, Nodify.ConnectionDirection, Nodify.ArrowHeadShape, System.Windows.Controls.Orientation)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)
+    name: DrawArrowGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawArrowGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_Nodify_ArrowHeadShape_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: Nodify.ArrowHeadShape
+    name: ArrowHeadShape
+    href: Nodify.ArrowHeadShape.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawArrowGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,Nodify.ArrowHeadShape,System.Windows.Controls.Orientation)
+    name: DrawArrowGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawArrowGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_Nodify_ArrowHeadShape_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: Nodify.ArrowHeadShape
+    name: ArrowHeadShape
+    href: Nodify.ArrowHeadShape.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+- uid: Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  commentId: M:Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDefaultArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  name: DrawDefaultArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  nameWithType: BaseConnection.DrawDefaultArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  fullName: Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point, Nodify.ConnectionDirection, System.Windows.Controls.Orientation)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawDefaultArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDefaultArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawDefaultArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawDefaultArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDefaultArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+- uid: Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  commentId: M:Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawRectangleArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  name: DrawRectangleArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  nameWithType: BaseConnection.DrawRectangleArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  fullName: Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point, Nodify.ConnectionDirection, System.Windows.Controls.Orientation)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawRectangleArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawRectangleArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawRectangleArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawRectangleArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawRectangleArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+- uid: Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  commentId: M:Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawEllipseArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  name: DrawEllipseArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  nameWithType: BaseConnection.DrawEllipseArrowhead(StreamGeometryContext, Point, Point, ConnectionDirection, Orientation)
+  fullName: Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point, Nodify.ConnectionDirection, System.Windows.Controls.Orientation)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawEllipseArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawEllipseArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawEllipseArrowhead(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point,Nodify.ConnectionDirection,System.Windows.Controls.Orientation)
+    name: DrawEllipseArrowhead
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawEllipseArrowhead_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_Nodify_ConnectionDirection_System_Windows_Controls_Orientation_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: Nodify.ConnectionDirection
+    name: ConnectionDirection
+    href: Nodify.ConnectionDirection.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Orientation
+    name: Orientation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation
+  - name: )
+- uid: Nodify.BaseConnection.GetOffset
+  commentId: M:Nodify.BaseConnection.GetOffset
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetOffset
+  name: GetOffset()
+  nameWithType: BaseConnection.GetOffset()
+  fullName: Nodify.BaseConnection.GetOffset()
+  spec.csharp:
+  - uid: Nodify.BaseConnection.GetOffset
+    name: GetOffset
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetOffset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.GetOffset
+    name: GetOffset
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetOffset
+  - name: (
+  - name: )
+- uid: Nodify.BaseConnection.StartAnimation(System.Double)
+  commentId: M:Nodify.BaseConnection.StartAnimation(System.Double)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_StartAnimation_System_Double_
+  name: StartAnimation(double)
+  nameWithType: BaseConnection.StartAnimation(double)
+  fullName: Nodify.BaseConnection.StartAnimation(double)
+  nameWithType.vb: BaseConnection.StartAnimation(Double)
+  fullName.vb: Nodify.BaseConnection.StartAnimation(Double)
+  name.vb: StartAnimation(Double)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.StartAnimation(System.Double)
+    name: StartAnimation
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_StartAnimation_System_Double_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.StartAnimation(System.Double)
+    name: StartAnimation
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_StartAnimation_System_Double_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: Nodify.BaseConnection.StopAnimation
+  commentId: M:Nodify.BaseConnection.StopAnimation
+  parent: Nodify.BaseConnection
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_StopAnimation
+  name: StopAnimation()
+  nameWithType: BaseConnection.StopAnimation()
+  fullName: Nodify.BaseConnection.StopAnimation()
+  spec.csharp:
+  - uid: Nodify.BaseConnection.StopAnimation
+    name: StopAnimation
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_StopAnimation
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.StopAnimation
+    name: StopAnimation
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_StopAnimation
+  - name: (
+  - name: )
+- uid: Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseDown(MouseButtonEventArgs)
+  nameWithType: BaseConnection.OnMouseDown(MouseButtonEventArgs)
+  fullName: Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseDown
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseDown
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseUp(MouseButtonEventArgs)
+  nameWithType: BaseConnection.OnMouseUp(MouseButtonEventArgs)
+  fullName: Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+  commentId: M:Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnRender_System_Windows_Media_DrawingContext_
+  name: OnRender(DrawingContext)
+  nameWithType: BaseConnection.OnRender(DrawingContext)
+  fullName: Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+    name: OnRender
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnRender_System_Windows_Media_DrawingContext_
+  - name: (
+  - uid: System.Windows.Media.DrawingContext
+    name: DrawingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.OnRender(System.Windows.Media.DrawingContext)
+    name: OnRender
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_OnRender_System_Windows_Media_DrawingContext_
+  - name: (
+  - uid: System.Windows.Media.DrawingContext
+    name: DrawingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows.Shapes
+  commentId: N:System.Windows.Shapes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Shapes
+  nameWithType: System.Windows.Shapes
+  fullName: System.Windows.Shapes
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Shapes
+    name: Shapes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.shapes
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Shapes
+    name: Shapes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.shapes
+- uid: Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawLineGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  name: DrawLineGeometry(StreamGeometryContext, Point, Point)
+  nameWithType: BaseConnection.DrawLineGeometry(StreamGeometryContext, Point, Point)
+  fullName: Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+    name: DrawLineGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawLineGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawLineGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+    name: DrawLineGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawLineGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.Connection.DrawLineGeometry*
+  commentId: Overload:Nodify.Connection.DrawLineGeometry
+  href: Nodify.Connection.html#Nodify_Connection_DrawLineGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  name: DrawLineGeometry
+  nameWithType: Connection.DrawLineGeometry
+  fullName: Nodify.Connection.DrawLineGeometry
+- uid: System.Windows.Media.StreamGeometryContext
+  commentId: T:System.Windows.Media.StreamGeometryContext
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  name: StreamGeometryContext
+  nameWithType: StreamGeometryContext
+  fullName: System.Windows.Media.StreamGeometryContext
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.ValueTuple{System.ValueTuple{System.Windows.Point,System.Windows.Point},System.ValueTuple{System.Windows.Point,System.Windows.Point}}
+  commentId: T:System.ValueTuple{System.ValueTuple{System.Windows.Point,System.Windows.Point},System.ValueTuple{System.Windows.Point,System.Windows.Point}}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: ((Point ArrowStartSource, Point ArrowStartTarget), (Point ArrowEndSource, Point ArrowEndTarget))
+  nameWithType: ((Point ArrowStartSource, Point ArrowStartTarget), (Point ArrowEndSource, Point ArrowEndTarget))
+  fullName: ((System.Windows.Point ArrowStartSource, System.Windows.Point ArrowStartTarget), (System.Windows.Point ArrowEndSource, System.Windows.Point ArrowEndTarget))
+  nameWithType.vb: ((ArrowStartSource As Point, ArrowStartTarget As Point), (ArrowEndSource As Point, ArrowEndTarget As Point))
+  fullName.vb: ((ArrowStartSource As System.Windows.Point, ArrowStartTarget As System.Windows.Point), (ArrowEndSource As System.Windows.Point, ArrowEndTarget As System.Windows.Point))
+  name.vb: ((ArrowStartSource As Point, ArrowStartTarget As Point), (ArrowEndSource As Point, ArrowEndTarget As Point))
+  spec.csharp:
+  - name: (
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowStartSource
+    name: ArrowStartSource
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstartsource
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowStartTarget
+    name: ArrowStartTarget
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstarttarget
+  - name: )
+  - name: ','
+  - name: " "
+  - name: (
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowEndSource
+    name: ArrowEndSource
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendsource
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowEndTarget
+    name: ArrowEndTarget
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendtarget
+  - name: )
+  - name: )
+  spec.vb:
+  - name: (
+  - name: (
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowStartSource
+    name: ArrowStartSource
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstartsource
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowStartTarget
+    name: ArrowStartTarget
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowstarttarget
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  - name: ','
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowEndSource
+    name: ArrowEndSource
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendsource
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.Point,System.Windows.Point}.ArrowEndTarget
+    name: ArrowEndTarget
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.point,system.windows.point-.arrowendtarget
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowsGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  name: DrawDirectionalArrowsGeometry(StreamGeometryContext, Point, Point)
+  nameWithType: BaseConnection.DrawDirectionalArrowsGeometry(StreamGeometryContext, Point, Point)
+  fullName: Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext, System.Windows.Point, System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+    name: DrawDirectionalArrowsGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowsGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.DrawDirectionalArrowsGeometry(System.Windows.Media.StreamGeometryContext,System.Windows.Point,System.Windows.Point)
+    name: DrawDirectionalArrowsGeometry
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_DrawDirectionalArrowsGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.StreamGeometryContext
+    name: StreamGeometryContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.streamgeometrycontext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.Connection.DrawDirectionalArrowsGeometry*
+  commentId: Overload:Nodify.Connection.DrawDirectionalArrowsGeometry
+  href: Nodify.Connection.html#Nodify_Connection_DrawDirectionalArrowsGeometry_System_Windows_Media_StreamGeometryContext_System_Windows_Point_System_Windows_Point_
+  name: DrawDirectionalArrowsGeometry
+  nameWithType: Connection.DrawDirectionalArrowsGeometry
+  fullName: Nodify.Connection.DrawDirectionalArrowsGeometry
+- uid: Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  commentId: M:Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  parent: Nodify.BaseConnection
+  isExternal: true
+  href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetTextPosition_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_
+  name: GetTextPosition(FormattedText, Point, Point)
+  nameWithType: BaseConnection.GetTextPosition(FormattedText, Point, Point)
+  fullName: Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText, System.Windows.Point, System.Windows.Point)
+  spec.csharp:
+  - uid: Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+    name: GetTextPosition
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetTextPosition_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.FormattedText
+    name: FormattedText
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.formattedtext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: Nodify.BaseConnection.GetTextPosition(System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+    name: GetTextPosition
+    href: Nodify.BaseConnection.html#Nodify_BaseConnection_GetTextPosition_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_
+  - name: (
+  - uid: System.Windows.Media.FormattedText
+    name: FormattedText
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.formattedtext
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: Nodify.Connection.GetTextPosition*
+  commentId: Overload:Nodify.Connection.GetTextPosition
+  href: Nodify.Connection.html#Nodify_Connection_GetTextPosition_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_
+  name: GetTextPosition
+  nameWithType: Connection.GetTextPosition
+  fullName: Nodify.Connection.GetTextPosition
+- uid: System.Windows.Media.FormattedText
+  commentId: T:System.Windows.Media.FormattedText
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.formattedtext
+  name: FormattedText
+  nameWithType: FormattedText
+  fullName: System.Windows.Media.FormattedText
+- uid: Nodify.Connection.InterpolateCubicBezier*
+  commentId: Overload:Nodify.Connection.InterpolateCubicBezier
+  href: Nodify.Connection.html#Nodify_Connection_InterpolateCubicBezier_System_Windows_Point_System_Windows_Point_System_Windows_Point_System_Windows_Point_System_Double_
+  name: InterpolateCubicBezier
+  nameWithType: Connection.InterpolateCubicBezier
+  fullName: Nodify.Connection.InterpolateCubicBezier
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nodify
+  commentId: N:Nodify
+  id: Nodify
+  children:
+  - Nodify.AllGestures
+  - Nodify.AnyGesture
+  - Nodify.ArrowHeadEnds
+  - Nodify.ArrowHeadShape
+  - Nodify.BaseConnection
+  - Nodify.BoxValue
+  - Nodify.CircuitConnection
+  - Nodify.Connection
+  - Nodify.ConnectionDirection
+  - Nodify.ConnectionEventArgs
+  - Nodify.ConnectionEventHandler
+  - Nodify.ConnectionOffsetMode
+  - Nodify.Connector
+  - Nodify.ConnectorEventArgs
+  - Nodify.ConnectorEventHandler
+  - Nodify.ContainerDefaultState
+  - Nodify.ContainerDraggingState
+  - Nodify.ContainerState
+  - Nodify.DecoratorContainer
+  - Nodify.EditorCommands
+  - Nodify.EditorCommands.Alignment
+  - Nodify.EditorDefaultState
+  - Nodify.EditorGestures
+  - Nodify.EditorGestures.ConnectionGestures
+  - Nodify.EditorGestures.ConnectorGestures
+  - Nodify.EditorGestures.GroupingNodeGestures
+  - Nodify.EditorGestures.ItemContainerGestures
+  - Nodify.EditorGestures.NodifyEditorGestures
+  - Nodify.EditorGestures.SelectionGestures
+  - Nodify.EditorPanningState
+  - Nodify.EditorSelectingState
+  - Nodify.EditorState
+  - Nodify.GroupingMovementMode
+  - Nodify.GroupingNode
+  - Nodify.INodifyCanvasItem
+  - Nodify.InputGestureRef
+  - Nodify.ItemContainer
+  - Nodify.KnotNode
+  - Nodify.LineConnection
+  - Nodify.MultiGesture
+  - Nodify.MultiGesture.Match
+  - Nodify.Node
+  - Nodify.NodeInput
+  - Nodify.NodeOutput
+  - Nodify.NodifyCanvas
+  - Nodify.NodifyEditor
+  - Nodify.PendingConnection
+  - Nodify.PendingConnectionEventArgs
+  - Nodify.PendingConnectionEventHandler
+  - Nodify.PreviewLocationChanged
+  - Nodify.ResizeEventArgs
+  - Nodify.ResizeEventHandler
+  - Nodify.SelectionHelper
+  - Nodify.SelectionHelper.SelectionType
+  - Nodify.StateNode
+  langs:
+  - csharp
+  - vb
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
+  type: Namespace
+  assemblies:
+  - Nodify
+references:
+- uid: Nodify.ConnectionOffsetMode
+  commentId: T:Nodify.ConnectionOffsetMode
+  parent: Nodify
+  href: Nodify.ConnectionOffsetMode.html
+  name: ConnectionOffsetMode
+  nameWithType: ConnectionOffsetMode
+  fullName: Nodify.ConnectionOffsetMode
+- uid: Nodify.ConnectionDirection
+  commentId: T:Nodify.ConnectionDirection
+  parent: Nodify
+  href: Nodify.ConnectionDirection.html
+  name: ConnectionDirection
+  nameWithType: ConnectionDirection
+  fullName: Nodify.ConnectionDirection
+- uid: Nodify.ArrowHeadEnds
+  commentId: T:Nodify.ArrowHeadEnds
+  parent: Nodify
+  href: Nodify.ArrowHeadEnds.html
+  name: ArrowHeadEnds
+  nameWithType: ArrowHeadEnds
+  fullName: Nodify.ArrowHeadEnds
+- uid: Nodify.ArrowHeadShape
+  commentId: T:Nodify.ArrowHeadShape
+  parent: Nodify
+  href: Nodify.ArrowHeadShape.html
+  name: ArrowHeadShape
+  nameWithType: ArrowHeadShape
+  fullName: Nodify.ArrowHeadShape
+- uid: Nodify.BaseConnection
+  commentId: T:Nodify.BaseConnection
+  parent: Nodify
+  href: Nodify.BaseConnection.html
+  name: BaseConnection
+  nameWithType: BaseConnection
+  fullName: Nodify.BaseConnection
+- uid: Nodify.CircuitConnection
+  commentId: T:Nodify.CircuitConnection
+  href: Nodify.CircuitConnection.html
+  name: CircuitConnection
+  nameWithType: CircuitConnection
+  fullName: Nodify.CircuitConnection
+- uid: Nodify.Connection
+  commentId: T:Nodify.Connection
+  href: Nodify.Connection.html
+  name: Connection
+  nameWithType: Connection
+  fullName: Nodify.Connection
+- uid: Nodify.Connector
+  commentId: T:Nodify.Connector
+  parent: Nodify
+  href: Nodify.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: Nodify.Connector
+- uid: Nodify.LineConnection
+  commentId: T:Nodify.LineConnection
+  parent: Nodify
+  href: Nodify.LineConnection.html
+  name: LineConnection
+  nameWithType: LineConnection
+  fullName: Nodify.LineConnection
+- uid: Nodify.PendingConnection
+  commentId: T:Nodify.PendingConnection
+  href: Nodify.PendingConnection.html
+  name: PendingConnection
+  nameWithType: PendingConnection
+  fullName: Nodify.PendingConnection
+- uid: Nodify.DecoratorContainer
+  commentId: T:Nodify.DecoratorContainer
+  parent: Nodify
+  href: Nodify.DecoratorContainer.html
+  name: DecoratorContainer
+  nameWithType: DecoratorContainer
+  fullName: Nodify.DecoratorContainer
+- uid: Nodify.EditorCommands
+  commentId: T:Nodify.EditorCommands
+  href: Nodify.EditorCommands.html
+  name: EditorCommands
+  nameWithType: EditorCommands
+  fullName: Nodify.EditorCommands
+- uid: Nodify.EditorCommands.Alignment
+  commentId: T:Nodify.EditorCommands.Alignment
+  parent: Nodify
+  href: Nodify.EditorCommands.html
+  name: EditorCommands.Alignment
+  nameWithType: EditorCommands.Alignment
+  fullName: Nodify.EditorCommands.Alignment
+  spec.csharp:
+  - uid: Nodify.EditorCommands
+    name: EditorCommands
+    href: Nodify.EditorCommands.html
+  - name: .
+  - uid: Nodify.EditorCommands.Alignment
+    name: Alignment
+    href: Nodify.EditorCommands.Alignment.html
+  spec.vb:
+  - uid: Nodify.EditorCommands
+    name: EditorCommands
+    href: Nodify.EditorCommands.html
+  - name: .
+  - uid: Nodify.EditorCommands.Alignment
+    name: Alignment
+    href: Nodify.EditorCommands.Alignment.html
+- uid: Nodify.EditorGestures
+  commentId: T:Nodify.EditorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures
+  nameWithType: EditorGestures
+  fullName: Nodify.EditorGestures
+- uid: Nodify.EditorGestures.SelectionGestures
+  commentId: T:Nodify.EditorGestures.SelectionGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.SelectionGestures
+  nameWithType: EditorGestures.SelectionGestures
+  fullName: Nodify.EditorGestures.SelectionGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.SelectionGestures
+    name: SelectionGestures
+    href: Nodify.EditorGestures.SelectionGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.SelectionGestures
+    name: SelectionGestures
+    href: Nodify.EditorGestures.SelectionGestures.html
+- uid: Nodify.EditorGestures.ItemContainerGestures
+  commentId: T:Nodify.EditorGestures.ItemContainerGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ItemContainerGestures
+  nameWithType: EditorGestures.ItemContainerGestures
+  fullName: Nodify.EditorGestures.ItemContainerGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ItemContainerGestures
+    name: ItemContainerGestures
+    href: Nodify.EditorGestures.ItemContainerGestures.html
+- uid: Nodify.EditorGestures.NodifyEditorGestures
+  commentId: T:Nodify.EditorGestures.NodifyEditorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.NodifyEditorGestures
+  nameWithType: EditorGestures.NodifyEditorGestures
+  fullName: Nodify.EditorGestures.NodifyEditorGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.NodifyEditorGestures
+    name: NodifyEditorGestures
+    href: Nodify.EditorGestures.NodifyEditorGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.NodifyEditorGestures
+    name: NodifyEditorGestures
+    href: Nodify.EditorGestures.NodifyEditorGestures.html
+- uid: Nodify.EditorGestures.ConnectorGestures
+  commentId: T:Nodify.EditorGestures.ConnectorGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ConnectorGestures
+  nameWithType: EditorGestures.ConnectorGestures
+  fullName: Nodify.EditorGestures.ConnectorGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectorGestures
+    name: ConnectorGestures
+    href: Nodify.EditorGestures.ConnectorGestures.html
+- uid: Nodify.EditorGestures.ConnectionGestures
+  commentId: T:Nodify.EditorGestures.ConnectionGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.ConnectionGestures
+  nameWithType: EditorGestures.ConnectionGestures
+  fullName: Nodify.EditorGestures.ConnectionGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectionGestures
+    name: ConnectionGestures
+    href: Nodify.EditorGestures.ConnectionGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.ConnectionGestures
+    name: ConnectionGestures
+    href: Nodify.EditorGestures.ConnectionGestures.html
+- uid: Nodify.EditorGestures.GroupingNodeGestures
+  commentId: T:Nodify.EditorGestures.GroupingNodeGestures
+  parent: Nodify
+  href: Nodify.EditorGestures.html
+  name: EditorGestures.GroupingNodeGestures
+  nameWithType: EditorGestures.GroupingNodeGestures
+  fullName: Nodify.EditorGestures.GroupingNodeGestures
+  spec.csharp:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.GroupingNodeGestures
+    name: GroupingNodeGestures
+    href: Nodify.EditorGestures.GroupingNodeGestures.html
+  spec.vb:
+  - uid: Nodify.EditorGestures
+    name: EditorGestures
+    href: Nodify.EditorGestures.html
+  - name: .
+  - uid: Nodify.EditorGestures.GroupingNodeGestures
+    name: GroupingNodeGestures
+    href: Nodify.EditorGestures.GroupingNodeGestures.html
+- uid: Nodify.ContainerDefaultState
+  commentId: T:Nodify.ContainerDefaultState
+  href: Nodify.ContainerDefaultState.html
+  name: ContainerDefaultState
+  nameWithType: ContainerDefaultState
+  fullName: Nodify.ContainerDefaultState
+- uid: Nodify.ContainerDraggingState
+  commentId: T:Nodify.ContainerDraggingState
+  href: Nodify.ContainerDraggingState.html
+  name: ContainerDraggingState
+  nameWithType: ContainerDraggingState
+  fullName: Nodify.ContainerDraggingState
+- uid: Nodify.ContainerState
+  commentId: T:Nodify.ContainerState
+  parent: Nodify
+  href: Nodify.ContainerState.html
+  name: ContainerState
+  nameWithType: ContainerState
+  fullName: Nodify.ContainerState
+- uid: Nodify.EditorDefaultState
+  commentId: T:Nodify.EditorDefaultState
+  href: Nodify.EditorDefaultState.html
+  name: EditorDefaultState
+  nameWithType: EditorDefaultState
+  fullName: Nodify.EditorDefaultState
+- uid: Nodify.EditorPanningState
+  commentId: T:Nodify.EditorPanningState
+  href: Nodify.EditorPanningState.html
+  name: EditorPanningState
+  nameWithType: EditorPanningState
+  fullName: Nodify.EditorPanningState
+- uid: Nodify.EditorSelectingState
+  commentId: T:Nodify.EditorSelectingState
+  href: Nodify.EditorSelectingState.html
+  name: EditorSelectingState
+  nameWithType: EditorSelectingState
+  fullName: Nodify.EditorSelectingState
+- uid: Nodify.EditorState
+  commentId: T:Nodify.EditorState
+  parent: Nodify
+  href: Nodify.EditorState.html
+  name: EditorState
+  nameWithType: EditorState
+  fullName: Nodify.EditorState
+- uid: Nodify.ConnectionEventHandler
+  commentId: T:Nodify.ConnectionEventHandler
+  parent: Nodify
+  href: Nodify.ConnectionEventHandler.html
+  name: ConnectionEventHandler
+  nameWithType: ConnectionEventHandler
+  fullName: Nodify.ConnectionEventHandler
+- uid: Nodify.ConnectionEventArgs
+  commentId: T:Nodify.ConnectionEventArgs
+  parent: Nodify
+  href: Nodify.ConnectionEventArgs.html
+  name: ConnectionEventArgs
+  nameWithType: ConnectionEventArgs
+  fullName: Nodify.ConnectionEventArgs
+- uid: Nodify.ConnectorEventHandler
+  commentId: T:Nodify.ConnectorEventHandler
+  parent: Nodify
+  href: Nodify.ConnectorEventHandler.html
+  name: ConnectorEventHandler
+  nameWithType: ConnectorEventHandler
+  fullName: Nodify.ConnectorEventHandler
+- uid: Nodify.ConnectorEventArgs
+  commentId: T:Nodify.ConnectorEventArgs
+  parent: Nodify
+  href: Nodify.ConnectorEventArgs.html
+  name: ConnectorEventArgs
+  nameWithType: ConnectorEventArgs
+  fullName: Nodify.ConnectorEventArgs
+- uid: Nodify.PendingConnectionEventHandler
+  commentId: T:Nodify.PendingConnectionEventHandler
+  parent: Nodify
+  href: Nodify.PendingConnectionEventHandler.html
+  name: PendingConnectionEventHandler
+  nameWithType: PendingConnectionEventHandler
+  fullName: Nodify.PendingConnectionEventHandler
+- uid: Nodify.PendingConnectionEventArgs
+  commentId: T:Nodify.PendingConnectionEventArgs
+  parent: Nodify
+  href: Nodify.PendingConnectionEventArgs.html
+  name: PendingConnectionEventArgs
+  nameWithType: PendingConnectionEventArgs
+  fullName: Nodify.PendingConnectionEventArgs
+- uid: Nodify.ResizeEventHandler
+  commentId: T:Nodify.ResizeEventHandler
+  parent: Nodify
+  href: Nodify.ResizeEventHandler.html
+  name: ResizeEventHandler
+  nameWithType: ResizeEventHandler
+  fullName: Nodify.ResizeEventHandler
+- uid: Nodify.ResizeEventArgs
+  commentId: T:Nodify.ResizeEventArgs
+  parent: Nodify
+  href: Nodify.ResizeEventArgs.html
+  name: ResizeEventArgs
+  nameWithType: ResizeEventArgs
+  fullName: Nodify.ResizeEventArgs
+- uid: Nodify.BoxValue
+  commentId: T:Nodify.BoxValue
+  href: Nodify.BoxValue.html
+  name: BoxValue
+  nameWithType: BoxValue
+  fullName: Nodify.BoxValue
+- uid: Nodify.MultiGesture
+  commentId: T:Nodify.MultiGesture
+  parent: Nodify
+  href: Nodify.MultiGesture.html
+  name: MultiGesture
+  nameWithType: MultiGesture
+  fullName: Nodify.MultiGesture
+- uid: Nodify.MultiGesture.Match
+  commentId: T:Nodify.MultiGesture.Match
+  parent: Nodify
+  href: Nodify.MultiGesture.html
+  name: MultiGesture.Match
+  nameWithType: MultiGesture.Match
+  fullName: Nodify.MultiGesture.Match
+  spec.csharp:
+  - uid: Nodify.MultiGesture
+    name: MultiGesture
+    href: Nodify.MultiGesture.html
+  - name: .
+  - uid: Nodify.MultiGesture.Match
+    name: Match
+    href: Nodify.MultiGesture.Match.html
+  spec.vb:
+  - uid: Nodify.MultiGesture
+    name: MultiGesture
+    href: Nodify.MultiGesture.html
+  - name: .
+  - uid: Nodify.MultiGesture.Match
+    name: Match
+    href: Nodify.MultiGesture.Match.html
+- uid: Nodify.AnyGesture
+  commentId: T:Nodify.AnyGesture
+  href: Nodify.AnyGesture.html
+  name: AnyGesture
+  nameWithType: AnyGesture
+  fullName: Nodify.AnyGesture
+- uid: Nodify.AllGestures
+  commentId: T:Nodify.AllGestures
+  href: Nodify.AllGestures.html
+  name: AllGestures
+  nameWithType: AllGestures
+  fullName: Nodify.AllGestures
+- uid: Nodify.InputGestureRef
+  commentId: T:Nodify.InputGestureRef
+  parent: Nodify
+  href: Nodify.InputGestureRef.html
+  name: InputGestureRef
+  nameWithType: InputGestureRef
+  fullName: Nodify.InputGestureRef
+- uid: Nodify.SelectionHelper
+  commentId: T:Nodify.SelectionHelper
+  parent: Nodify
+  href: Nodify.SelectionHelper.html
+  name: SelectionHelper
+  nameWithType: SelectionHelper
+  fullName: Nodify.SelectionHelper
+- uid: Nodify.SelectionHelper.SelectionType
+  commentId: T:Nodify.SelectionHelper.SelectionType
+  parent: Nodify
+  href: Nodify.SelectionHelper.html
+  name: SelectionHelper.SelectionType
+  nameWithType: SelectionHelper.SelectionType
+  fullName: Nodify.SelectionHelper.SelectionType
+  spec.csharp:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html
+  spec.vb:
+  - uid: Nodify.SelectionHelper
+    name: SelectionHelper
+    href: Nodify.SelectionHelper.html
+  - name: .
+  - uid: Nodify.SelectionHelper.SelectionType
+    name: SelectionType
+    href: Nodify.SelectionHelper.SelectionType.html
+- uid: Nodify.PreviewLocationChanged
+  commentId: T:Nodify.PreviewLocationChanged
+  parent: Nodify
+  href: Nodify.PreviewLocationChanged.html
+  name: PreviewLocationChanged
+  nameWithType: PreviewLocationChanged
+  fullName: Nodify.PreviewLocationChanged
+- uid: Nodify.ItemContainer
+  commentId: T:Nodify.ItemContainer
+  parent: Nodify
+  href: Nodify.ItemContainer.html
+  name: ItemContainer
+  nameWithType: ItemContainer
+  fullName: Nodify.ItemContainer
+- uid: Nodify.GroupingMovementMode
+  commentId: T:Nodify.GroupingMovementMode
+  parent: Nodify
+  href: Nodify.GroupingMovementMode.html
+  name: GroupingMovementMode
+  nameWithType: GroupingMovementMode
+  fullName: Nodify.GroupingMovementMode
+- uid: Nodify.GroupingNode
+  commentId: T:Nodify.GroupingNode
+  href: Nodify.GroupingNode.html
+  name: GroupingNode
+  nameWithType: GroupingNode
+  fullName: Nodify.GroupingNode
+- uid: Nodify.KnotNode
+  commentId: T:Nodify.KnotNode
+  href: Nodify.KnotNode.html
+  name: KnotNode
+  nameWithType: KnotNode
+  fullName: Nodify.KnotNode
+- uid: Nodify.Node
+  commentId: T:Nodify.Node
+  href: Nodify.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Nodify.Node
+- uid: Nodify.NodeInput
+  commentId: T:Nodify.NodeInput
+  href: Nodify.NodeInput.html
+  name: NodeInput
+  nameWithType: NodeInput
+  fullName: Nodify.NodeInput
+- uid: Nodify.NodeOutput
+  commentId: T:Nodify.NodeOutput
+  href: Nodify.NodeOutput.html
+  name: NodeOutput
+  nameWithType: NodeOutput
+  fullName: Nodify.NodeOutput
+- uid: Nodify.StateNode
+  commentId: T:Nodify.StateNode
+  href: Nodify.StateNode.html
+  name: StateNode
+  nameWithType: StateNode
+  fullName: Nodify.StateNode
+- uid: Nodify.INodifyCanvasItem
+  commentId: T:Nodify.INodifyCanvasItem
+  parent: Nodify
+  href: Nodify.INodifyCanvasItem.html
+  name: INodifyCanvasItem
+  nameWithType: INodifyCanvasItem
+  fullName: Nodify.INodifyCanvasItem
+- uid: Nodify.NodifyCanvas
+  commentId: T:Nodify.NodifyCanvas
+  href: Nodify.NodifyCanvas.html
+  name: NodifyCanvas
+  nameWithType: NodifyCanvas
+  fullName: Nodify.NodifyCanvas
+- uid: Nodify.NodifyEditor
+  commentId: T:Nodify.NodifyEditor
+  parent: Nodify
+  href: Nodify.NodifyEditor.html
+  name: NodifyEditor
+  nameWithType: NodifyEditor
+  fullName: Nodify.NodifyEditor
+- uid: Nodify
+  commentId: N:Nodify
+  href: Nodify.html
+  name: Nodify
+  nameWithType: Nodify
+  fullName: Nodify
