@@ -1,35 +1,62 @@
 {
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**/*.cs"
+          ],
+          "exclude": [
+            "obj/**",
+            "bin/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableDefaultFilter": false
+    }
+  ],
   "build": {
     "content": [
       {
-        "files": ["**/*.{md,yml}"],
-        "exclude": [
-          "_site/**"
+        "files": [
+          "api/**/*.md",
+          "*.md"
         ]
       }
     ],
-    "markdownEngineName": "markdig",
-    "markdownEngineProperties": {
-      "markdigExtensions": [
-          "Abbreviations",
-          "Footnotes"
-      ]
-    },
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**/*"
         ]
       }
     ],
-    "output": "_site",
-    "globalMetadata": {
-      "_appName": "Nodify-Docs",
-      "_appTitle": "Nodify-Docs",
-      "_enableSearch": true
-    },
-    "experimental": {
-      "generateMarkdown": true
-    }
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**/*"
+        ],
+        "exclude": [
+          "*.md"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "markdownEngineName": "markdig",
+    "cleanupCacheHistory": false,
+    "keepFileLinksWithoutTitle": false,
+    "disableGitFeatures": false,
+    "cleanupCacheHistory": false,
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepRawFiles": false,
+    "externalReference": [],
+    "forceRebuild": false
   }
 }
