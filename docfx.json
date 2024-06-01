@@ -1,0 +1,34 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "files": [
+                        "src/Nodify/Nodify.csproj"
+                    ]
+                }
+            ],
+            "dest": "api"
+        }
+    ],
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "api/**.yml",
+                    "api/index.md"
+                ]
+            },
+            {
+                "files": [
+                    "articles/**.md",
+                    "toc.yml"
+                ]
+            }
+        ],
+        "xref": [
+            "https://xref.docs.microsoft.com/query?uid={uid}"
+        ],
+        "output": "site"
+    }
+}

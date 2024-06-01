@@ -1,0 +1,48 @@
+name: Generate API Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Install DocFX
+      run: |
+        wget https://github.com/dotnet/docfx/releases/download/v2.56.8/docfx.zip
+        unzip docfx.zip -d docfx
+
+    - name: Build the project
+      run: dotnet build --configuration Release
+
+    - name: Generate documentation
+      run: ./docfx/docfx.exe docfx.json
+
+    - name: Checkout wiki
+      uses: actions/checkout@v2
+      with:
+        repository: your-org/your-repo.wiki
+        path: wiki
+
+    - name: Copy generated docs to wiki
+      run: cp -r site/* wiki/
+
+    - name: Commit and push changes
+      run: |
+        cd wiki
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m "Update API documentation"
+        git push
