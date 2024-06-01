@@ -21,6 +21,7 @@
         ]
       }
     ],
+    "markdownEngineName": "markdig",
     "markdownEngineProperties": {
       "markdigExtensions": [
           "Abbreviations",
