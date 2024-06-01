@@ -45,9 +45,20 @@ jobs:
       with:
         name: Docs
         path: Docs
+    - name: make wik
+      run: mkdir wik
+    - name: DocFxToMarkdown
+  # You may pin to the exact commit or the version.
+  # uses: fillefilip8/DocFxToMarkdown@aa5bd2be8ee64457cd1fc614f5e3e453a79f8a57
+      uses: fillefilip8/DocFxToMarkdown@1.4.0
+      with:
+    # DocFX metadata folder
+        input-folder: Docs
+    # Markdown output folder
+        output-folder: wik
     - uses: spenserblack/actions-wiki@v0.3.0
       with:
-        path: Docs
+        path: wik
 
     - name: log all Docs
       run: tree
