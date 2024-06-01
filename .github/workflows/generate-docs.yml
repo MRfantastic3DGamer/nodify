@@ -45,15 +45,6 @@ jobs:
       with:
         name: Docs
         path: Docs
-
-    - name: create wiki dir
-      run: mkdir wiki
-    - name: Sync Wiki
-      uses: joeizzard/action-wiki-sync@master
+    - uses: spenserblack/actions-wiki@<version>
       with:
-        username: MRfantastic3DGamer
-        access_token: ${{ secrets.GITHUB_TOKEN }}
-        wiki_folder: Docs
-        commit_username: 'MRfantastic3DGamer'
-        commit_email: 'dhruvtgs003@gmail.com'
-        commit_message: 'action: wiki sync'
+        path: Docs
