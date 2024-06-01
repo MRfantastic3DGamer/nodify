@@ -46,6 +46,9 @@
       "_appTitle": "Nodify-Docs",
       "_enableSearch": true,
       "pdf": true
+    },
+    "experimental": {
+      "generateMarkdown": true
     }
   }
 }
