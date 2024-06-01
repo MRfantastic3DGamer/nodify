@@ -1,17 +1,4 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "files": [
-            "Nodify/Nodify.csproj"
-          ]
-        }
-      ],
-      "dest": "api",
-      "filter": "filterConfig.yml"
-    }
-  ],
   "build": {
     "content": [
       {
