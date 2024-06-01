@@ -37,18 +37,18 @@
     "disableGitFeatures": false,
     "postProcessors": [],
     "noLangKeyword": false,
-    "keepRawFiles": false,
+    "keepRawFiles": true,
     "externalReference": [],
-    "forceRebuild": false,
-    "incremental": true,
+    "forceRebuild": true,
+    "incremental": false,
     "disableDefaultFilter": false,
     "filter": null,
     "fileMetadata": null,
     "globalMetadata": null,
     "templateMetadata": null,
     "markdownEngineProperties": null,
-    "disableGitFeatures": false,
-    "disableSearchIndex": false
+    "disableSearchIndex": false,
+    "docfxVersion": "2.76.0"
   },
   "metadata": [
     {
