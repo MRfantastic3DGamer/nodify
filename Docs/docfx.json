@@ -26,22 +26,5 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
-  },
-  "metadata": [
-    {
-      "src": [
-        {
-          "files": [
-            "Nodify/Nodify.csproj"
-          ],
-          "exclude": [
-            "obj/**",
-            "bin/**"
-          ]
-        }
-      ],
-      "dest": "api",
-      "disableDefaultFilter": false
-    }
-  ]
+  }
 }
