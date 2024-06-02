@@ -28,6 +28,9 @@ jobs:
         docfx-file-path: "docfx.json"
         docfx-output-path: "Docs"
 
+    - name: log all Docs
+      run: tree
+
     - name: Upload Docs artifact
       uses: actions/upload-artifact@v3
       with:
