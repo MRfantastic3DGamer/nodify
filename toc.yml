@@ -1,5 +1,5 @@
-- name: "Nodify API Documentation"
-  href: "api/index.md"
+- name: Index
+  href: "Docs/index.md"
   items:
-    - name: "API Reference"
-      href: "api/index.md"
+    - name: Docs
+      href: Docs/index.md

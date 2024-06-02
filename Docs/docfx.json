@@ -1,0 +1,47 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "Docs/**.md",
+          "Docs/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": []
+      }
+    ],
+    "dest": "_site",
+    "template": [
+      "default"
+    ],
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  },
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Nodify/Nodify.csproj"
+          ],
+          "exclude": [
+            "obj/**",
+            "bin/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableDefaultFilter": false
+    }
+  ]
+}
