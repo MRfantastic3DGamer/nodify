@@ -19,6 +19,11 @@
     "template": [
       "default"
     ],
+    "metadata": [
+      {
+        "outputFormat": "markdown"
+      }
+    ],
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "markdownEngineName": "markdig",
