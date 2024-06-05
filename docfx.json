@@ -1,0 +1,33 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "Docs/**.md",
+          "Docs/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "metadata": {
+      "outputFormat": "markdown"
+    },
+    "resource": [
+      {
+        "files": []
+      }
+    ],
+    "dest": "build/docs",
+    "template": [
+      "default"
+    ],
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

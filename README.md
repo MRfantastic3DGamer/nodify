@@ -15,22 +15,12 @@
 
 🎨 A playground application where you can try all the available settings.
 
-> [Examples/Nodify.Playground](Examples/Nodify.Playground)
-
 ![Playground](https://i.imgur.com/aqrUpuP.gif)
 
 
 🌓 A state machine where each state represents an executable action, and each transition represents a condition for the next action to execute.
 
-> [Examples/Nodify.StateMachine](Examples/Nodify.StateMachine)
-
-![StateMachine](https://i.imgur.com/nVKV5ly.gif)
-
 💻 A simple "real-time" calculator where each node represents an operation that takes input and feeds its output into other nodes input.
-
-> [Examples/Nodify.Calculator](Examples/Nodify.Calculator)
-
-![Calculator](https://i.imgur.com/jonrZAq.gif)
 
 ## 📥 Installation
 Use the nuget package manager to install Nodify.
@@ -40,7 +30,7 @@ Install-Package Nodify
 ```
 
 ## ⭐️ Features
- 
+
  - Designed from the start to work with **MVVM**
  - **No dependencies** other than WPF
  - **Optimized** for interactions with hundreds of nodes at once
@@ -49,12 +39,10 @@ Install-Package Nodify
  - **Select**, **move** and **connect** nodes
  - Lots of **configurable** dependency properties
  - Ready for undo/redo
- - Example applications: 🎨 [**Playground**](Examples/Nodify.Playground), 🌓 [**State machine**](Examples/Nodify.StateMachine), 💻 [**Calculator**](Examples/Nodify.Calculator)
- 
+
 ## 📝 Documentation
 
 Check out the [wiki](https://github.com/miroiu/nodify/wiki) and the [changelog](CHANGELOG.md) in github.
 
-## ❤️ [Contributing](CONTRIBUTING.md)
 
-Helping with documentation, bug reports, pull requests or anything else is very welcome. 
+Helping with documentation, bug reports, pull requests or anything else is very welcome.
